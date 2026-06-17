@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:update for KL4F201-1814 by zhezhi.liu 20240704 start-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!--TDD:update for KL4F201-1814 by zhezhi.liu 20240704 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for CN5OS161-1254 by xiaochao.wang 2025.10.16 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:add for CN5OS161-1254 by xiaochao.wang 2025.10.16 end-->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

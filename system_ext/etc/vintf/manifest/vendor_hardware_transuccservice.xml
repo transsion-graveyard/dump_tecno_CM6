@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/transsion/hardware/interfaces/transuccservice/aidl/default/vendor_hardware_transuccservice.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.hardware.transuccservice</name>
+        <fqname>ITranHalSuccService/com.transsion.stability.succ</fqname>
+    </hal>
+</manifest>

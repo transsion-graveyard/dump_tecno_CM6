@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for 5G+ by jie.huang6 2025.01.15 start -->
+    <boolean name="show_5g_plus_when_nsa" value="false"/>
+    <boolean name="show_5g_plus_when_nr_ca" value="true"/>
+    <!--TDD:add for 5G+ by jie.huang6 2025.01.15 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+</carrier_config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 end -->
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false"/>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 end -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for Latin America Tigo by yeling 20250408 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for Latin America Tigo by yeling 20250408 end -->
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*98</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+</carrier_config>

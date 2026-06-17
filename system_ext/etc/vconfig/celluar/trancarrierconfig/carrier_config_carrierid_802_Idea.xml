@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 end -->
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <!--TDD:add forTOS1610-44281 by jie.wang15 2025.11.7 start-->
+    <boolean name="call_forwarding_over_ut_warning_bool" value="false"/>
+    <boolean name="call_barring_over_ut_warning_bool" value="false"/>
+    <boolean name="call_waiting_over_ut_warning_bool" value="false"/>
+    <boolean name="caller_id_over_ut_warning_bool" value="false"/>
+    <!--TDD:add for TOS1610-44281 by jie.wang15 2025.11.7 end-->
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <boolean name="wos_flight_mode_support_bool" value="false" />
+    <!--TDD: add for KJ7H895-3399 by guangshuai.cheng 2023.11.24 start -->
+    <!-- TDD: add for U 20231124 -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD: add for KJ7H895-3399 by guangshuai.cheng 2023.11.24 end -->
+    <int name="carrier_feature_play_rbt_type_int" value="1"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <string-array name="non_roaming_operator_string_array" num="45">
+        <item value="40407"/>
+        <item value="40413"/>
+        <item value="405845"/>
+        <item value="405751"/>
+        <item value="40570"/>
+        <item value="405752"/>
+        <item value="40404"/>
+        <item value="40411"/>
+        <item value="40424"/>
+        <item value="40405"/>
+        <item value="40412"/>
+        <item value="40401"/>
+        <item value="40482"/>
+        <item value="405754"/>
+        <item value="405846"/>
+        <item value="405750"/>
+        <item value="40444"/>
+        <item value="40486"/>
+        <item value="40419"/>
+        <item value="40446"/>
+        <item value="405848"/>
+        <item value="40430"/>
+        <item value="40422"/>
+        <item value="40427"/>
+        <item value="40478"/>
+        <item value="405756"/>
+        <item value="405799"/>
+        <item value="40420"/>
+        <item value="405849"/>
+        <item value="405755"/>
+        <item value="405850"/>
+        <item value="405753"/>
+        <item value="40414"/>
+        <item value="40488"/>
+        <item value="40487"/>
+        <item value="40460"/>
+        <item value="405852"/>
+        <item value="40443"/>
+        <item value="40489"/>
+        <item value="40415"/>
+        <item value="40456"/>
+        <item value="40566"/>
+        <item value="405853"/>
+        <item value="40567"/>
+        <item value="40484"/>
+    </string-array>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

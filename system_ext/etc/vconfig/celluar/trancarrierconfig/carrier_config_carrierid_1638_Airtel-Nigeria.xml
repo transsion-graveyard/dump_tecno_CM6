@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!-- TDD:add AE10H833-4455 by wanbao.xue 20240321 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add AE10H833-4455 by wanbao.xue 20240321 end -->
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="key_support_set_ss_flag" value="true" />
+    <!--SR:add for P671LP672L-3744 by duchunzhu 20240527 start-->
+    <boolean name="tran_tdd_force_display_plmn_and_spn_when_abroad_roaming" value="true"/>
+    <!--SR:add for P671LP672L-3744 by duchunzhu 20240527 end-->
+    <!--TDD:add reason KL4F201-1955 by xiangjian.li 20240703 start-->
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="force_cellular_network_available_for_ecall" value="true"/>
+    <!--TDD:add reason KL4F201-1955 by xiangjian.li 20240703 end-->
+    <!--TDD:add for TOS1501-77820 by renyan.pu 20250612 start-->
+    <boolean name="enable_network_2G_only" value="true"/>
+    <!--TDD:add for TOS1501-77820 by renyan.pu 20250612 end-->
+    <!--TDD:add for TOS1610-49328 by renyan.pu 20251112 start-->
+    <boolean name="tran_tdd_force_display_plmn_and_spn_when_international_roaming" value="true" />
+    <!--TDD:add for TOS1610-49328 by renyan.pu 20251112 end-->
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

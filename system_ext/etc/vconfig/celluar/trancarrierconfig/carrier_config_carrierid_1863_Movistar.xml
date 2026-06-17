@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string name="default_vm_number_string">6684</string>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 start-->
+    <int name="show_vowifi_icon_int" value="1"/>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 end-->
+    <!--TDD:add for vowifi by renyan.pu 20250409 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <!--TDD:add for vowifi by renyan.pu 20250409 end-->
+    <!--TDD:add for Latin America Movistar by yeling 20250408 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for Latin America Movistar by yeling 20250408 end -->
+</carrier_config>

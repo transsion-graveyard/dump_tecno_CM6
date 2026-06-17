@@ -1,0 +1,8 @@
+on post-fs-data
+    mkdir /data/preload 0755 system system encryption=None
+    mkdir /data/preload/config 0755 system system encryption=None
+
+on property:sys.is_first_boot=1
+    copy  /tr_region/etc/asset/appmanager.conf  /data/preload/config/appmanager.conf
+    chmod 0444 /data/preload/config/appmanager.conf
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.cloudserver">
+		<permission name="android.permission.INTERNET"/>
+		<permission name="android.permission.ACCESS_NETWORK_STATE"/>
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+		<permission name="android.permission.VIBRATE"/>
+		<permission name="com.transsion.dataservice.permission.READ"/>
+		<permission name="com.transsion.dataservice.permission.WRITE"/>
+		<permission name="com.palm.id.READ_ACCOUNT_PROVIDER"/>
+		<permission name="com.palm.id.old.READ_ACCOUNT_PROVIDER"/>
+    </exception>
+</exceptions>

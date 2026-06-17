@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true"/>
+    <string-array name="mmi_two_digit_number_pattern_string_array" num="1">
+        <item value="#9"/>
+    </string-array>
+    <!--TDD:add for X6871H962-4988 by liulei 20240112 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for X6871H962-4988 by liulei 20240112 end -->
+    <!-- TDD: add  by pei.zhou for CKLHLJ-5989 20240428 start -->
+    <boolean name="editable_voicemail_number_setting_bool" value="false"/>
+    <!-- TDD: add  by pei.zhou for CKLHLJ-5989 20240112 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

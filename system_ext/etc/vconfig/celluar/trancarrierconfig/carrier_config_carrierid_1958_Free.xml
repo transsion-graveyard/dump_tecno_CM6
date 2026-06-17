@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string-array name="non_roaming_operator_string_array" num="3">
+        <item value="20800"/>
+        <item value="20801"/>
+        <item value="20802"/>
+    </string-array>
+    <string name="default_vm_number_string">666</string>
+    <string name="default_vm_number_roaming_string">+33695600011</string>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!-- UNISOC: add for bug 2254245 -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add for X6856OS16-37 by renyan.pu 20250903 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!--TDD:add for X6856OS16-37 by renyan.pu 20250903 end -->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    <boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+</carrier_config>

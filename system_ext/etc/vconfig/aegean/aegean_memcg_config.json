@@ -1,0 +1,23 @@
+{
+  "ver": 1,
+  "time": 2025091001,
+  "enable": 1,
+  "memcg_camera": [
+    "1,com.transsion.camera",
+    "1,com.android.camera",
+    "2,cameraserver",
+    "2,camerahalserver",
+    "2,camerapostalgo",
+    "2,android.hardware.camera.provider@2.7-service_64",
+    "2,vendor.qti.camera.provider-service_64"
+  ],
+  "memcg_launcher": [
+    "1,com.transsion.launcher3",
+    "1,com.transsion.launcher3:taskbar",
+    "1,com.transsion.globalsearch"
+  ],
+  "memcg_active": [
+    "1,com.android.systemui",
+    "2,surfaceflinger"
+  ]
+}

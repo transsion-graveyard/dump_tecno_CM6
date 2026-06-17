@@ -1,0 +1,31 @@
+{
+    "sheets":[
+        {
+            "sheet_name":"trancare_app_launch",
+            "sheet_version":1,
+            "type":1,
+            "sqls":"",
+            "tid":818960000001,
+            "event":"app_launch",
+            "version":1
+        },
+		{
+            "sheet_name":"trancare_app_input",
+            "sheet_version":1,
+            "type":1,
+            "sqls":"",
+            "tid":818960000002,
+            "event":"app_r",
+            "version":1
+        },
+        {
+            "sheet_name":"trancare_app_slide",
+            "sheet_version":1,
+            "type":1,
+            "sqls":"",
+            "tid":818961000001,
+            "event":"app_slide",
+            "version":1
+        }
+    ]
+}

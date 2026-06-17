@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+<!-- Using carrier_config_mccmnc_25020 configuration tele2 -->
+    <string name="carrier_name_string">Tele2 RU</string>
+    <string-array name="hide_apn_types_string_array" num="1">
+            <item value="xcap"/>
+    </string-array>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_with_geo" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="25020#simspn"/>
+    </string-array>
+    <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+        <item value="25020#simspn"/>
+    </string-array>
+    <!--TDD:add for TOS1610-52711 by yaning.yao 20251119 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <!--TDD:add for TOS1610-52711 by yaning.yao 20251119 end-->
+    <!--TDD:add for OS162-10300 by zhezhi.liu 20251229 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:add for OS162-10300 by zhezhi.liu 20251229 end-->
+</carrier_config>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <enable>true</enable>
+    <version>1</version>
+    <vtskin_param>
+        <sensor>vtshell_max</sensor>
+        <channel>0</channel>
+        <opt_id>1</opt_id>
+        <opt_name>maximum</opt_name>
+        <ref_sensor name="vtshell_front" coef="0"/>
+        <ref_sensor name="vtshell_back" coef="0"/>
+    </vtskin_param>
+    <vtskin_param>
+        <sensor>vtshell_front</sensor>
+        <channel>1</channel>
+        <opt_id>0</opt_id>
+        <opt_name>coefficient</opt_name>
+        <ref_sensor name="ap_ntc" coef="28788563"/>
+        <ref_sensor name="battery" coef="33912955"/>
+        <ref_sensor name="ltepa_ntc" coef="-12451411"/>
+        <ref_sensor name="nrpa_ntc" coef="45501609"/>
+    </vtskin_param>
+    <vtskin_param>
+        <sensor>vtshell_back</sensor>
+        <channel>2</channel>
+        <opt_id>0</opt_id>
+        <opt_name>coefficient</opt_name>
+        <ref_sensor name="ap_ntc" coef="12459334"/>
+        <ref_sensor name="battery" coef="41775534"/>
+        <ref_sensor name="ltepa_ntc" coef="62992321"/>
+        <ref_sensor name="nrpa_ntc" coef="-21722702"/>
+    </vtskin_param>
+</config>

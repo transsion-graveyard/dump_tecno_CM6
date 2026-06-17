@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

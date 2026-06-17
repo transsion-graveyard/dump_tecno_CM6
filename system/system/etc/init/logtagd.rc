@@ -1,0 +1,15 @@
+#
+# logtagd event log tag service (debug only)
+#
+on post-fs-data
+    mkdir /data/misc/logd 0750 logd log
+    write /data/misc/logd/event-log-tags ""
+    chown logd log /data/misc/logd/event-log-tags
+    chmod 0600 /data/misc/logd/event-log-tags
+    restorecon /data/misc/logd/event-log-tags
+    #SDD:modify by yanbin.zhang for logmuch 20240613 start
+    write /dev/logmuch ""
+    chown logd log /dev/logmuch
+    chmod 0600 /dev/logmuch
+    restorecon /dev/logmuch
+    #SDD:modify by yanbin.zhang for logmuch 20240613 end

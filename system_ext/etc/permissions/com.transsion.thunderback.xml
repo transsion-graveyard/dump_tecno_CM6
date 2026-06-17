@@ -1,0 +1,5 @@
+<permission>
+    <privapp-permissions pacakge="com.transsion.multiwindow">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+</permission>

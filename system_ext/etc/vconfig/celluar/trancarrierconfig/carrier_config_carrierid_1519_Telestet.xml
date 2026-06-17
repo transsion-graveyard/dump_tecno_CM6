@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string name="default_vm_number_string">122</string>
+    <!-- UNISOC: add for bug 2211222 -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

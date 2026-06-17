@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccVersionTable>
+    <!--
+        The version of EccList and EccBlocklist, only update when using cloud update.
+    -->
+    <Version EccBlockVersion="1" EccNameVersion="1" EccVersion="1"/>
+</EccVersionTable>

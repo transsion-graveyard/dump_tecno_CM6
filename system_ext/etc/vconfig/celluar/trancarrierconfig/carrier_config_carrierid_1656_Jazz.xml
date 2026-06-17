@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for TOS1610-36846 by gaoming.luo 2025.10.31 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for TOS1610-36846 by gaoming.luo 2025.10.31 end-->
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

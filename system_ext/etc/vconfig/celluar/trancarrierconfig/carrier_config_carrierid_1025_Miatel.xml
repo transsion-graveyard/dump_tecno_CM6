@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true"/>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 end-->
+</carrier_config>

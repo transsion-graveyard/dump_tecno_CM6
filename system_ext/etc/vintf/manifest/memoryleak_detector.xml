@@ -1,0 +1,10 @@
+<!--
+    Input:
+        hardware/interfaces/memoryleak_detector/aidl/default/memoryleak_detector.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>android.hardware.memoryleak</name>
+        <fqname>IMemoryleakDetectionService/default</fqname>
+    </hal>
+</manifest>

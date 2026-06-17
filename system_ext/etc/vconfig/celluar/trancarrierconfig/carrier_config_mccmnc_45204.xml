@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: add show conference key for ADJHBSY-6186 by gaoming.luo 2022.09.06 start-->
+    <boolean name="tran_support_show_conference_name_bool" value="false" />
+    <!--TDD: add show conference key for ADJHBSY-6186 by gaoming.luo 2022.09.06 end-->
+</carrier_config>

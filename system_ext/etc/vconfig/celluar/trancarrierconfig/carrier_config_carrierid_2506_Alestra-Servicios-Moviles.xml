@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for X6871H962-4988 by liulei 20240112 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for X6871H962-4988 by liulei 20240112 end -->
+    <boolean name="carrier_volte_available_bool" value="true" />
+</carrier_config>

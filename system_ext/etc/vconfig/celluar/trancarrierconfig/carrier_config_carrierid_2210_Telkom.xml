@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add X6878OS16-2906 by renyan.pu 20251028 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!-- TDD:add X6878OS16-2906 by renyan.pu 20251028 end -->
+</carrier_config>

@@ -1,0 +1,17 @@
+{
+"v":"v1.0",
+"m":"f",
+"t":"20250630",
+"FUNCTION_NORMAL_AI_SUPPORT":["com.transsion.soundrecorder","com.transsion.notebook"],
+"FUNCATION_NORMAL_DEFAULT":["audio_normal_standard"],
+"FUNCTION_VOIP_SUPPORT_AI":["com.rd.tengfei.bdnotification","com.bb"],
+"FUNCTION_VOIP_SUPPORT_AI_VP":["com.whatsapp","com.sh.smart.caller","com.google.android.dialer","com.whatsapp","jp.naver.line.android","org.telegram.messenger","com.imo.android.imoim","com.imo.android.imoimhd","com.imo.android.imoimbeta","com.truecaller","us.zoom.videomeetings","com.google.android.apps.meetings","com.google.android.apps.tachyon","com.discord","com.google.android.apps.dynamite","com.android.incallui","com.viber.voip","com.google.android.gm","com.whatsapp.w4b","com.tencent.mm","com.google.android.apps.messaging","com.facebook.katana","com.facebook.lite","com.facebook.orca","com.instagram.android","com.snapchat.android","com.imo.android.imoimlite","com.linkedin.android","com.ss.android.lark.transsion","com.tencent.wemeet.app","com.microsoft.teams","com.jio.rilconferences","com.jio.meet.lite","com.zhiliaoapp.musically","com.zhiliaoapp.musically.go","com.instagram.lite","ru.oneme.app","com.viber.voip","sg.bigo.live","com.discord","org.thunderdog.challegram","com.beint.zangi","com.ayoba.ayoba","com.vk.im","com.vkontakte.android","org.telegram.plus","com.zing.zalo","com.michatapp.im","com.haflla.soulu","com.google.android.apps.tachyon","com.google.android.apps.meetings"],
+"FUNCTION_GAME_SUPPORT_AI":["com.pubg.imobile","com.tencent.ig","com.pubg.krmobile","com.vng.pubgmobile","com.rekoo.pubgm","com.tencent.igce","com.tencent.tmgp.pubgmhd","com.dts.freefiremax","com.dts.freefireth","com.mobile.legends","com.garena.game.codm","com.tencent.tmgp.cod","com.vng.codmvn","com.activision.callofduty.shooter","com.tencent.tmgp.sgame","com.levelinfinite.sgameGlobal","com.garena.game.kgth","com.axlebolt.standoff2"],
+"FUNCTION_VOIP_DEFAULT":["audio_voip_ai"],
+"FUNCTION_SUPPORT_BLU":["xxxxx"],
+"FUNCTION_SUPPORT_VP":["enable"],
+"FUNCTION_SUPPORT_MASTER_AIVP":["enable"],
+"FUNCTION_SUPPORT_DYNAMIC":["enable"],
+"FUNCTION_SUPPORT_CALL_DYNAMIC":["disable"]
+}
+

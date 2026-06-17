@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add InCallUI ViLTE key for yemen by liang.cao 20231019start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <!-- TDD:add InCallUI ViLTE key for yemen by liang.cao 20231019end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+</carrier_config>

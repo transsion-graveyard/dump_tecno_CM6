@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!--TDD:add for KL4F201-1603 by gaoming.luo 20240620 start-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!--TDD:add for KL4F201-1603 by gaoming.luo 20240620 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 end-->
+</carrier_config>

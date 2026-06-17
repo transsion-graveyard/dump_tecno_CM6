@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_ims_nw_cw" value="true" />
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 start -->
+    <boolean name="enable_network_3G_only" value="false"/>
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 end -->
+    <!-- TDD:add XH-6148 for hide 4g calling menu by guangshuai.cheng 2023.11.15 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!-- TDD:add XH-6148 for hide 4g calling menu by guangshuai.cheng 2023.11.15 start -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <!--TDD: modify for AR-202512-001015 by chunyan.tang 20251230 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for AR-202512-001015 by chunyan.tang 20251230 end-->
+</carrier_config>

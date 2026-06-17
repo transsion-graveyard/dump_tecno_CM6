@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 start -->
+    <boolean name="show_custom_lte_ca_icon" value="true"/>
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 end -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <!-- UNISOC: add for bug 2261573 -->
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*555</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+    <string-array name="carrier_certificate_string_array" num="5">
+        <item value="8C960CA3CBF4A9DA851774F2DE072E57B1289A9CF7D6BDA4A6B386A42BC4FFB3:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="7413E2B365230E1BCB294D687C3B87EE5BC7E3F9:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="2333F4065B9F054363CA63D1866CC168F45D641645B31131B14E173B9C922D15:co.sitic.pp"/>
+        <item value="14D54C64599A3E9A3B766239B160DE3935093E0A:co.sitic.pp"/>
+        <item value="F54CAC11D5AF77A5F10C21D536AD5D1C40B00D63A92CAB917AA84DC714D622D8:co.sitic.pp"/>
+    </string-array>
+    <string name="call_screening_app">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallScreeningService</string>
+    <string name="call_redirection_service_component_name_string">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallRedirectionService</string>
+</carrier_config>

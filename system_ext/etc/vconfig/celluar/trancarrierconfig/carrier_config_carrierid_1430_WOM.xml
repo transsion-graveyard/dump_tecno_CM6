@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for X6532V632-4120 by yuhu.tian 2024.11.21 start -->
+    <string name="default_vm_number_string">*99</string>
+    <!--TDD:add for X6532V632-4120 by yuhu.tian 2024.11.21 end -->
+    <!--TDD:add for XH-6174 by guangshuai.cheng 2023.12.21 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD:add for XH-6174 by guangshuai.cheng 2023.12.21 end -->
+    <!--TDD:add for XH-6173 by yunhua.hu 2023.12.22 start -->
+    <int name="wfc_spn_format_idx_int" value="4"/>
+    <!--TDD:add for XH-6173 by yunhua.hu 2023.12.22 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+</carrier_config>

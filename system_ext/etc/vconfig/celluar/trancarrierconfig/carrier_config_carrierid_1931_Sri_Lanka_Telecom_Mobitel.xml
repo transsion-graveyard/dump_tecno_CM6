@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="vilte_data_is_metered_bool" value="false" /><!--TDD:Add Srilank Mobitel  ViLTE by xiaohui.song on 20250224 -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+</carrier_config>

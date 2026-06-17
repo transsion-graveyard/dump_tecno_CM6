@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="maxMessageSize" value="2097152"/>
+    <boolean name="hide_ims_apn_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <string name="default_vm_number_string">+4792100000</string>
+    <string name="default_vm_number_roaming_string">+4792100000</string>
+    <boolean name="support_vowifi_mms" value="true"/>
+</carrier_config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:Add for KH2 mytel OEMIMS by xiaohui.song 20240919 begin-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:Add for KH2 mytel OEMIMS by xiaohui.song 20240919 end-->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.pcconnect">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+        <permission name="android.permission.NEARBY_WIFI_DEVICES" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_ADVERTISE" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_SCAN" fixed="false"/>
+        <permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+        <permission name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" fixed="false"/>
+        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" fixed="false"/>
+    </exception>
+</exceptions>

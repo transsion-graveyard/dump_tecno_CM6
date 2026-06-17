@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:modify for TOS1501-60164 by guangshuai.cheng 2025.02.21 start -->
+    <int name="carrier_default_wfc_ims_mode_int" value="2" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+    <!-- TDD:modify for TOS1501-60164 by guangshuai.cheng 2025.02.21 end -->
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <!--TDD: add show pau key for ADJHBSY-6186 by gaoming.luo 2022.09.01 start-->
+    <boolean name="tran_support_show_pau_name_bool" value="false" />
+    <!--TDD: add show pau key for ADJHBSY-6186 by gaoming.luo 2022.09.01 end-->
+    <!-- TDD:add InCallUI ViLTE key for X6853H895-3828 by haoxin.liao 2023.11.17 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for X6853H895-3828 by haoxin.liao 2023.11.17 start -->
+    <!-- TDD:modify Saf requirement for XH-6126 by liang.cao 2023.1030 start -->
+    <boolean name="wos_flight_mode_support_bool" value="true" />
+    <!-- TDD:modify Saf requirement for XH-6126 by liang.cao 2023.1030 end -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

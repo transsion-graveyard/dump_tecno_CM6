@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for KJ7H895-4073 by lei.zhang7 20240103 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for KJ7H895-4073 by lei.zhang7 20240103 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+</carrier_config>

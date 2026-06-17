@@ -1,0 +1,50 @@
+<config>
+    <enable>true</enable>
+    <version>2</version>
+    <updateDate>20240314</updateDate>
+    <FpsConfig packageName="com.google.android.youtube">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.mxtech.videoplayer.ad">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.video.fun.app">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.nemo.vidmate">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.playit.videoplayer">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.snaptube.premium">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.snaptube.app">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.kwai.bulldog">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName=" com.vkontakte.android">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.transsion.magicshow">
+        <activityFps activity="VideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.zhiliaoapp.musically">
+        <activityFps activity="ShortVideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.ss.android.ugc.trill">
+        <activityFps activity="ShortVideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.zhiliaoapp.musically.go">
+        <activityFps activity="ShortVideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.ss.android.ugc.aweme">
+        <activityFps activity="ShortVideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+    <FpsConfig packageName="com.ss.android.ugc.aweme.lite">
+        <activityFps activity="ShortVideoCommon" temp1="0" fps1="50" temp2="48" fps2="35" temp3="55" fps3="30"/>
+    </FpsConfig>
+</config>

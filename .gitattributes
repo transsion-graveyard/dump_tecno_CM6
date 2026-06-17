@@ -1,0 +1,14 @@
+*.img filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.zvoice filter=lfs diff=lfs merge=lfs -text
+*.elf filter=lfs diff=lfs merge=lfs -text
+*.mnn filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.mbn filter=lfs diff=lfs merge=lfs -text
+*.dtb filter=lfs diff=lfs merge=lfs -text
+*.odex filter=lfs diff=lfs merge=lfs -text
+*.vdex filter=lfs diff=lfs merge=lfs -text
+*.apex filter=lfs diff=lfs merge=lfs -text

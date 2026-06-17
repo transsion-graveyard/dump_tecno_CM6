@@ -1,0 +1,2 @@
+on boot
+    chmod 0444 /sys/kernel/ged/hal/gpu_utilization

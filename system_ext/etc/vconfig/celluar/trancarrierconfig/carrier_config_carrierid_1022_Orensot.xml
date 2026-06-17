@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 start-->
+    <boolean name="carrier_wfc_ims_with_geo" value="true" />
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 end-->
+    <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 start-->
+    <boolean name="mtk_carrier_wfc_get_location_always" value="true"/>
+    <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 end-->
+    <!-- TDD:add Feature XLQHVW-2753 for Russia by wanbao.xue 2023.06.29 start -->
+    <boolean name="hotspad_enable_to_disable_vowifi_bool" value="true" />
+    <!-- TDD:add Feature XLQHVW-2753 for Russia by wanbao.xue 2023.06.29 end -->
+
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true"/>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 end-->
+    <!--TDD:add LJ8H781-735 by chunyan.tang 20250415 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD:add LJ8H781-735 by chunyan.tang 20250415 end-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+</carrier_config>

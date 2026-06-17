@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD:add for KW_Ooredoo vowifi enable by lei.yang on 20250116 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!--TDD:add for KW_Ooredoo vowifi enable by lei.yang on 20250116 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

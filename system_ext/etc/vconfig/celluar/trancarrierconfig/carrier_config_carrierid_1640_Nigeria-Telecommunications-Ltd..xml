@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="key_support_set_ss_flag" value="true" />
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

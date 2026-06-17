@@ -1,0 +1,36 @@
+{
+  "globalBandConfigs": {
+    "versionCode": "202506201",
+    "methods": [
+      {
+        "id": 1,
+        "country": "id",
+        "onlyTest": 0,
+        "switch": 1,
+        "mode": 1,
+        "nr": "N1,N3,N5,N8,N28,N40",
+        "lte": "B1,B3,B5,B8,B28,B31,B40",
+        "gsm": "EGSM900,PGSM900,RGSM900,DCS1800,GSM850"
+      },
+      {
+        "id": 2,
+        "country": "eg",
+        "onlyTest": 1,
+        "onlyLte": 1,
+        "switch": 1,
+        "mode": 2,
+        "lte": "B41"
+      },
+      {
+        "id": 3,
+        "country": "th",
+        "onlyTest": 1,
+        "onlyLte": 1,
+        "switch": 1,
+        "mode": 2,
+        "lte": "B41",
+        "os": "hios,xos"
+      }
+    ]
+  }
+}

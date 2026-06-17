@@ -1,0 +1,4 @@
+# SDD: add for AR-20250421-0043 by kai.wang4 20250427 start
+on property:persist.sys.oem.key1=*
+    setprop ro.oem.key1 ${persist.sys.oem.key1}
+# SDD: add for AR-20250421-0043 by kai.wang4 20250427 end

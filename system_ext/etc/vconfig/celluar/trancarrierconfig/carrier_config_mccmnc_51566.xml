@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--TDD: add vilte_pause_not_send_sip by yong.chen1 20210422 start-->
+        <boolean name="no_sip_message_on_pause_video_bool" value="true" />
+        <!--TDD: add vilte_pause_not_send_sip by yong.chen1 20210422 end-->
+        <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+        <boolean name="tran_allow_show_new_network_type" value="false"/>
+        <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="supports_video_callforward_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <!--TDD:add for KL4F201-1640 by yunhua.hu 20240701 start-->
+        <string-array name="hide_apn_types_string_array" num="1">
+            <item value="off"/>
+        </string-array>
+        <!--TDD:add for KL4F201-1640 by yunhua.hu 20240701 end-->
+        <!--TDD:update for KL4F201-1814 by zhezhi.liu 20240704 start-->
+        <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+        <!--TDD:update for KL4F201-1814 by zhezhi.liu 20240704 end-->
+        <!--TDD:add for TOS1501-78557 by gaoming.luo 20250721 start-->
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <!--TDD:add for TOS1501-78557 by gaoming.luo 20250721 end-->
+        <!--TDD: add for OS162-27007 by yaning.yao 20260228 start-->
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <!--TDD: add for OS162-27007 by yaning.yao 20260228 end-->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+    </carrier_config>
+</carrier_config_list>

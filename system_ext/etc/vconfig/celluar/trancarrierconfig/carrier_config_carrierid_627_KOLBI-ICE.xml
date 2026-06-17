@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="hide_ims_apn_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <int name="maxMessageSize" value="2097152"/>
+    <!--TDD:Add by xuejian.fu IMS OEMFT 20251114 start-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:Add by xuejian.fu IMS OEMFT 20251114 end-->
+</carrier_config>

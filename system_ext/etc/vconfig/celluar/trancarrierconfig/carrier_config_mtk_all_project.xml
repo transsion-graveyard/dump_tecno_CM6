@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config cid="1969">
+        <!--TDD:add for TOS1610-51664 by jie.wang15 2025.11.18 start-->
+        <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+        <!--TDD:add for TOS1610-51664 by jie.wang15 2025.11.18 start-->
+    </carrier_config>
+    <carrier_config cid="1980">
+        <!--TDD:add for X6879OS161-1909 by jie.wang15 2025.11.5 start-->
+        <boolean name="mtk_support_vt_ss_bool" value="true" />
+        <!--TDD:add for X6879OS161-1909 by jie.wang15 2025.11.5 end-->
+    </carrier_config>
+    <carrier_config cid="1908">
+        <!--TDD:add for X6879OS161-1841 by jie.wang15 2025.11.3 start-->
+        <boolean name="mtk_support_vt_ss_bool" value="true" />
+        <!--TDD:add for X6879OS161-1841 by jie.wang15 2025.11.3 end-->
+    </carrier_config>
+    <carrier_config cid="624">
+        <!--TDD:add for X6879OS161-1841 by jie.wang15 2025.11.20 start-->
+        <boolean name="mtk_support_vt_ss_bool" value="true" />
+        <!--TDD:add for X6879OS161-1841 by jie.wang15 2025.11.20 end-->
+    </carrier_config>
+    <carrier_config cid="1098">
+        <!--TDD:add for TOS1610-63904 by gaoming.luo 2025.12.11 start-->
+        <boolean name="mtk_support_vt_ss_bool" value="true" />
+        <!--TDD:add for TOS1610-63904 by gaoming.luo 2025.12.11 end-->
+    </carrier_config>
+    <carrier_config cid="1921">
+        <!--TDD: changed by ruijun.wu 20251128 start-->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <!--TDD: changed by ruijun.wu 20251128 end-->
+    </carrier_config>
+    <carrier_config cid="1657">
+        <!--TDD:add for X6858OS16-259 by liuyan.mo 20226.03.05 start-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <!--TDD:add for X6858OS16-259 by liuyan.mo 20226.03.05 end-->
+    </carrier_config>
+    <carrier_config cid="2337">
+        <!--TDD:add for TOS1610-66964 by gaoming.luo 2025.12.23 start-->
+        <boolean name="mtk_support_vt_ss_bool" value="true" />
+        <!--TDD:add for TOS1610-66964 by gaoming.luo 2025.12.23 end-->
+    </carrier_config>
+</carrier_config_list>

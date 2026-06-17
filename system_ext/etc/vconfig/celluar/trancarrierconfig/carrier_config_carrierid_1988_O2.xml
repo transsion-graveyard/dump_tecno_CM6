@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:modify O2 requirement for XH-6126 by liang.cao 2023.1030 start -->
+    <boolean name="wos_flight_mode_support_bool" value="true" />
+    <!-- TDD:modify O2 requirement for XH-6126 by liang.cao 2023.1030 end-->
+    <!-- TDD:add XH-6148 for hide 4g calling menu by guangshuai.cheng 2023.11.15 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!-- TDD:add XH-6148 for hide 4g calling menu by guangshuai.cheng 2023.11.15 start -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+</carrier_config>

@@ -1,0 +1,29 @@
+<!--
+    Input:
+        vendor/transsion/system_modules/security/hap/framework_matrix.xml
+        vendor/transsion/system_modules/security/hda/framework_matrix.xml
+-->
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.transsion.hardware.security.deviceauthen</name>
+        <interface>
+            <name>IDeviceAuthen</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.transsion.hardware.security.hap</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHap</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.transsion.hardware.security.hap</name>
+        <interface>
+            <name>IHap</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

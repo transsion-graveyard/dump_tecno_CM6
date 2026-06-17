@@ -1,0 +1,30 @@
+{
+  "ver": 1,
+  "time": 2025091001,
+  "enable": 1,
+  "support_mem": "4,6,8,12",
+  "support_kernel": ["6.1","6.12"],
+  "freeze_delay": 1000,
+  "mem_policy_interval": 400000,
+  "per_remain_anon": 51200,
+  "user_break": 1000,
+  "continuous_launch_compress_enable": 0,
+  "min_swap_free": 30,
+  "freeze_remain_percent": 90,
+  "balance_remain_percent": 70,
+  "file_threshold": ["4G_1200000:1500000","6G_1500000:1800000","8G_1800000:2000000","12G_2500000:3000000"],
+  "app_exempt": ["com.android.systemui","com.transsion.smartpanel", "com.transsion.launcher3",
+    "com.transsion.launcher3:taskbar", "com.transsion.camera", "com.android.camera"],
+  "ta_exempt": [
+    "com.transsion.camera", "com.android.camera", "com.mobile.legends",
+    "com.mobiin.gp", "com.garena.game.codm", "com.tencent.tmgp.cod", "com.vng.codmvn",
+    "com.activision.callofduty.shooter", "com.activision.callofduty.codpbt",
+    "com.tencent.tmgp.kr.codm", "com.activision.callofduty.warzone", "com.pubg.imobile",
+    "com.tencent.ig", "com.pubg.krmobile", "com.vng.pubgmobile", "com.rekoo.pubgm",
+    "com.tencent.igce", "com.tencent.iglite", "com.tencent.tmgp.sgame", "com.tencent.tmgp.sgamece",
+    "com.levelinfinite.sgameGlobal", "com.levelinfinite.sgameGlobal.midaspay",
+    "com.levelinfinite.sgameGlobalESports", "com.dts.freefireth", "com.dts.freefiremax",
+    "com.farlightgames.farlight84.gray", "com.lilith.farlight84", "com.miraclegames.farlight84",
+    "com.axlebolt.standoff2", "com.netease.newspike", "com.garena.game.df", "com.tencent.tmgp.dfm"
+  ]
+}

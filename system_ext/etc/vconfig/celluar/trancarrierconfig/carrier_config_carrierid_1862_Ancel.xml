@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD:add for CHLSCOH-48 by guangshuai.cheng 2023.07.05 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for CHLSCOH-48 by guangshuai.cheng 2023.07.05 end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

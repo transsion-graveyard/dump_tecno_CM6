@@ -1,0 +1,9 @@
+{
+  "ver": 1,
+  "time": 2025072801,
+  "enable": 1,
+  "support_mem": "4,6,8,12",
+  "support_soc": "mtk,qcom,unisoc",
+  "support_kernel": ["6.1","6.6","6.12"],
+  "app_exempt": []
+}

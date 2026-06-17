@@ -1,0 +1,14 @@
+base address: 0x3fff8000
+board name: 
+cmdline: bootopt=64S3,32N2,64N2 bootconfig
+dtb offset: 0x07c88000
+header version: 4
+image type: AOSP_VNDR
+kernel offset: 0x00008000
+original size: 67108864
+os version: None
+page size: 4096
+ramdisk compression: lz4-l
+ramdisk offset: 0x26f08000
+sigtype: AVBv2
+tags offset: 0x07c88000

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for TOS1501-77911 by renyan.pu 20250616 start-->
+    <boolean name="enable_network_2G_only" value="true"/>
+    <!--TDD:add for TOS1501-77911 by renyan.pu 20250616 end-->\
+</carrier_config>

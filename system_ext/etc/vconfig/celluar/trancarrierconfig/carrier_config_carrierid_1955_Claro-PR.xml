@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <boolean name="editable_wfc_mode_bool" value="false"/>
+    <!--TDD:add for CHLSCOH-48 by guangshuai.cheng 2002.08.08 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for CHLSCOH-48 by guangshuai.cheng 2002.08.08 end -->
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 start -->
+    <boolean name="show_custom_lte_ca_icon" value="true"/>
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 end -->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+</carrier_config>

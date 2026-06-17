@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string name="emergency_notification_delay_int">1000</string>
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    <boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+</carrier_config>

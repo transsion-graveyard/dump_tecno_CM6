@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+    <!--TDD:add for mtn req by jinxian.lei 20241012 start-->
+    <boolean name="enable_network_prefered_4G_only" value="true" />
+    <boolean name="enable_network_prefered_5G_only" value="true" />
+    <!--TDD:add for mtn req by jinxian.lei 20241012 end-->
+</carrier_config>
+</carrier_config_list>

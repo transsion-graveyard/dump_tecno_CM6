@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 start-->
+    <boolean name="carrier_wfc_ims_with_geo" value="true" />
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 end-->
+    <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 start-->
+    <boolean name="mtk_carrier_wfc_get_location_always" value="true"/>
+    <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true"/>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 end-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add for ee1 Sberbank by ruofei.niu in 20250829 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for ee1 Sberbank by ruofei.niu in 20250829 end-->
+</carrier_config>

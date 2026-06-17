@@ -1,0 +1,1547 @@
+{
+    "Update": "20251106",
+    "Ver": "3.6",
+    "Enable": "fans",
+    "SamplingDays": 90,
+    "SamplingMethod": "screenoff",
+    "SamplingPeriod": 8,
+    "MinimumUploadInterval": 0,
+    "ScreenOffInterval": 5,
+    "RssCheck": "yes",
+    "SkipPssCheck": "yes",
+    "DebugConfig": "yes",
+    "DebugPeriod": 0,
+    "MemPeriod": 300,
+    "DefaultDebugStrategy": 6,
+    "DefaultDebugInfo": "0xC4000022C",
+    "UserDefaultDebugInfo": "0x60C56036",
+    "MaxmimumProcessDebugNum": 3,
+    "MaxmimumProcessDebugNumPerVersion": 3,
+    "ProfilingPss": "false",
+    "Begin": "00:00:00",
+    "End": "23:59:59",
+    "NativeUploadNum": 10,
+    "NativeUploadMemPercent": 70,
+    "MaxProcessAdj": 101,
+    "ProcRssHWMEnable": "true",
+    "ProcHWMPeriodConfig": "1",
+    "MemoryStandard": {
+        "Ver": 3.6,
+        "3GB": {
+            "DefaultMemPeriod": 300,
+            "FreeRAMMemUsage": 1057,
+            "FreeMemMajorLimit": 1057,
+            "LMKdfxOomAdj": "200,500",
+            "LMKdfxOomPeriod": 1800,
+            "NativeMemUsage": 914,
+            "PROC_DefaultMajorMemLimit": 1536,
+            "PersistentMemUsage": 717,
+            "SamplingPeriod": 10,
+            "SysMemMajorLimit": 367,
+            "VisibleMemUsage": 1093,
+            "DebugStrategy":6,
+            "process": {
+                "com.transsion.trancare": {
+                        "Mem": 100,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 100
+                },
+                "com.hoffnung.mobile.service": {
+                        "Mem": 130,
+                        "ExceptionDuration": 15,
+                        "ExceptionFrequency": "3/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 130
+                },
+                "system": {
+                        "Mem": 430,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 430
+                },
+                "zygote64": {
+                        "Mem": 78,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 78
+                },
+                "zygote": {
+                        "Mem": 59,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 59
+                },
+                "webview_zygote": {
+                        "Mem": 50,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 50
+                },
+                "/vendor/bin/hw/android.hardware.graphics.composer@2.4-service": {
+                        "Mem": 20,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 20
+                },
+                "/vendor/bin/hw/vendor.sprd.hardware.gnss-service": {
+                        "Mem": 14,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 14
+                },
+                "/system/bin/audioserver": {
+                        "Mem": 16,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 16
+                },
+                "sprdstorageproxyd": {
+                        "Mem": 17,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 17
+                },
+                "/system/bin/keystore2/data/misc/keystore": {
+                        "Mem": 12,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 12
+                },
+                "/vendor/bin/hw/android.hardware.audio.service": {
+                        "Mem": 11,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 11
+                },
+                "/system/bin/cameraserver": {
+                        "Mem": 12,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 12
+                },
+                "com.android.phone": {
+                        "Mem": 198,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 198
+                },
+                "com.google.android.providers.media.module": {
+                        "Mem": 101,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 101
+                },
+                "com.android.networkstack.process": {
+                        "Mem": 98,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 98
+                },
+                "com.android.bluetooth": {
+                        "Mem": 97,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 97
+                },
+                "com.transsnet.store": {
+                        "Mem": 133,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 133
+                },
+                "com.transsion.hilauncher": {
+                        "Mem": 262,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 262
+                },
+                "com.transsion.XOSLauncher": {
+                        "Mem": 262,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 262
+                },
+                "com.transsion.camera": {
+                        "Mem": 261,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 261
+                },
+                "com.transsion.dynamicbar": {
+                        "Mem": 111,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 111
+                },
+                "com.transsion.phonemanager": {
+                        "Mem": 91,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 91
+                },
+                "com.transsion.kolun.aiservice": {
+                        "Mem": 95,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 95
+                },
+                "com.spreadtrum.ims": {
+                        "Mem": 160,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.android.systemui": {
+                        "Mem": 279,
+                        "ExceptionDuration": 300,
+                        "ExceptionFrequency": "1/4",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 279
+                },
+                "com.transsion.launcher3": {
+                        "Mem": 262,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 262
+                }
+            }
+        },
+        "4GB": {
+            "DefaultMemPeriod": 300,
+            "FreeRAMMemUsage": 1171,
+            "FreeMemMajorLimit": 1171,
+            "LMKdfxOomAdj": "200,500",
+            "LMKdfxOomPeriod": 1800,
+            "NativeMemUsage": 930,
+            "PROC_DefaultMajorMemLimit": 2048,
+            "PersistentMemUsage": 1175,
+            "SamplingPeriod": 10,
+            "SystemMemUsage": 380,
+            "VisibleMemUsage": 2014,
+            "DebugStrategy":6,
+            "process": {
+                "com.hoffnung.mobile.service": {
+                        "Mem": 150,
+                        "ExceptionDuration": 15,
+                        "ExceptionFrequency": "3/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 150
+                },
+                "system": {
+                        "Mem": 440,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 440
+                },
+                "com.transsion.trancare": {
+                        "Mem": 145,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 145
+                },
+                "/system/bin/surfaceflinger": {
+                        "Mem": 61,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 61
+                },
+                "com.transsion.hilauncher": {
+                        "Mem": 350,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 350
+                },
+                "com.transsion.XOSLauncher": {
+                        "Mem": 350,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 350
+                },
+                "zygote": {
+                        "Mem": 70,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 70
+                },
+                "webview_zygote": {
+                        "Mem": 49,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 49
+                },
+                "zygote64": {
+                        "Mem": 87,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 87
+                },
+                "/system/bin/audioserver": {
+                        "Mem": 19,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 19
+                },
+                "/system/bin/mediaserver": {
+                        "Mem": 13,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 13
+                },
+                "media.swcodecoid.media.swcodec/bin/mediaswcodec": {
+                        "Mem": 11,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 11
+                },
+                "/vendor/bin/hw/android.hardware.audio.service": {
+                        "Mem": 7,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 7
+                },
+                "/system/bin/cameraserver": {
+                        "Mem": 13,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 13
+                },
+                "com.android.phone": {
+                        "Mem": 213,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 213
+                },
+                "com.android.networkstack.process": {
+                        "Mem": 94,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 94
+                },
+                "com.android.se": {
+                        "Mem": 74,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 74
+                },
+                "com.android.bluetooth": {
+                        "Mem": 98,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 98
+                },
+                "com.transsion.camera": {
+                        "Mem": 322,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 322
+                },
+                "net.bat.store:game": {
+                        "Mem": 176,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 176
+                },
+                "com.transsion.fmradio": {
+                        "Mem": 162,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 162
+                },
+                "com.transsion.phonemanager": {
+                        "Mem": 92,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 92
+                },
+                "com.transsion.deskclock": {
+                        "Mem": 179,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 179
+                },
+                "com.transsion.tecnospot": {
+                        "Mem": 177,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 177
+                },
+                "com.transsion.letswitch": {
+                        "Mem": 109,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 109
+                },
+                "com.transsion.iotservice": {
+                        "Mem": 88,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 88
+                },
+                "com.transsion.kolun.aiservice": {
+                        "Mem": 135,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 135
+                },
+                "com.spreadtrum.ims": {
+                        "Mem": 175,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 175
+                },
+                "com.mediatek.ims": {
+                        "Mem": 145,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 145
+                },
+                "com.android.nfc": {
+                        "Mem": 150,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 150
+                },
+                "/vendor/bin/hw/android.hardware.graphics.composer@2.4-service": {
+                        "Mem": 15,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 15
+                },
+                "net.bat.store": {
+                        "Mem": 307,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 307
+                },
+                "com.android.systemui": {
+                        "Mem": 375,
+                        "ExceptionDuration": 300,
+                        "ExceptionFrequency": "1/4",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 375
+                },
+                "com.transsion.audiosmartconnect": {
+                        "Mem": 160,
+                        "ExceptionDuration": 15,
+                        "ExceptionFrequency": "1/3",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.transsion.personalizedService.hios": {
+                        "Mem": 367,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 367
+                },
+                "com.transsion.launcher3": {
+                        "Mem": 350,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 350
+                },
+                "com.transsion.usf": {
+                        "Mem": 153,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 153
+                },
+                "com.transsion.atomicbrain": {
+                        "Mem": 172,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 172
+                }
+            }
+        },
+        "6GB": {
+            "DefaultMemPeriod": 300,
+            "FreeRAMMemUsage": 1319,
+            "FreeMemMajorLimit": 1319,
+            "LMKdfxOomAdj": "200,500",
+            "LMKdfxOomPeriod": 1800,
+            "NativeMemUsage": 1762,
+            "PROC_DefaultMajorMemLimit": 3096,
+            "PersistentMemUsage": 2153,
+            "SamplingPeriod": 10,
+            "SystemMemUsage": 447,
+            "VisibleMemUsage": 3064,
+            "DebugStrategy":6,
+            "process": {
+                "com.transsion.trancare": {
+                        "Mem": 150,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 150
+                },
+                "com.transsion.hilauncher": {
+                        "Mem": 415,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 415
+                },
+                "com.transsion.XOSLauncher": {
+                        "Mem": 415,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 415
+                },
+                "webview_zygote": {
+                        "Mem": 76,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 76
+                },
+                "zygote64": {
+                        "Mem": 76,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 76
+                },
+                "/system/bin/audioserver": {
+                        "Mem": 24,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 24
+                },
+                "/system/bin/mediaserver": {
+                        "Mem": 44,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 44
+                },
+                "/vendor/bin/hw/camerahalserver": {
+                        "Mem": 195,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 195
+                },
+                "com.android.phone": {
+                        "Mem": 244,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 244
+                },
+                "com.android.networkstack.process": {
+                        "Mem": 90,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 90
+                },
+                "com.android.se": {
+                        "Mem": 71,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 71
+                },
+                "com.android.bluetooth": {
+                        "Mem": 111,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 111
+                },
+                "com.transsion.camera": {
+                        "Mem": 336,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 336
+                },
+                "/system/bin/surfaceflinger": {
+                        "Mem": 91,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 91
+                },
+                "com.android.systemui": {
+                        "Mem": 427,
+                        "ExceptionDuration": 300,
+                        "ExceptionFrequency": "1/4",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 427
+                },
+                "com.hoffnung.mobile.service": {
+                        "Mem": 160,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.transsion.kolun.aiservice": {
+                        "Mem": 160,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.android.nfc": {
+                        "Mem": 160,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.transsion.smartpanel": {
+                        "Mem": 260,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 260
+                },
+                "com.transsion.audiosmartconnect": {
+                        "Mem": 140,
+                        "ExceptionDuration": 15,
+                        "ExceptionFrequency": "1/3",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 140
+                },
+                "com.transsion.personalizedService.hios": {
+                        "Mem": 300,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 300
+                },
+                "com.transsion.atomicbrain": {
+                        "Mem": 165,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 165
+                },
+                "com.transsion.launcher3": {
+                        "Mem": 415,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 415
+                },
+                "com.transsion.usf": {
+                        "Mem": 165,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 165
+                },
+                "com.transsion.tranradionet": {
+                        "Mem": 133,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 133
+                }
+            }
+        },
+        "8GB": {
+            "DefaultMemPeriod": 300,
+            "EGLMemMajorLimit": 900,
+            "FreeRAMMemUsage": 2500,
+            "FreeMemMajorLimit": 2500,
+            "GLMemMajorLimit": 850,
+            "LMKdfxOomAdj": "200,500",
+            "LMKdfxOomPeriod": 1800,
+            "NativeMemUsage": 1737,
+            "PROC_DefaultMajorMemLimit": 4000,
+            "PSIMajorLimit": 30,
+            "PersistentMemUsage": 2563,
+            "SamplingPeriod": 10,
+            "SwapMajorLimit": 5333,
+            "SystemMemUsage": 517,
+            "UsedRAMMajorLimit": 9000,
+            "VisibleMemUsage": 3951,
+            "DebugStrategy":6,
+            "process": {
+                "com.transsion.trancare": {
+                        "Mem": 165,
+                        "ExceptionDuration": 60,
+                        "ExceptionFrequency": "6/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 165
+                },
+                "/vendor/bin/hw/camerahalserver": {
+                        "Mem": 588,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 588
+                },
+                "com.hoffnung.mobile.service": {
+                        "Mem": 170,
+                        "ExceptionDuration": 3,
+                        "ExceptionFrequency": "1/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 170
+                },
+                "com.transsion.kolun.aiservice": {
+                        "Mem": 240,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 240
+                },
+                "com.transsion.XOSLauncher": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.dynamicbar": {
+                        "Mem": 250,
+                        "ExceptionDuration": 40,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 250
+                },
+                "com.transsion.phonemanager": {
+                        "Mem": 91,
+                        "ExceptionDuration": 20,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 91
+                },
+                "com.transsion.sk": {
+                        "Mem": 144,
+                        "ExceptionDuration": 20,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 144
+                },
+                "com.android.systemui": {
+                        "Mem": 733,
+                        "ExceptionDuration": 600,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 733
+                },
+                "com.android.phone": {
+                        "Mem": 223,
+                        "ExceptionDuration": 30,
+                        "ExceptionFrequency": "2/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 223
+                },
+                "/vendor/bin/hw/android.hardware.audio.service.mediatek": {
+                        "Mem": 88,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 88
+                },
+                "/system/bin/audioserver": {
+                        "Mem": 70,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 70
+                },
+                "com.skyroam.silverhelper": {
+                        "Mem": 133,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 133
+                },
+                "com.android.nfc": {
+                        "Mem": 190,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 190
+                },
+                "com.transsion.iotservice": {
+                        "Mem": 150,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 150
+                },
+                "com.transsion.camera": {
+                        "Mem": 445,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 445
+                },
+                "system": {
+                        "Mem": 800,
+                        "ExceptionDuration": 30,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.mol": {
+                        "Mem": 264,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 264
+                },
+                "com.transsion.smartpanel": {
+                        "Mem": 280,
+                        "ExceptionDuration": 60,
+                        "ExceptionFrequency": "6/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 280
+                },
+                "com.transsion.hilauncher": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.globalsearch": {
+                        "Mem": 300,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 300
+                },
+                "com.transsion.tranradionet": {
+                        "Mem": 166,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 166
+                },
+                "com.mediatek.ims": {
+                        "Mem": 175,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 175
+                },
+                "com.spreadtrum.ims": {
+                        "Mem": 178,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 178
+                },
+                "com.transsion.connectx.mirror.source": {
+                        "Mem": 230,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 230
+                },
+                "com.transsion.pcconnect":{
+                        "Mem": 245,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 245
+                },
+                "com.android.bluetooth":{
+                        "Mem": 190,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 190
+                },
+                "com.transsion.atomicbrain":{
+                        "Mem": 172,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 172
+                },
+                "com.transsion.audiosmartconnect":{
+                        "Mem": 160,
+                        "ExceptionDuration": 15,
+                        "ExceptionFrequency": "1/3",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 160
+                },
+                "com.transsion.usf":{
+                        "Mem": 173,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 173
+                },
+                "com.transsion.personalizedService.xos":{
+                        "Mem": 700,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 700
+                },
+                "com.transsion.launcher3": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.qualcomm.location": {
+                        "Mem": 167,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 167
+                },
+                ".dataservices": {
+                        "Mem": 166,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 166
+                },
+                ".qtidataservices": {
+                        "Mem": 170,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 170
+                },
+                "com.qti.phone": {
+                        "Mem": 205,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 205
+                },
+                "org.codeaurora.ims": {
+                        "Mem": 165,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 165
+                },
+                ".qms": {
+                        "Mem": 167,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 167
+                },
+                "vendor.qti.frameworks.utils": {
+                        "Mem": 164,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 164
+                }
+            }
+        },
+        "12GB": {
+            "DefaultMemPeriod": 300,
+            "EGLMemMajorLimit": 2048,
+            "FreeRAMMemUsage": 3000,
+            "FreeMemMajorLimit": 3000,
+            "GLMemMajorLimit": 1024,
+            "LMKdfxOomAdj": "200,500",
+            "LMKdfxOomPeriod": 1800,
+            "NativeMemUsage": 1950,
+            "PROC_DefaultMajorMemLimit": 6000,
+            "PSIMajorLimit": 30,
+            "PersistentMemUsage": 2937,
+            "SamplingPeriod": 10,
+            "SwapMajorLimit": 8000,
+            "SystemMemUsage": 644,
+            "UsedRAMMajorLimit": 13500,
+            "VisibleMemUsage": 4582,
+            "DebugStrategy":6,
+           "process": {
+                "com.transsion.trancare": {
+                        "Mem": 170,
+                        "ExceptionDuration": 60,
+                        "ExceptionFrequency": "6/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 170
+                },
+                "/vendor/bin/hw/camerahalserver": {
+                        "Mem": 588,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 588
+                },
+                "com.hoffnung.mobile.service": {
+                        "Mem": 190,
+                        "ExceptionDuration": 3,
+                        "ExceptionFrequency": "1/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 190
+                },
+                "com.transsion.kolun.aiservice": {
+                        "Mem": 240,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 240
+                },
+                "com.transsion.XOSLauncher": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.dynamicbar": {
+                        "Mem": 250,
+                        "ExceptionDuration": 40,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 250
+                },
+                "com.transsion.phonemanager": {
+                        "Mem": 130,
+                        "ExceptionDuration": 20,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 130
+                },
+                "com.transsion.sk": {
+                        "Mem": 144,
+                        "ExceptionDuration": 20,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 144
+                },
+                "com.android.systemui": {
+                        "Mem": 762,
+                        "ExceptionDuration": 600,
+                        "ExceptionFrequency": "18/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 762
+                },
+                "com.android.phone": {
+                        "Mem": 252,
+                        "ExceptionDuration": 30,
+                        "ExceptionFrequency": "2/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 252
+                },
+                "/vendor/bin/hw/android.hardware.audio.service.mediatek": {
+                        "Mem": 88,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 88
+                },
+                "/system/bin/audioserver": {
+                        "Mem": 45,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 45
+                },
+                "com.skyroam.silverhelper": {
+                        "Mem": 133,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 133
+                },
+                "com.android.nfc": {
+                        "Mem": 190,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 190
+                },
+                "com.transsion.iotservice": {
+                        "Mem": 150,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 150
+                },
+                "com.transsion.camera": {
+                        "Mem": 596,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 596
+                },
+                "system": {
+                        "Mem": 800,
+                        "ExceptionDuration": 30,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.mol": {
+                        "Mem": 264,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 264
+                },
+                "com.transsion.smartpanel": {
+                        "Mem": 280,
+                        "ExceptionDuration": 60,
+                        "ExceptionFrequency": "6/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 280
+                },
+                "com.transsion.hilauncher": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.globalsearch": {
+                        "Mem": 300,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 300
+                },
+                "com.transsion.tranradionet": {
+                        "Mem": 170,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 170
+                },
+                "com.mediatek.ims": {
+                        "Mem": 175,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 175
+                },
+                "com.transsion.connectx.mirror.source": {
+                        "Mem": 245,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 245
+                },
+                "com.transsion.pcconnect": {
+                        "Mem": 245,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 245
+                },
+                "com.transsion.atomicbrain": {
+                        "Mem": 185,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 185
+                },
+                "com.transsion.personalizedService.xos": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.launcher3": {
+                        "Mem": 800,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 800
+                },
+                "com.transsion.usf": {
+                        "Mem": 183,
+                        "ExceptionDuration": 0,
+                        "ExceptionFrequency": "0/1",
+                        "DebugStrategy":6,
+                        "DebugInfo": "0xC4000022C",
+                        "UserDebugInfo": "0x60C56036",
+                        "MajorMemLimit": 183
+                }
+            }
+        }
+    },
+    "TranssionModules": {
+        "Ver": 3.6,
+        "Proc": "android,android.auto_generated_rro_product__,android.autoinstalls.config.transsion.device,android.overlay.bluetoothres,android.overlay.framework,android.overlay.multiuser,android.overlay.systemui,android.overlay.systemui.go,android.unisoc.color_display.overlay,android.unisoc.core.go.overlay,android.unisoc.core.max_cached_processed.overlay,android.unisoc.core.overlay,android.unisoc.core.pinner_service_qogirl6.overlay,android.unisoc.core.wifi_display.overlay,android.unisoc.display_doze.overlay,android.unisoc.display_vrr.overlay,android.unisoc.navbar.overlay,android.unisoc.phone_core.overlay,android.unisoc.power_qogirl6.overlay,com.aigallery.videoeditor,com.android.apps.tag,com.android.avatarpicker,com.android.backupconfirm,com.android.bips,com.android.bluetooth,com.android.bluetoothmidiservice,com.android.bookmarkprovider,com.android.calllogbackup,com.android.cameraextensions,com.android.carrierconfig,com.android.carrierdefaultapp,com.android.cellbroadcast.overlay,com.android.cellbroadcastreceiver,com.android.certinstaller,com.android.chrome,com.android.companiondevicemanager,com.android.compos.payload,com.android.connectivity.resources.overlay,com.android.credentialmanager,com.android.cts.ctsshim,com.android.cts.priv.ctsshim,com.android.customization.themes,com.android.DeviceAsWebcam,com.android.devicediagnostics,com.android.dreams.basic,com.android.dynsystem,com.android.egg,com.android.emergency,com.android.externalstorage,com.android.hotwordenrollment.okgoogle,com.android.hotwordenrollment.okgoogle.overlay,com.android.hotwordenrollment.xgoogle,com.android.hotwordenrollment.xgoogle.overlay,com.android.htmlviewer,com.android.imsserviceentitlement,com.android.inputdevices,com.android.intentresolver,com.android.internal.display.cutout.emulation.corner,com.android.internal.display.cutout.emulation.double,com.android.internal.display.cutout.emulation.hole,com.android.internal.display.cutout.emulation.tall,com.android.internal.display.cutout.emulation.waterfall,com.android.internal.systemui.navbar.gestural,com.android.internal.systemui.navbar.threebutton,com.android.internal.systemui.navbar.transparent,com.android.keychain,com.android.localtransport,com.android.location.fused,com.android.managedprovisioning,com.android.microdroid.empty_payload,com.android.mms.service,com.android.mtp,com.android.musicfx,com.android.networkstack.overlay,com.android.networkstack.tethering.inprocess.overlay,com.android.networkstack.tethering.overlay,com.android.nfc,com.android.ons,com.android.overlay.wallpaperconfig,com.android.pacprocessor,com.android.phone,com.android.phone.auto_generated_rro_product__,com.android.phone.injection,com.android.printspooler,com.android.providers.blockednumber,com.android.providers.calendar,com.android.providers.contactkeys,com.android.providers.contacts,com.android.providers.downloads,com.android.providers.downloads.ui,com.android.providers.media,com.android.providers.partnerbookmarks,com.android.providers.settings,com.android.providers.settings.auto_generated_rro_product__,com.android.providers.settings.overlay,com.android.providers.telephony,com.android.providers.userdictionary,com.android.proxyhandler,com.android.role.notes.enabled,com.android.se,com.android.server.telecom,com.android.server.telecom.auto_generated_rro_product__,com.android.settings,com.android.settings.intelligence,com.android.settings.resoverlay,com.android.settings.resoverlay.gms.odad,com.android.sharedstoragebackup,com.android.shell,com.android.simappdialog,com.android.soundpicker,com.android.stk,com.android.storagemanager,com.android.systemui,com.android.systemui.accessibility.accessibilitymenu,com.android.systemui.os.overlay,com.android.systemui.signal.overlay,com.android.theme.font.notoserifsource,com.android.traceur,com.android.unisoc.phone.overlay,com.android.unisoc.phone_hac.overlay,com.android.unisoc.telephony.server,com.android.vending,com.android.virtualmachine.res,com.android.vpndialogs,com.android.wallpaper,com.android.wallpaper.livepicker,com.android.wallpaperbackup,com.android.wallpapercropper,com.android.wallpaperpicker,com.android.wifi.mainline.resources.overlay,com.android.wifi.resources.overlay,com.android.wifi.resources.uni_marlin3,com.android.wifi.resources.uni_marlin3.mainline,com.android.wifi.system.mainline.resources.overlay,com.android.wifi.system.resources.overlay,com.android.wifi.uniresources.marlin3,com.debug.loggerui,com.facebook.appmanager,com.facebook.katana,com.facebook.lite,com.facebook.services,com.facebook.system,com.funbase.xradio,com.gallery20,com.geniex.vsimhelper,com.goodix.gftest,com.hilauncherconfig,com.hoffnung,com.hoffnung.mobile.service,com.idea.questionnaire,com.imaging.aiengine,com.infinix.xpark,com.mediatek,com.mediatek.atmwifimeta,com.mediatek.batterywarning,com.mediatek.capctrl.service,com.mediatek.cellbroadcastuiresoverlay,com.mediatek.datachannel.service,com.mediatek.engineermode,com.mediatek.frameworkresoverlay,com.mediatek.FrameworkResOverlayExt,com.mediatek.gbaservice,com.mediatek.gnss.nonframeworklbs,com.mediatek.ims,com.mediatek.location.lppe.main,com.mediatek.location.mtkgeofence,com.mediatek.magtapp,com.mediatek.mdmconfig,com.mediatek.mdmlsample,com.mediatek.mt6878.gamedriver,com.mediatek.mt6897.gamedriver,com.mediatek.MtkSettingsResOverlay,com.mediatek.MtkTelephonyServiceResOverlay,com.mediatek.networkstack.gooverlay,com.mediatek.networkstack.inprocess.overlay,com.mediatek.networkstack.nongooverlay,com.mediatek.networkstack.overlay,com.mediatek.networkstack.tethering.googleoverlay,com.mediatek.networkstack.tethering.overlay,com.mediatek.omacp,com.mediatek.schpwronoff,com.mediatek.SettingsProviderResOverlay,com.mediatek.simprocessor,com.mediatek.smartratswitch.service,com.mediatek.systemuiresoverlay,com.mediatek.systemupdate,com.mediatek.telephony,com.mediatek.voicecommand,com.mediatek.voiceunlock,com.mediatek.ygps,com.mtk.telephony,com.rlk.weathers,com.scorpio.securitycom,com.sh.smart.caller,com.silead.factorytest,com.silead.fingerprint,com.smartlife.nebula,com.sprd.cameracalibration,com.sprd.camta,com.sprd.engineermode,com.sprd.flashcontrol,com.sprd.linkturbo,com.sprd.logmanager,com.sprd.omacp,com.sprd.powersavemodelauncher,com.sprd.providers.photos,com.sprd.uasetting,com.sprd.validationtools,com.spreadtrum.ims,com.spreadtrum.proxy.nfwlocation,com.spreadtrum.sgps,com.swfp.factory,com.talpa.hibrowser,com.talpa.hiservice,com.tencent.soter.soterserver,com.theme.icondefaultshape,com.transsion,com.transsion.aftersalecalibrationtool,com.transsion.agingfunction,com.transsion.aiassistantlifestyle,com.transsion.aichargeprovider,com.transsion.aicore.cv,com.transsion.aicore.cv.matting,com.transsion.aicore.cvie,com.transsion.aicore.llm,com.transsion.aicore.main,com.transsion.aicore.matting,com.transsion.aicore.ocr,com.transsion.aicore.speech,com.transsion.aicoreservice,com.transsion.aipaint.server,com.transsion.airtransfer,com.transsion.aisettings,com.transsion.aisupportercore,com.transsion.aivana,com.transsion.aivoiceassistant,com.transsion.aiwallpaper,com.transsion.aiwriting,com.transsion.android.os.fw,com.transsion.antipeep,com.transsion.antitheft,com.transsion.aod,com.transsion.aogservice,com.transsion.App4ManagerLark,com.transsion.applock,com.transsion.appturbo,com.transsion.appupdate,com.transsion.audiocutter,com.transsion.audioshare,com.transsion.audiosmartconnect,com.transsion.auto,com.transsion.avatar,com.transsion.batterylab,com.transsion.batterylab.icon,com.transsion.beez,com.transsion.beezedit,com.transsion.bookmarks,com.transsion.calculator,com.transsion.calendar,com.transsion.camera,com.transsion.camera.auto_generated_rro_product__,com.transsion.camerademo,com.transsion.carlcare,com.transsion.charginganimation,com.transsion.childmode,com.transsion.childmode.resoverlay,com.transsion.chromecustomization,com.transsion.cloudserver,com.transsion.compass,com.transsion.composelib,com.transsion.connectx.mirror.source,com.transsion.cutepet,com.transsion.datatransfer,com.transsion.demomode,com.transsion.desimu,com.transsion.deskclock,com.transsion.device.query,com.transsion.dirac,com.transsion.dtsaudio,com.transsion.dualapp,com.transsion.dynamicbar,com.transsion.dynamicbar.overlay,com.transsion.easypic,com.transsion.ella,com.transsion.faceid,com.transsion.filemanager,com.transsion.filemanagerx,com.transsion.filpmusic,com.transsion.fmradio,com.transsion.folax,com.transsion.gallery.edit,com.transsion.gallery3d,com.transsion.gamemode.activity.MainSettingsActivity,com.transsion.gamespace,com.transsion.gamespace.app,com.transsion.globalsearch,com.transsion.hamal,com.transsion.health,com.transsion.healthlife,com.transsion.hilauncher,com.transsion.hilauncher.upgrade,com.transsion.hilauncher:newWebView,com.transsion.hilauncherconfig,com.transsion.hiparty,com.transsion.hoffnung,com.transsion.im,com.transsion.inearmonitor,com.transsion.infinix.xmall.eg,com.transsion.intercom,com.transsion.iotcard,com.transsion.iotservice,com.transsion.iotservice.tws,com.transsion.ir,com.transsion.irremote,com.transsion.ivoice,com.transsion.keyguardclock,com.transsion.keyguardtheme,com.transsion.kolun.aiservice,com.transsion.kolun.aiservice1,com.transsion.kolun.assistant,com.transsion.letswitch,com.transsion.livecaption,com.transsion.livewallpaper,com.transsion.livewallpaper.camon30,com.transsion.livewallpaper.colorart,com.transsion.livewallpaper.ctime,com.transsion.livewallpaper.doodle,com.transsion.livewallpaper.fantasy,com.transsion.livewallpaper.freefire,com.transsion.livewallpaper.geometry,com.transsion.livewallpaper.magictouch,com.transsion.livewallpaper.mecha,com.transsion.livewallpaper.metaengine,com.transsion.livewallpaper.micro,com.transsion.livewallpaper.mondrian,com.transsion.livewallpaper.npower,com.transsion.livewallpaper.outline,com.transsion.livewallpaper.outlineGreen,com.transsion.livewallpaper.outlineOrange,com.transsion.livewallpaper.page,com.transsion.livewallpaper.pictorial,com.transsion.livewallpaper.planet,com.transsion.livewallpaper.saibo,com.transsion.livewallpaper.saiboLight,com.transsion.livewallpaper.smart,com.transsion.livewallpaper.theme,com.transsion.livewallpaper.time,com.transsion.livewallpaper.vitality,com.transsion.livewallpaper.vitalityPro,com.transsion.livewallpaper.vivid,com.transsion.livewallpaper.volcano,com.transsion.livewallpaper.wakeup_mirror,com.transsion.livewallpaper.ztime,com.transsion.locallocation,com.transsion.magazineservice,com.transsion.magazineservice.hios,com.transsion.magazineservice.hioslite,com.transsion.magazineservice.itel,com.transsion.magazineservice.xos,com.transsion.magazineservice.xoslite,com.transsion.magicfont,com.transsion.magicmovie,com.transsion.magicshow,com.transsion.manualguide,com.transsion.mediapipefilters,com.transsion.microintelligence,com.transsion.mobilecloner,com.transsion.mol,com.transsion.multiwindow,com.transsion.necessity,com.transsion.nephilim,com.transsion.net.wifi,com.transsion.notebook,com.transsion.onekeytransfer,com.transsion.operatorassistant,com.transsion.oraimohealth,com.transsion.oraimosound,com.transsion.os.typeface,com.transsion.ossettingsext,com.transsion.overlay.aivoiceassistant,com.transsion.overlaysuw,com.transsion.overlaysuw.resoverlay,com.transsion.pcconnect,com.transsion.permissionprotect,com.transsion.personalizedService.hios,com.transsion.phonemanager,com.transsion.phonemaster,com.transsion.plat.appupdate,com.transsion.powercenter,com.transsion.powerdata,com.transsion.qsmedialib,com.transsion.quicktools,com.transsion.repaircard,com.transsion.resolver,com.transsion.rilemanagerx,com.transsion.scanningrecharger,com.transsion.screencapture,com.transsion.screenrecorder,com.transsion.screenshot,com.transsion.screenshothelper,com.transsion.secondaryhome,com.transsion.security,com.transsion.settings.bluetooth,com.transsion.settings.flexbutton,com.transsion.settings.nfc,com.transsion.settings.wifi,com.transsion.setup,com.transsion.sk,com.transsion.smartmessage,com.transsion.smartmessagepro,com.transsion.smartpanel,com.transsion.smartrecognition,com.transsion.socialturbo,com.transsion.soundrecorder,com.transsion.spacesaversdk,com.transsion.spl,com.transsion.spld,com.transsion.sru,com.transsion.standby,com.transsion.statisticalsales,com.transsion.stylus,com.transsion.subtorch,com.transsion.succ,com.transsion.switchwallpaper,com.transsion.systemupdate,com.transsion.tabe,com.transsion.tby.production,com.transsion.tecnospot,com.transsion.tele.settings,com.transsion.tempo,com.transsion.teop,com.transsion.testpermission,com.transsion.theme,com.transsion.theme.icon,com.transsion.thub.res,com.transsion.thub.res.auto_generated_rro_product__,com.transsion.thunderback,com.transsion.tips,com.transsion.tota,com.transsion.tower,com.transsion.trancare,com.transsion.tranengine,com.transsion.tranfacmode,com.transsion.tranfansfeedback,com.transsion.tranhall,com.transsion.tranlogrecovery,com.transsion.tranradionet,com.transsion.translink,com.transsion.transyscheck,com.transsion.tranteletools,com.transsion.tranvoicecommand,com.transsion.trproduct.overlaysuw.resoverlay,com.transsion.trproductframeworkresoverlay,com.transsion.tsdsmartcomm,com.transsion.uxdetector,com.transsion.vbook,com.transsion.videocallenhancer,com.transsion.videoplayer,com.transsion.vishaplayerhd,com.transsion.walauncher,com.transsion.waterfallscreen,com.transsion.weathers,com.transsion.wezone,com.transsion.wezone.fivegen,com.transsion.wifiplaytogether,com.transsion.xfeedback,com.transsion.XOSLauncher,com.transsion.XOSLauncher.upgrade,com.transsion.zahooc,com.transsion.zeroeink,com.transsnet.easybuy,com.transsnet.kolerphone,com.transsnet.palmpartner,com.transsnet.palmpromoter,com.transsnet.store,com.transson.resolver,com.trassion.aegis,com.trassion.infinix.xclub,com.trassion.infinix.xmall,com.trustonic.teeservice,com.unisoc,com.unisoc.android.wifi,com.unisoc.color_display.overlay,com.unisoc.connectivity.resources.overlay.go,com.unisoc.connectivity.resources.overlay.gsi,com.unisoc.enginecore,com.unisoc.phone,com.unisoc.power_qogirl6.overlay,com.unisoc.silent.reboot,com.unisoc.tui,com.verizon.remoteSimlock,com.westalgo.factorycamera,com.xui.xhide,com.zaz.translate,media.extractor,net.bat.store,org.adam.toss,org.ifaa.aidl.manager,se.dirac.acs,tech.palm.find,tech.palm.id"
+    }
+}

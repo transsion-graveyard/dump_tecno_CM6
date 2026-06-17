@@ -1,0 +1,9 @@
+service tran_file /system_ext/bin/init.tran_file.sh ${tran_file.init}
+    class main
+    user root
+    group root shell system radio sdcard_rw inet sdcard_r media_rw log
+    oneshot
+    disabled
+
+on property:tran_file.init=*
+    start tran_file

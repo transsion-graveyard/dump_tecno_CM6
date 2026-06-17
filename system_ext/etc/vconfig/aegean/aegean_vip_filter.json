@@ -1,0 +1,189 @@
+{
+  "ver": 2,
+  "ver_seq": 2025072901,
+  "kyt_max_num": 8,
+  "kyt_dyn_max_num": 2,
+  "proc_assoc": [],
+  "dyn_def_on": false,
+  "st_def_on": false,
+  "st_def_comm": [],
+  "kyt_dyn_ex": [
+    "RenderThread",
+    "mali-cpu-comman",
+    "mali-event-hand",
+    "mali-cmar-backe",
+    "hwuiTask",
+    "UxRenderAllocBu",
+    "hwuiTask0",
+    "hwuiTask1"
+  ],
+  "key_thread": [
+    {
+      "proc_n": "com.ss.android.lark.transsion",
+      "s_comm": ["VizWebView", "Chrome_IOThread", "lk-ssc-lk-chat-"]
+    },
+    {
+      "proc_n": "com.android.chrome",
+      "s_comm": ["Chrome_IOThread"]
+    },
+    {
+      "proc_n": "com.android.chrome:privileged",
+      "sub_proc": true,
+      "fuzzy": true,
+      "s_comm": ["VizCompositorTh","CrGpuMain","CompositorGpuTh"]
+    },
+    {
+      "proc_n": "com.android.chrome:sandboxed_process",
+      "sub_proc": true,
+      "fuzzy": true,
+      "s_comm": ["VizCompositorTh", "CrRendererMain", "Chrome_ChildIOT", "Compositor"]
+    },
+    {
+      "proc_n": "com.tencent.mm",
+      "s_comm": ["[GT]CameraKit-G"]
+    },
+    {
+      "proc_n": "media.swcodec",
+      "s_comm": [".vorbis.decoder"]
+    },
+    {
+      "proc_n": "com.tencent.mm:xweb_privileged_process_0",
+      "sub_proc": true,
+      "fuzzy": true,
+      "s_comm": ["VizCompositorTh","CrGpuMain","Chrome_ChildIOT"]
+    },
+    {
+      "proc_n": "com.tencent.mm:xweb_sandboxed_process_0",
+      "sub_proc": true,
+      "fuzzy": true,
+      "s_comm": ["Compositor","CrRendererMain"]
+    },
+    {
+      "proc_n": "com.ss.android.ugc.aweme",
+      "s_comm": ["RecEncoderRende","RecMainRender-0","TECameraServer"]
+    },
+    {
+      "proc_n": "com.mobile.legends:UnityKillsMe",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW","UnityChoreograp"],
+      "dyn_on": true,
+      "dyn_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.dts.freefireth",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"],
+      "dyn_on": true,
+      "dyn_max_num": 4,
+      "dyn_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.tencent.ig",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UEGameThread", "RHIThread","TaskGraphNP"],
+      "sp_s_comm": ["^RenderThread\\s"],
+      "dyn_on": true,
+      "dyn_max_num": 4,
+      "dyn_comm": ["UEGameThread","mali-cpu-comman"]
+    },
+    {
+      "proc_n": "com.dts.freefiremax",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.mobiin.gp",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW","UnityChoreograp"]
+    },
+    {
+      "proc_n": "com.levelinfinite.sgameGlobal",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.levelinfinite.sgameGlobal.midaspay",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.levelinfinite.sgameGlobalESports",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.activision.callofduty.shooter",
+      "s_comm": ["UnityGfxDeviceW", "UnityMain", "Worker"]
+    },
+    {
+      "proc_n": "com.garena.game.df",
+      "flag": "uias3KytEnable",
+      "s_comm": ["GameThread","RenderThread","TaskGraphNP"]
+    },
+    {
+      "proc_n": "com.tencent.tmgp.dfm",
+      "flag": "uias3KytEnable",
+      "s_comm": ["GameThread","RenderThread","TaskGraphNP"]
+    },
+    {
+      "proc_n": "com.proxima.dfm",
+      "flag": "uias3KytEnable",
+      "s_comm": ["GameThread","RenderThread","TaskGraphNP"]
+    },
+    {
+      "proc_n": "eu.nordeus.topeleven.android",
+      "s_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.miHoYo.hkrpg",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityGfxDeviceW", "UnityMain"]
+    },
+    {
+      "proc_n": "com.HoYoverse.hkrpgoversea",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityGfxDeviceW", "UnityMain"]
+    },
+    {
+      "proc_n": "com.miHoYo.GenshinImpact",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW","UnityMultiRende"],
+      "sp_s_comm": ["^RenderThread\\s"],
+      "dyn_on": true,
+      "dyn_max_num": 4,
+      "dyn_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.miHoYo.Yuanshen",
+      "flag": "uias3KytEnable",
+      "s_comm": ["UnityMain","UnityGfxDeviceW","UnityMultiRende"],
+      "sp_s_comm": ["^RenderThread\\s"],
+      "dyn_on": true,
+      "dyn_max_num": 4,
+      "dyn_comm": ["UnityMain","UnityGfxDeviceW"]
+    },
+    {
+      "proc_n": "com.miHoYo.ys.bilibili",
+      "s_comm": ["UnityMain","UnityGfxDeviceW","UnityMultiRende"]
+    },
+    {
+      "proc_n": "com.instagram.android",
+      "s_comm": ["Lite-SurfacePip","ComponentLayout"]
+    },
+    {
+      "proc_n": "com.xingin.xhs",
+      "s_comm": ["JNISurfaceTextu", "CameraHanThread", "ZeusRender"]
+    },
+    {
+      "proc_n": "com.google.android.youtube",
+      "s_comm": ["ComponentLayout"]
+    }
+  ],
+  "mark_assoc": [
+    {
+      "tag": "ll.splashscreen",
+      "name": "com.android.systemui",
+      "s_comm": ["RenderThread","ll.splashscreen","ll.splashworker","wmshell.main"]
+    }
+  ]
+}

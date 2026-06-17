@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:modify for XH2-5920 by guangshuai.cheng 2023.07.26 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:modify for XH2-5920 by guangshuai.cheng 2023.07.26 end -->
+    <!-- 0 is SERVICE_CLASS_NONE -->
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <string-array name="carrier_certificate_string_array" num="2">
+      <item value="b67affcda89e3193b1595036d7c6cdbe22be5ca24c9f6cf93fc6b48f91d7310d:com.orange.phone,pl.orange.mojeorange,com.orange.update"/>
+      <item value="b71c30c980ee10e1c53fe17f21323d4a518f1bffcc2917df26a9098364aa9b26:com.orange.rn.dop"/>
+    </string-array>
+    <string name="config_plans_package_override_string">pl.orange.mojeorange</string>
+    <!-- TDD:add XH2-5918 for spn vowifi name format by yunhua.hu 2023.07.25 start -->
+    <int name="wfc_spn_format_idx_int" value="9"/>
+    <!-- TDD:add XH2-5918 for spn vowifi name format by yunhua.hu 2023.07.25 end -->
+    <!-- TDD:add for Orange WFC requirement by guangshuai.cheng 2023.08.22 start -->
+    <boolean name="wfc_show_dialog_for_orange" value="true"/>
+    <!-- TDD:add for Orange WFC requirement by guangshuai.cheng 2023.08.22 end -->
+    <!--TDD:add for XH2-6079 by guangshuai.cheng 2023.09.12 start -->
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!--TDD:add for XH2-6079 by guangshuai.cheng 2023.09.12 end -->
+    <!-- TDD: modify for LI9H335-4339 by zhezhi.liu 20240731 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD: modify for LI9H335-4339 by zhezhi.liu 20240731 end -->
+    <!-- TDD: modify for LI9H335-4360 by liulei 20240806 start -->
+    <string-array name="carrier_metered_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+   <!-- TDD: modify for LI9H335-4360 by liulei 20240806 end -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!-- add for polad  show LTE/LTE+  20251103 start-->
+    <boolean name="show_4glte_for_lte_data_icon_bool" value="false"/>
+    <boolean name="hide_lte_plus_data_icon_bool" value="false"/>
+    <!-- add for polad  show LTE/LTE+  20251103 end-->
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 end-->
+</carrier_config>

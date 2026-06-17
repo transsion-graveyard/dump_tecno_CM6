@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string-array name="non_roaming_operator_string_array" num="3">
+        <item value="74000"/>
+        <item value="74001"/>
+        <item value="740010"/>
+    </string-array>
+    <!-- TDD:add CHLSCOH-152 for hide 4g calling menu by guangshuai.cheng 2022.08.19 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="false"/>
+    <!-- TDD:add CHLSCOH-152 for hide 4g calling menu by guangshuai.cheng 2022.08.19 start -->
+    <!-- TDD:add for LQYQFE-4683 by pei.zhou 20230322 start -->
+    <boolean name="voicemail_notification_persistent_bool" value="true"/>
+    <!-- TDD:add for LQYQFE-4683 by pei.zhou 20230322 end -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+</carrier_config>

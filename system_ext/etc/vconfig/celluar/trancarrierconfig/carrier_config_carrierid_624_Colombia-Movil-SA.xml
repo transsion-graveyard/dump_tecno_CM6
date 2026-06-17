@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!-- TDD:add for default enable data roaming by guangshuai.cheng 2022.08.24 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add for default enable data roaming by guangshuai.cheng 2022.08.24 end -->
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false"/>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 end -->
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 end -->
+    <!-- TDD:add for CK9NH933U-8235 by gaoming.luo 2024.04.30 start -->
+    <boolean name="enable_network_2G_only" value="false"/>
+    <!-- TDD:add for CK9NH933U-8235 by gaoming.luo 2024.04.30 end -->
+    <!--TDD: add for XLBADEH-1152 by jie.wang15 2024.10.30 start-->
+    <boolean name="tran_remove_network_2G_only" value="true"/>
+    <!--TDD: add for XLBADEH-1152 by jie.wang15 2024.10.30 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for TOS1501-68479 by liulei 20250303 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for TOS1501-68479 by liulei 20250303 end -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+</carrier_config>

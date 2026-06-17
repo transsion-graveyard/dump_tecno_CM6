@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!-- TDD: add spn override by yunhun.hu for CL9H961-6181 20231218 start -->
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <string name="carrier_name_string">Mobily</string>
+    <!-- TDD: add spn override by yunhua.hu for CL9H961-6181 20231218 end -->
+    <!--TDD: add CL9H961-6179 for disable vowifi when apm by yong.chen1 20231225 start-->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <!--TDD: add CL9H961-6179 for disable vowifi when apm by yong.chen1 20231225 end-->
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true" />
+</carrier_config>

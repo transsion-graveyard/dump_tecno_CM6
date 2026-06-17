@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: add for TOS1610-4965 by renyan.pu 20250820 start-->
+    <boolean name="enable_network_2G_only" value="false" />
+    <!--TDD: add for TOS1610-4965 by renyan.pu 20250820 end-->
+    <!--TDD:Add by xuejian.fu Venezuela Digitel IMS 20250813 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:Add by xuejian.fu Venezuela Digitel IMS 20250813 end-->
+</carrier_config>

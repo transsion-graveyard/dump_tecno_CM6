@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!-- TDD:add InCallUI ViLTE key for XLBEQHBYE-1466 by wanbao.xue 2022.09.08 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for XLBEQHBYE-1466 by wanbao.xue 2022.08.08 end -->
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 start -->
+    <boolean name="enable_network_3G_only" value="false"/>
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 end -->
+    <!-- TDD:add Maxies video ss for LHBHJQ-449 by xiaochao.wang 2023.12.13 start -->
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <!-- TDD:add Maxies video ss for LHBHJQ-449 by xiaochao.wang 2023.12.13 end -->
+    <string name="carrier_name_string">Maxis</string>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for KL4F201-2154 by zhezhi.liu 20240715 start-->
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <!--TDD:add for KL4F201-2154 by zhezhi.liu 20240715 end-->
+    <!-- TDD: add  by chunyan.tang for KL4F201-2195 20240716 start -->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!-- TDD: add  by chunyan.tang for KL4F201-2195 20240716 end -->
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 start -->
+    <boolean name="vonr_enabled_bool" value="true"/>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 end -->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

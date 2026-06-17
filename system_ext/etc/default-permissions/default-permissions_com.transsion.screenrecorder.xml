@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.screenrecorder">
+        <permission name="android.permission.RECORD_AUDIO"/>
+    </exception>
+</exceptions>

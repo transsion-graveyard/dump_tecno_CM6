@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+
+    <!--TDD:add reason X6878OS16-6772 by yao.xiao5 20251218 start-->
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!--TDD:add reason X6878OS16-6772 by yao.xiao5 20251218 end-->
+</carrier_config>

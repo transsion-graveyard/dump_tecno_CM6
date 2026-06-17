@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: modify  CMSFTASK-359 by pei.zhou 20220507 start-->
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <!--TDD: modify  CMSFTASK-359 by pei.zhou 20220507 end-->
+    <!-- TSD:add LEQHLJQ-1684 for Indonesia ViLTE data off requirement by yilong.zhao 2022.07.06 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TSD:add LEQHLJQ-1684 for Indonesia ViLTE data off requirement by yilong.zhao 2022.07.06 end -->
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 start-->
+    <boolean name="carrier_config_ussd_dialog_input_limit" value="true" />
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 end-->
+    <!--TDD: add XLQHVW-1880 for video conference call by haoxin.liao 20230612 start-->
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!--TDD: add XLQHVW-1880 for video conference call by haoxin.liao 20230612 start-->
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="false"/>
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 end-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="tran_not_override_self_operator_name" value="true"/>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="51010#simspn"/>
+    </string-array>
+    <boolean name="numeric_to_operator_bool" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+    <!--TDD:add for OS162-19177 by renyan.pu 20260115 start-->
+    <boolean name="tran_tdd_force_display_plmn_only" value="true"/>
+    <!--TDD:add for OS162-19177 by renyan.pu 20260115 end-->
+</carrier_config>

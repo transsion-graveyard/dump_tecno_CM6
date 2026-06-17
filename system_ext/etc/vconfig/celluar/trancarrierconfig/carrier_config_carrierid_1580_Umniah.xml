@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: update VOWIFI option should be off by zhezhi.liu 20240515 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
+    <!--TDD: update VOWIFI option should be off by zhezhi.liu 20240515 end-->
+    <!--TDD: add ADYYHJ-7610 for Umniah cell prefer by xuejian.fu 20231207 star-->
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <!--TDD: add ADYYHJ-7610 for Umniah cell prefer by xuejian.fu 20231207 end-->
+    <!--TDD:add for X6850H895-5121 by yunhua.hu 20240221 start -->
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <string name="carrier_name_string">Umniah</string>
+    <!--TDD:add for X6850H895-5121 by yunhua.hu 20240221 end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD:add by xuejian.fu 20250814 Jordan Vilte start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:add by xuejian.fu 20250814 Jordan Vilte end -->
+    <!--TDD:add by meijuan.ma 20251103 follow network spn start -->
+    <boolean name="tran_tdd_lookup_operator_name2_skip" value="true" />
+    <boolean name="tran_tdd_force_display_plmn_only" value="true" />
+    <!--TDD:add by meijuan.ma 20251103 follow network spn end -->
+</carrier_config>

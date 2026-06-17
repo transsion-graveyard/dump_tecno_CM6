@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="allow_video_call_in_low_battery" value="true" />
+    </carrier_config>
+    <carrier_config cid="2018">
+        <!--TDD:add for X6878OS16-3244 by gaoming.luo 20251031 start -->
+        <boolean name="prefer_3g_visibility_bool" value="false" />
+        <boolean name="prefer_2g_bool" value="false" />
+        <!--TDD:add for X6878OS16-3244 by gaoming.luo 20251031 end -->
+    </carrier_config>
+    <carrier_config cid="1997">
+        <!--TDD:add for X6878OS16-3477 by gaoming.luo 20251104 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <!--TDD:add for X6878OS16-3477 by gaoming.luo 20251104 end -->
+    </carrier_config>
+    <carrier_config cid="1377">
+        <!--TDD:add for X6878OS16-3794 for disable bscode of cb by kechun.li 20251112 start-->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for X6878OS16-3794 for disable bscode of cb by kechun.li 20251112 end-->
+    </carrier_config>
+    <carrier_config cid="2115">
+        <!--TDD:add for X6878OS16-3702 for disable bscode of cb by xiaohui.song 20251111 start-->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for X6878OS16-3702 for disable bscode of cb by xiaohui.song 20251111 end-->
+    </carrier_config>
+    <carrier_config cid="1913">
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251127 start -->
+        <boolean name="clir_enabled_bool" value="false" />
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251127 end -->
+    </carrier_config>
+    <carrier_config cid="1628">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1630">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1632">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1633">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1662">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="2017">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="2038">
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 start -->
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+        <!--TDD:add for TOS1610-58384 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1920">
+        <!--TDD:add for TOS1610-59104 for disable bscode of cb by gaoming.luo 20251204 start-->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for TOS1610-59104 for disable bscode of cb by gaoming.luo 20251204 end-->
+    </carrier_config>
+    <carrier_config cid="1921">
+        <!--TDD:add for TOS1610-59104 for disable bscode of cb by gaoming.luo 20251204 start-->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for TOS1610-59104 for disable bscode of cb by gaoming.luo 20251204 end-->
+    </carrier_config>
+    <carrier_config cid="1745">
+        <!--TDD:add for TOS1610-61317 by gaoming.luo 20251201 start -->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for TOS1610-61317 by gaoming.luo 20251201 end -->
+    </carrier_config>
+    <carrier_config cid="1435">
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="call_barring_enabled_bool" value="false" />
+        <boolean name="allow_one_video_call_only_bool" value="true" />
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 end -->
+    </carrier_config>
+    <carrier_config cid="1436">
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="call_barring_enabled_bool" value="false" />
+        <boolean name="allow_one_video_call_only_bool" value="true" />
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 end -->
+    </carrier_config>
+    <carrier_config cid="2237">
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="call_barring_enabled_bool" value="false" />
+        <boolean name="allow_one_video_call_only_bool" value="true" />
+        <!-- TDD: TDD: add for X6878OS16-7026 by gaoming.luo 20251215 end -->
+    </carrier_config>
+    <carrier_config cid="962">
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251217 start -->
+        <boolean name="clir_enabled_bool" value="false" />
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251217 end -->
+        <!-- TDD: TDD: add for TOS1610-65332 by gaoming.luo 20251217 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <!-- TDD: TDD: add for TOS1610-65332 by gaoming.luo 20251217 start -->
+    </carrier_config>
+    <carrier_config cid="1923">
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251217 start -->
+        <boolean name="clir_enabled_bool" value="false" />
+        <!-- TDD: TDD: add for TOS1610-51229 by gaoming.luo 20251217 end -->
+    </carrier_config>
+    <carrier_config cid="1969">
+        <!-- TDD: TDD: add for X6878OS16-3219 by gaoming.luo 20251218 start -->
+        <boolean name="call_barring_enabled_bool" value="false" />
+        <!-- TDD: TDD: add for X6878OS16-3219 by gaoming.luo 20251218 end -->
+    </carrier_config>
+    <carrier_config cid="1012">
+        <!--TDD:add for TOS1610-67400 by gaoming.luo 20251223 start -->
+        <boolean name="config_hide_vt_callforward_option" value="true" />
+        <!--TDD:add for TOS1610-67400 by gaoming.luo 20251223 end -->
+    </carrier_config>
+    <carrier_config cid="1675">
+        <!-- TDD: TDD: add for X6878OS16-7719 by gaoming.luo 20251226 start -->
+        <boolean name="clir_enabled_bool" value="false" />
+        <!-- TDD: TDD: add for X6878OS16-7719 by gaoming.luo 20251226 end -->
+    </carrier_config>
+    <carrier_config cid="904">
+        <!--TDD:add for X6878OS16-8262 by gaoming.luo 20260104 start -->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for X6878OS16-8262 by gaoming.luo 20260104 end -->
+    </carrier_config>
+    <carrier_config cid="1511">
+        <!--TDD:add for X6878OS16-8304 by gaoming.luo 20260104 start -->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for X6878OS16-8304 by gaoming.luo 20260104 end -->
+    </carrier_config>
+    <carrier_config cid="1356">
+        <!-- TDD: TDD: add for TOS1610-69342 by hui.wang8 20260104 start -->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <!-- TDD: TDD: add for TOS1610-69342 by hui.wang8 20260104 end -->
+    </carrier_config>
+    <carrier_config cid="1512">
+        <!-- TDD: TDD: add for X6878OS16-8275 by hui.wang8 20260102 start -->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <!-- TDD: TDD: add for X6878OS16-8275 by hui.wang8 20260102 end -->
+    </carrier_config>
+        <carrier_config cid="1354">
+        <!-- TDD: TDD: add for X6878OS16-8598 by hui.wang8 20260112 start -->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <!-- TDD: TDD: add for X6878OS16-8598 by hui.wang8 20260112 end -->
+    </carrier_config>
+    <carrier_config cid="495">
+        <!-- TDD: TDD: add for X6878OS16-8597 by hui.wang8 20260112 start -->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <!-- TDD: TDD: add for X6878OS16-8597 by hui.wang8 20260112 end -->
+    </carrier_config>
+    <carrier_config cid="1947">
+        <!--TDD:add for X6878OS16-8643 by yue.hu6 20260113 start -->
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <!--TDD:add for X6878OS16-8643 by yue.hu6 20260113 end -->
+    </carrier_config>
+</carrier_config_list>

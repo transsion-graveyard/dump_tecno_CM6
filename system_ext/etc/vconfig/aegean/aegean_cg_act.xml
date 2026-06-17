@@ -1,0 +1,12 @@
+<aegean_act>
+    <pause time="2025102301" version="1.0">
+        <package name="com.ss.android.lark.transsion">
+            <activity name="all" policy="fgl" />
+        </package>
+    </pause>
+    <top time="2025123001" version="1.0">
+        <package name="com.opera.app.news">
+            <activity name="all" policy="ta" />
+        </package>
+    </top>
+</aegean_act>

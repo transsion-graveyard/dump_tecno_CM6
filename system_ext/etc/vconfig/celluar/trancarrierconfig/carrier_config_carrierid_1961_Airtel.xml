@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <string name="carrier_name_string">Airtel</string>
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 end -->
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_not_support_xcap" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD:modify for XLBYWCHQQE-2464 by guangshuai.cheng 2002.10.21 start -->
+    <int name="carrier_default_wfc_ims_mode_int" value="2" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
+    <!--TDD:modify for XLBYWCHQQE-2464 by guangshuai.cheng 2002.10.21 end -->
+    <boolean name="no_sip_message_on_pause_video_bool" value="true" />
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!-- TDD: hide Video call forwarding button by wenlin.xiao for LEBHQQY-1433 20210922 start -->
+    <boolean name="mtk_support_vt_ss_bool" value="false" />
+    <!-- TDD: hide Video call forwarding button by wenlin.xiao for LEBHQQY-1433 20210922 end -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <!-- Disable WFC registration when airplane mode  -->
+    <boolean name="wos_flight_mode_support_bool" value="false" />
+    <!--TDD: add for ADSHBSE-12795 by guangshuai.cheng 2022.09.01 start-->
+    <boolean name="use_wfc_home_network_mode_in_roaming_network_bool" value="true" />
+    <!--TDD: add for ADSHBSE-12795 by guangshuai.cheng 2022.09.01 end-->
+    <!--TDD: add for CL9H961-6246 by haoxin.liao 20231220 start -->
+    <boolean name="tran_tdd_force_display_plmn_only_when_domestic_roaming" value="true" />
+    <!--TDD: add for CL9H961-6246 by haoxin.liao 20231220 end -->
+    <!--TDD:add for CL9H961-10660 by yunhua.hu 2024.04.01 start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <!--TDD:add for CL9H961-10660 by yunhua.hu 2024.04.01 end -->
+    <!--TDD:add for A671NH353-407 by liulei 20241219 start -->
+    <boolean name="allowEditingSmscAddress" value="true" />
+    <!--TDD:add for A671NH353-407 by liulei 20241219 end -->
+    <int name="carrier_feature_play_rbt_type_int" value="1"/>
+    <boolean name="supports_video_callforward_bool" value="false"/>
+    <boolean name="key_support_set_ss_flag" value="true"/>
+    <boolean name="support_video_call_tx_rx_control" value="true"/>
+    <boolean name="stk_different_launch_browser_tr" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string-array name="non_roaming_operator_string_array" num="24">
+      <item value="40400"/>
+      <item value="40402"/>
+      <item value="40403"/>
+      <item value="40410"/>
+      <item value="40416"/>
+      <item value="40431"/>
+      <item value="40440"/>
+      <item value="40445"/>
+      <item value="40449"/>
+      <item value="40470"/>
+      <item value="40490"/>
+      <item value="40492"/>
+      <item value="40493"/>
+      <item value="40494"/>
+      <item value="40495"/>
+      <item value="40496"/>
+      <item value="40497"/>
+      <item value="40498"/>
+      <item value="40551"/>
+      <item value="40552"/>
+      <item value="40553"/>
+      <item value="40554"/>
+      <item value="40555"/>
+      <item value="40556"/>
+    </string-array>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 start -->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 end -->
+</carrier_config>

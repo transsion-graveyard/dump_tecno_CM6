@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string name="carrier_name_string">ITelecom</string>
+    <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+        <item value="45202#iTel"/>
+    </string-array>
+    <boolean name="tran_tsd_overlay_spn" value="false"/>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="45202#iTel"/>
+    </string-array>
+</carrier_config>

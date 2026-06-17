@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false"/>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 end -->
+    <!--TDD:add for KIQSHL-35 by zhimin.yang 20230208 start-->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="false"/>
+    <!--TDD:add for KIQSHL-35 by zhimin.yang 20230208 end-->
+    <!--TDD:add for KI7SV7510-310 by guangshuai.cheng 2023.04.26 start -->
+    <boolean name="carrier_wfc_ims_available_bool" value="false" />
+    <!--TDD:add for KI7SV7510-310 by guangshuai.cheng 2023.04.26 end -->
+    <!--TDD:add show icon for CMSFTASK-357 by guoyi.qu 2022.4.7 start-->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+    <!--TDD:add show icon for CMSFTASK-357 by guoyi.qu 2022.4.7 end-->
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 start -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 end -->
+    <!--TDD:add for Latin America Tigo by yeling 20250408 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for Latin America Tigo by yeling 20250408 end -->
+    <!--TDD:add for remove Bolivia Tigo Vilte by xuejian.fu 20250723 start -->
+    <boolean name="carrier_vt_available_bool" value="false"/>
+    <!--TDD:add for remove Bolivia Tigo Vilte by xuejian.fu 20250723 end -->
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*123</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+</carrier_config>

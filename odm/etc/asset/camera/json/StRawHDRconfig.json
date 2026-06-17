@@ -1,0 +1,19 @@
+{
+  "Sensors": [
+    {
+      "MaxSensorGain": 64,
+      "MaxIspGain": 16,
+      "IsUseTranBinSum": true
+    },
+    {
+      "MaxSensorGain": 64,
+      "MaxIspGain": 4,
+      "IsUseTranBinSum": true
+    },
+    {
+      "MaxSensorGain": 32,
+      "MaxIspGain": 16,
+      "IsUseTranBinSum": true
+    }
+  ]
+}

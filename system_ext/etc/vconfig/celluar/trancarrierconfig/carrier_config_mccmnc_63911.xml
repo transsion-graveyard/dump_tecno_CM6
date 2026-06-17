@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!-- TDD:add InCallUI ViLTE key for CL9H961-8101 by zhezhi.liu 2024.01.11 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for CL9H961-8101 by zhezhi.liu 2024.01.11 end -->
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

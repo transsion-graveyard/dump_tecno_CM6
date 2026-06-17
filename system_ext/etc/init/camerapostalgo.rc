@@ -1,0 +1,23 @@
+service taps_isphidl /system_ext/bin/hw/camerapostalgo
+    class main
+    user system
+    disabled
+    group camera input system media graphics sdcard_rw
+    seclabel u:r:taps_isphidl:s0
+    writepid /dev/cpuset/camera-daemon/tasks
+    restart_period 20
+
+service camerapostalgo_delay_start /system/bin/sleep 5
+    class main
+    user root
+    oneshot
+    disabled
+
+on property:init.svc.cameraserver=running && property:init.svc.camerahalserver=running && property:ro.vendor.soc.model=MT6789
+    start camerapostalgo_delay_start
+
+on property:init.svc.cameraserver=running && property:init.svc.camerahalserver=running && property:ro.vendor.soc.model=MT6858
+    start camerapostalgo_delay_start
+
+on property:init.svc.camerapostalgo_delay_start=stopped
+    start taps_isphidl

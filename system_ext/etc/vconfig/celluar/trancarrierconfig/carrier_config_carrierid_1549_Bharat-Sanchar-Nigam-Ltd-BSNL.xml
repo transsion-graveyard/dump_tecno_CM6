@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--<string-array name="roaming_operator_string_array" num="2">
+        <item value="404"/>
+        <item value="405"/>
+    </string-array>-->
+     <boolean name="no_merge_req_after_max_connection" value="true" />
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 end -->
+    <!-- TDD: add for CL7CL7KP-4094 by yunhua.hu 20240206 start -->
+    <boolean name="tran_tdd_force_display_plmn_only_when_domestic_roaming" value="true" />
+    <!-- TDD: add for CL7CL7KP-4094 by yunhua.hu 20240206 end -->
+    <!-- TDD: add for CL7CL7KP-4771 by guoyi.qu 20240327 start -->
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!-- TDD: add for CL7CL7KP-4771 by guoyi.qu 20240327 end -->
+    <int name="carrier_feature_play_rbt_type_int" value="1"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="false"/>
+    <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- SR: add wfc avaiable by wenwen.cao for KN8OS16-1500 20260128 begin -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!-- SR: add wfc avaiable by wenwen.cao for KN8OS16-1500 20260128 end -->
+    <string-array name="non_roaming_operator_string_array" num="24">
+      <item value="40434"/>
+      <item value="40438"/>
+      <item value="40451"/>
+      <item value="40453"/>
+      <item value="40454"/>
+      <item value="40455"/>
+      <item value="40457"/>
+      <item value="40458"/>
+      <item value="40459"/>
+      <item value="40462"/>
+      <item value="40464"/>
+      <item value="40466"/>
+      <item value="40471"/>
+      <item value="40472"/>
+      <item value="40473"/>
+      <item value="40474"/>
+      <item value="40475"/>
+      <item value="40476"/>
+      <item value="40477"/>
+      <item value="40480"/>
+      <item value="40481"/>
+      <item value="40465"/>
+      <item value="40439"/>
+      <item value="40420"/>
+    </string-array>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 start -->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 end -->
+    <!-- TDD: add for X6857BOS16-126 by zhezhi.liu 20260402 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!-- TDD: add for X6857BOS16-126 by zhezhi.liu 20260402 end -->
+</carrier_config>

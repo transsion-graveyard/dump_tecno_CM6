@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string name="default_vm_number_string">660</string>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add for X6856OS16-37 by renyan.pu 20250903 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!--TDD:add for X6856OS16-37 by renyan.pu 20250903 end -->
+    <!--TDD:add for X6856OS16-36 by renyan.pu 20250903 start -->
+    <boolean name="enable_network_3G_only" value="false" />
+    <boolean name="enable_network_2G_only" value="false" />
+    <!--TDD:add for X6856OS16-36 by renyan.pu 20250903 end -->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    <boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+</carrier_config>

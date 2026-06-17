@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--TDD:add for TOS1501-56010 by guoyi.qu 2025.2.12 start-->
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <!--TDD:add for TOS1501-56010 by guoyi.qu 2025.2.12 end-->
+        <!--TDD: modify for TOS1610-22969 Tanzania vodacom req by liuyan.mo on 20250924 start-->
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <!--TDD: modify for TOS1610-22969 Tanzania vodacom req by liuyan.mo on 20250924 start-->
+    </carrier_config>
+</carrier_config_list>

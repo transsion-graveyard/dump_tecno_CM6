@@ -1,0 +1,297 @@
+0x003e0000|应用使用（异常、无响应）
+0x003e0001|系统使用（卡顿、黑屏）
+0x003e0002|蜂窝网络（SIM卡，上网、通话、信号等）
+0x003e0003|其它网络（WIFI、蓝牙等）
+0x003e0004|电池（充电、发热、电量异常）
+0x003e0005|声音（音乐、视频、通话音等）
+0x003e0006|相机（拍照与图库）
+0x003e0007|建议（用户体验与建议）
+0x003e0008|其他
+0x003effff|feedback抓取bugreport
+0x007a0000|watchdog wait half超时
+0x007a0001|watchdog 超时，产生SWT
+0x007a0002|移动activity到PinnedStack时候出现异常
+0x007a0003|创建Notification Channel时候出现IllegalArgumentException
+0x007a0004|启动activity时候，对应的reusedActivity的TaskRecord为空
+0x007a0005|anr,处理广播消息超时
+0x007a0006|systemserver binder线程耗尽
+0x007a0007|由于启动contentprovider导致的应用anr
+0x007a0008|anr,contentprovider anr
+0x007a0009|anr,输入事件超时
+0x007a000a|anr,处理service超时
+0x007a000b|systemserver解析packages.xml时候出现异常
+0x007a000c|发送给systemserver的binder请求数据太大，超过总大小的3/4
+0x007a000d|systemserver的binder buffer内存耗尽
+0x007a000e|systemserver的异步binder buffer耗尽
+0x007a000f|hang detect时候抓取systemserver backtrace
+0x007a0010|hang detect时候抓取systemserver coredump
+0x007a0011|检测到有进程发送kill信号给systemserver
+0x007a0012|触发了oom killer流程优化方案，方案会跳过kill systemserver
+0x007a0013|检测到多次非法指令异常，删除非法指令页
+0x007a0014|检测到有应用进程的ion内存超标，需要杀死对应进程
+0x007a0015|收集售后埋点数据
+0x007a0016|收集权限导致的JE
+0x007a0017|ActivityClientRecord 为空
+0x007a0018|statusbar的window被remove掉了
+0x007a0019|TNE 抓取 GmsCore报错的dex文件
+0x007a001a|检测到有进程发送kill信号给mtklog
+0x007a001b|native heap size > 300M
+0x007a0020|hang detect debug信息输出
+0x007a0021|binder 退出卡住信息输出
+0x007a0022|fuse wait_event 超时10m 埋点输出1
+0x007a0023|fuse wait_event 超时10m 埋点输出2
+0x007a0024|windowhandleinfo数据过大，造成溢出，触发hprof埋点
+0x007a0025|buffer丢失异常埋点
+0x007a0026|llkd anomaly detected (process on state R Z D)
+0x007a0027|user_setup_complete和device_provisioned状态改变埋点
+0x007a0028|OOM时抓取mem信息
+0x007a0029|zygote短时间频繁异常被kill
+0x007a0030|broadcast binder异常抓取trace
+0x007a002a|长按5秒触发tne
+0x007a002b|zygote的SigChldHandler方法中的死亡埋点
+0x007a0031|1分钟内2次切换多用户
+0x007a0032|界面疑似泄露，抓取dump信息
+0x007a0033|apex dm verity
+0x007a0034|binder oneway block,kill process
+0x007a0035|binder oneway spamming warring server
+0x007a0036|binder oneway spamming warring client
+0x007a0039|Not Responding ANR dump System_Server stack
+0x007a0040|No Focused Window ANR dump Surfaceflinger Window
+0x000a0007|ConnectivityManager中获取callingPackageName异常
+0x007a0041|内存疑似泄露，抓取hprof
+0x007a0042|TranWatchdog卡顿，抓取trace
+0x007a0043|presentFence block
+0x007a0044|app主线程hang
+0x007a0045|黑屏检测
+0x007a0046|ion内存监控
+0x007a0047|ConnectionRecord泄露
+0x007a0055|BLASTSyncEngineTimeout
+0x007a0060|PendingIntentRecord泄漏
+0x007a0061|InputDispatcher oq队列阻塞
+0x007a0065|motion事件无响应
+0xffff0000|用户按键触发
+0xffff1001|性能
+0xffff1002|功耗
+0xffff1003|稳定性
+0xffff1004|通话
+0xffff1005|WIFI+BT
+0xffff1006|Camera
+0x00a10000|mmap debug
+0x00a10003|java 清理软引用之后的GC, 大概率泄漏
+0x00a10002|malloc 泄漏检测机制
+0x00a10004|malloc 泄漏检测机制
+0x00a10006|jni global ref 泄漏
+0x00a10007|java 对象监控, 过多则 dump hprof
+0x00a10008|fdleak 抓取 hprof
+0x00a10009|内存泄漏检测
+0x00a10010|sf layer泄漏检测
+0x00160001|GMS类和Facebook家族APK Crash触发抓取Bugreport
+0x00160002|收集由于可能的系统原因导致的三方App发生异常（JE,NE,ANR）
+0x00160003|Usage
+0x00160004|自研 APP JE
+0x00160005|自研 APP NE
+0x00160006|自研 APP ANR
+0x00160007|3RD APP JE
+0x00160008|3RD APP NE
+0x00160009|3RD APP ANR
+0xffff1004|pdp建立过程
+0x005f0001|亮屏电流或睡眠电流大于一定阈值时，触发tne dump log
+0x005f1002|零点触发采集mbrain信息
+0x00500001|每10s将memory/cpu info抓到buffer，卡顿时dump
+0x00500002|抓取异常进程内存信息
+0xffff1001|每10s将memory/cpu info抓到buffer
+0x00990001|NE dump while wifi main thread wait long time
+0x00990002|Firmware Assert
+0xffffff00|fatal je
+0xffffff01|watchdog timeout
+0xffffff02|fatal ne
+0xffffff03|hang detect
+0xffffff04|ke
+0xffffff06|strucklogo
+0xffffff07|收集由于可能的系统原因导致的三方App发生异常JE
+0xffffff08|收集由于可能的系统原因导致的三方App发生异常NE
+0xffffff09|fans sys je
+0xffffff0a|fans sys ne
+0xffffff0b|modem ee
+0xffffff0c|HANG
+0xffffff0d|HWT
+0xffffff0e|NONE
+0xffffff0f|NONE
+0xffffff10|user_setup_complete和device_provisioned状态改变埋点
+0xffffff12|OOM
+0xffffff13|APP TOP ANR
+0xffffff14|zygote短时间频繁异常被kill
+0xffffff15|OCP_REBOOT
+0xffffff16|apex dump.f2fs
+0xffffff17|3RD APP ANR
+0xffffffff|特定功能配置
+0x000a0001|Network oos
+0x000a0002|Disconnect call
+0x000a0003|Do recovery
+0x000a0004|Sim remove
+0x000a0005|Airplane mode
+0x000a0006|Data call
+0x000a0007|No Rtp
+0x000a0008|Detach or Deactivate
+0x00010000|抓取audioserver和audio hal进程的堆栈
+0x000a0008|抓取RT线程的堆栈
+0x000a0009|Special call cause from modem
+0x000a000a|eps attach
+0x000a000b|sms send or receive abnormal event
+0x000a000c|mms send or receive abnormal event
+0x000a000d|low rat nw for a long time
+0x000a000e|cell reselect
+0x000a000f|LTE Network register event
+0x000a0010|GSM CS Network register event
+0x000a0011|GSM PS Network register event
+0x000a0012|UMTS CS Network register event
+0x000a0013|UMTS PS Network register event
+0x000a0014|TAU Network register event
+0x000a0015|GSM LU Network register event
+0x000a0016|UMTS LU Network register event
+0x000a0017|GSM RAU Network register event
+0x000a0018|UMTS RAU Network register event
+0x000a0019|IMS VOLTE Network register event
+0x000a001a|IMS VONR Network register event
+0x000a001b|IMS VOWIFI Network register event
+0x000a001c|NR Network register event
+0x000a001d|MRU Network register event
+0x000c0001|抓取运行状态下的CPU对IO的支撑情况
+0x000c0002|抓取运行状态下的Cache情况
+0x000c0003|抓取运行状态下的DISK IO情况
+0x000c0004|抓取运行状态下的文件系统情况
+0x000c0005|收集io handling higi的异常
+0xffffff27|收集io handling higi的异常
+0x000c0006|收集UFS驱动的异常
+0xffffff28|收集UFS驱动的异常
+0x00070001|收集CPU重负载的时候产生的系统信息
+0xffffff26|收集CPU重负载的时候产生的系统信息
+0x00080001|收集LCM driver问题埋点
+0xffffff36|收集LCM driver问题埋点
+0x007a0041|Maybe java leak
+0xffffff29|procstart block
+0x007a0042|TranWatchdog block
+0xffffff2a|TranWatchdog block
+0x007a0043|PresentFence block
+0xffffff2b|PresentFence block
+0x007a0044|App thread block
+0xffffff2c|App thread block
+0x007a0045|Black screen check
+0xffffff2d|Black screen check
+0x007a0046|Ion memory check
+0xffffff2e|Ion memory check
+0x007a0047|ConnectionRecord leak
+0xffffff2f|ConnectionRecord leak
+0x007a0048|futex hung dectect
+0xffffff30|futex hung dectect
+0x007a0049|binder transaction hung client
+0xffffff31|binder transaction hung client
+0x007a0050|binder transaction hung target
+0xffffff32|binder transaction hung target
+0x007a0051|cup hung
+0xffffff33|cup hung
+0x007a0052|收集hung iowait task异常log
+0xffffff34|收集hung iowait task异常log
+0x007a0053|收集hung non-iowait task异常log
+0xffffff35|收集hung non-iowait task异常log
+0x00450005|监控亮/灭屏发起到亮度写值流程，超时触发TNE
+0xffffff21|监控亮/灭屏发起到亮度写值流程，超时触发TNE
+0x00450006|黑屏定屏-Input埋点
+0xffffff22|黑屏定屏-Input埋点
+0x00450007|监控亮/灭屏发起到亮度写值流程，超时触发TNE
+0xffffff23|监控亮/灭屏发起到亮度写值流程，超时触发TNE
+0x00450008|InputDispatcher线程异常
+0xffffff24|InputDispatcher线程异常
+0x00450009|1像素/透明window检测
+0xffffff25|1像素/透明window检测
+0x00500003|检测到系统存在内存占用回收异常时回传现场信息供分析
+0xffffff37|检测到系统存在内存占用回收异常时回传现场信息供分析
+0xffffff38|长按power键
+0x007a0054|系统Native进程异常上报
+0xffffff39|系统Native进程异常上报
+0xffffff40|收集wifi子系统重启相关信息的
+0xffffff41|收集TEE os panic 以及TA 异常相关信息
+0xffffff42|收集sensorhub相关异常信息
+0xffffff43|system_server watchdog futex hang
+0xffffff44|收集bt子系统异常相关信息
+0x00500004|检测到性能埋点启动异常时回传现场信息供分析
+0x00500005|检测到性能埋点丢帧异常时回传现场信息供分析
+0x00500008|检测到性能埋点切换异常时回传现场信息供分析
+0x00500009|检测到性能埋点开机异常时回传现场信息供分析
+0x0050000a|检测到性能埋点UI交互时延异常时回传现场信息供分析
+0x0050000c|检测到性能埋点INPUT响应异常时回传现场信息供分析
+0x00500006|内存健康监控
+0xffffff45|内存健康监控
+0xffffff50|收集TP模块相关信息埋点
+0xffffff51|收集motor模块相关信息埋点
+0x00190000|保存老化失败log信息
+0x00190001|保存老化失败log信息/备用1
+0x00190002|保存老化失败log信息/备用2
+0x00190003|保存老化失败log信息/备用3
+0x00190004|保存TranfacMode崩溃信息
+0x007a0056|进程bindservice达到2800上报
+0x00a00000|logmuch监控
+0x00500007|
+0x0050000b|GC Monitor
+0xffffff46|GC Monitor
+0xffffff52|monitor camera hal isp6
+0xffffff53|monitor camera stutter
+0xffffff54|monitor camera hal isp7
+0x000f0000|Over 55 degree
+0xffffff70|Thermal critical issue
+0xffffff71|Thermal magic issue
+0xffffff72|指纹故障日志抓取
+0xffffff75|system_server binder满负载
+0x000a001e|ims call drop information collection
+0x000a001f|2G cs call information collection
+0x000a0020|3G cs call information collection
+0x000a0021|CSFB information collection
+0x000a0022|SRVCC information collection
+0x000a0023|VOLTE information collection
+0x000a0024|EPS fallback information collection
+0x000a0025|VONR information collection
+0x000a0026|VOWIFI information collection
+0x000a0027|VILTE information collection
+0x000a0028|VIDEO fallback information collection
+0x000a0029|VINR information collection
+0x000a002a|Modem Call/Net issue
+0x00a20000|线程泄露日志文件
+0x00a20001|堆泄露hprof文件
+0x00a20002|Fdleak泄露hprof文件
+0x00a20003|BinderProxy泄露hprof文件
+0xffffff60|线程泄露日志文件
+0xffffff61|堆泄露hprof文件
+0xffffff62|Fdleak泄露hprof文件
+0xffffff63|BinderProxy泄露hprof文件
+0xffffff64|PendingIntentRecord泄漏
+0x00501001|app cpu health
+0x00502001|binder or loop use cpu time
+0x00501007|process cpu usage exception
+0x00501008|cpu loading exception
+0x00501006|under development:total memory usage exception
+0x0050100c|under development:process memory usage exception
+0x0050100b|under development:lmkd exception, process, whick is user perceptable, is killed
+0x0050100d|under development:EGL mtrack(DMABUF\ION) memory usage exception
+0x00501009|under development:GL mtrack(GPU) memory usage exception
+0x0050100a|under development:PSI exception, memory PSI is abnormallly high
+0x00501101|应用异常解冻埋点
+0xffffff47|user:total memory usage exception
+0xffffff48|user:process memory usage exception
+0xffffff37|user:lmkd exception, process, whick is user perceptable, is killed
+0xffffff49|user:EGL mtrack(DMABUF\ION) memory usage exception
+0xffffff4a|user:GL mtrack(GPU) memory usage exception
+0xffffff4b|user:PSI exception, memory PSI is abnormallly high
+0xffffff4c|user:Active log
+0xffffff3a|user:gnss ee问题日志埋点
+0xffffff3b|收集NFC子系统异常log
+0xffffff3c|app looper block
+0xffffff3d|power key display monitor
+0x002e0007|camera exception moitor for dfx
+0xffffff3e|sf compose timeout
+0xffffff3f|kernel内存泄漏检测
+0xffffff4d|内存泄漏检测
+0xffffff4e|input dispatcher hung && panic key
+0xffffff4f|input dispatcher hung && power long press
+0xffffff55|sf composite && hwc fence hung
+0x008b0000|fans:存储空间占用log
+0x00503001|tranpm:top5 app died log

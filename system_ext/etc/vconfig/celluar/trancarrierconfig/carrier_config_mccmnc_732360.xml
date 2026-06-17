@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="show_vo4g_for_volte_icon_bool" value="true" />
+    <!--TDD: modify for XLQLHBW-5377 by guangshuai.cheng 2022.09.28 start-->
+    <int name="carrier_default_wfc_ims_mode_int" value="2" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD: modify forXLQLHBW-5377 by guangshuai.cheng 2022.09.28 end-->
+    <boolean name="mtk_support_vt_ss_bool" value="true" />
+    <!-- TDD:add X6821T-655 for remove 2g only by guangshuai.cheng 2023.07.19 start -->
+    <boolean name="enable_network_2G_only" value="false"/>
+    <!-- TDD:add X6821T-655 for remove 2g only by guangshuai.cheng 2023.07.19 end -->
+    <!-- TDD:for add CH6IH6921T-830 by liming.bai 2023.09.04 start -->
+    <boolean name="voicemail_notification_persistent_bool" value="true"/>
+    <!-- TDD:for add CH6IH6921T-830 by liming.bai 2023.09.04 end -->
+    <!-- TDD: add for X6837H897-2635 by guangshuai.cheng 2023.12.13 start -->
+    <boolean name="disable_wfc_switch_for_apm" value="false"/>
+    <!-- TDD: add for X6837H897-2635 by guangshuai.cheng 2023.12.13 end -->
+    <!-- TDD: add for KJ8H338-178 by jie.huang6 2024.06.13 start -->
+    <boolean name="hide_rat_icon_when_wifi_bool" value="true"/>
+    <!-- TDD: add for KJ8H338-178 by jie.huang6 2024.06.13 end -->
+    <!--TDD: add for X6882PUBL-2496 by chunyan.tang 20240812 start-->
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD: add for X6882PUBL-2496 by chunyan.tang 20240812 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="key_support_set_ss_flag" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: add for X6840OS16-1630 by gang.yang1 20251229 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD: add for X6840OS16-1630 by gang.yang1 20251229 end-->
+</carrier_config>

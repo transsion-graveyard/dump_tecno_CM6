@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="wos_flight_mode_support_bool" value="false"/>
+    <boolean name="disable_vt_over_wifi_bool" value="true"/>
+    <!-- TDD:add InCallUI ViLTE key for KJ5TPUBLIC-2837 by zhezhi.liu 2024.05.27 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for KJ5TPUBLIC-2837 by zhezhi.liu 2024.05.27 start -->
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_video_calling_setting_enabled_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

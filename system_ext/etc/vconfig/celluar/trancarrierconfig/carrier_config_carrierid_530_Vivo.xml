@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*555</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+    <!--TDD: add for TOS1610-67372 by yaning.yao 20251224 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD: add for TOS1610-67372 by yaning.yao 20251224 end-->
+</carrier_config>

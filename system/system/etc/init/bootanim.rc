@@ -1,0 +1,18 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+#SDD:modify for TESSCR-25169 by xinhai.zhou 20250224 start
+service shutanim /system/bin/bootanimation shut mp3
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+#SDD:modify for TESSCR-25169 by xinhai.zhou 20250224 end

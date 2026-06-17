@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 start -->
+    <string-array name="read_only_apn_types_string_array" num="0" />
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 end -->
+    <!--TDD:add for XLQHVW-3827 by pei.zhou at 20240731 start -->
+    <string name="default_vm_number_string">555</string>
+    <!--TDD:add for XLQHVW-3827 by pei.zhou at 20240731 end -->
+    <string name="carrier_name_string">Orange</string>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="display_hd_plus_icon_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 end-->
+</carrier_config>

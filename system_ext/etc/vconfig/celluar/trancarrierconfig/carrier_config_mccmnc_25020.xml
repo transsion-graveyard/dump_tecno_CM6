@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Supplementary Service WWOP Config -->
+        <boolean name="mtk_carrier_ss_ims_nw_cw" value="true" />
+        <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 start-->
+        <boolean name="carrier_wfc_ims_with_geo" value="true" />
+        <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 end-->
+        <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 start-->
+        <boolean name="mtk_carrier_wfc_get_location_always" value="true"/>
+        <!--TDD:Add Tele2_get_location_for_WFC by yong.chen1 20221026 end-->
+        <!--TDD:add for ADBHBSY-5768 by guangshuai.cheng 2002.08.03 start -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+        <!--TDD:add for ADBHBSY-5768 by guangshuai.cheng 2002.08.03 end -->
+
+        <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 start-->
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 end-->
+        <!-- SR: tanghulin add for fix conference name error on BG7XE674S-2926. 2023-12-14 start -->
+        <boolean name="tran_support_show_conference_name_bool" value="false" />
+        <!-- SR: tanghulin add for fix conference name error on BG7XE674S-2926. 2023-12-14 end -->
+        <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+        <boolean name="tran_allow_show_new_network_type" value="false"/>
+        <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    </carrier_config>
+    <carrier_config spn="TTK">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

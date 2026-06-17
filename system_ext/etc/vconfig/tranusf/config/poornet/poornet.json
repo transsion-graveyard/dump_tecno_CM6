@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "enable": "true",
+    "exitThreshold": -95,
+    "enterThreshold": -100,
+    "whitePackages": [
+        "com.tencent.mobileqq",
+        "com.tencent.mm",
+        "com.tencent.wework",
+        "com.ss.android.lark",
+        "com.ss.android.lark.transsion",
+        "com.whatsapp",
+        "com.facebook.orca",
+        "com.snapchat.android",
+        "org.telegram.messenger",
+        "com.instagram.android"
+    ]
+}

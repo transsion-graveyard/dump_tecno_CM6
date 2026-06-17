@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_feature_play_rbt_type_int" value="1"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

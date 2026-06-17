@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <string name="default_vm_number_roaming_string">+491712523311</string>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <!-- UNISOC: add for bug 2251414 -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

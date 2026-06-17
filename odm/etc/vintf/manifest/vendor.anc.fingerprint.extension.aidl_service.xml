@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/transsion/vendor_modules/fingerprint/transsion/ta/anc/codes/anc_aidl/extension/vendor.anc.fingerprint.extension.aidl_service.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>vendor.anc.fingerprint.extension</name>
+        <fqname>IFingerprintExtension/default</fqname>
+    </hal>
+</manifest>

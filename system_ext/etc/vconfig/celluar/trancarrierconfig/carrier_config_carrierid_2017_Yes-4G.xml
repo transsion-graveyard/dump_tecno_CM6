@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+    <!-- TDD:add for CKLHLJ-4151 by haoxin.liao 20230314 start -->
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <!-- TDD:add for CKLHLJ-4151 by haoxin.liao 20230314 end -->
+    <!-- TDD:add for CKLHLJ-4188 by haoxin.liao 20230314 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add for CKLHLJ-4188 by haoxin.liao 20230314 end -->
+    <!-- TDD:add X6720H353-2420 for remove 2G/3g by guangshuai.cheng 2024.07.18 start -->
+    <boolean name="enable_network_3G_only" value="false"/>
+    <boolean name="enable_network_2G_only" value="false"/>
+    <!-- TDD:add X6720H353-2420 for remove 2G/3g by guangshuai.cheng 2024.07.18 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 start -->
+    <boolean name="vonr_enabled_bool" value="true"/>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 end -->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

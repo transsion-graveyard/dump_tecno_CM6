@@ -1,0 +1,48 @@
+{
+  "version":5,
+  "up_time":20260106,
+  "swipe_up_clean_switch": true,
+  "default_action": "killProcess",
+  "launcher_pkg_list":[
+    "com.transsion.XOSLauncher",
+    "com.transsion.hilauncher",
+    "com.transsion.itel.launcher",
+    "com.transsion.XOSLauncher.upgrade",
+    "com.transsion.hilauncher.upgrade",
+    "com.transsion.launcher3"
+  ],
+  "task_protect_list": [
+  ],
+  "only_remove_task_app": [
+    "com.transsion.test",
+    "android.voiceinteraction.cts",
+    "com.transsion.demomode",
+    "com.mediatek.MemEater",
+    "cpu.cpueater.one",
+    "com.trs.prevent_touch_test",
+    "com.debug.loggerui",
+    "com.transsion.TranLogManager",
+    "android",
+    "com.android.cts.forcestophelper"
+  ],
+  "only_kill_proc_app": [
+    "com.tencent.mm",
+    "com.tencent.mobileqq",
+    "com.facebook.orca",
+    "com.whatsapp",
+    "com.whatsapp.w4b",
+    "jp.naver.line.android",
+    "com.ss.android.lark.transsion",
+    "com.transsion.deskclock"
+  ],
+  "force_stop_app_white_list": [
+  ],
+  "force_stop_app_block_list": [
+  ],
+  "kill_protect_proc_list": [
+    "com.android.systemui.accessibility.accessibilitymenu",
+    "com.tencent.mm:push",
+    "com.tencent.mobileqq:MSF",
+    "com.mediatek.mtklogger"
+  ]
+}

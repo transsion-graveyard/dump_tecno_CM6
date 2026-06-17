@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for TOS1501-77912 by renyan.pu 20250616 start-->
+    <boolean name="enable_network_2G_only" value="true"/>
+    <!--TDD:add for TOS1501-77912 by renyan.pu 20250616 end-->
+    <!--TDD:add for TOS1610-45612 by renyan.pu 20251107 start-->
+    <boolean name="tran_tdd_force_display_plmn_and_spn_when_international_roaming" value="true" />
+    <boolean name="tran_tdd_display_carrier_name_string" value="true"/>
+    <!--TDD:add for TOS1610-45612 by renyan.pu 20251107 end-->
+</carrier_config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for preventing fraud by gaoming.luo 20241223 start-->
+    <boolean name="tran_key_preventing_fraud_bool" value="true"/>
+    <!--TDD:add for preventing fraud by gaoming.luo 20241223 end-->
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*100</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+</carrier_config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_not_support_xcap" value="true" />
+    <boolean name="mtk_carrier_ss_not_support_call_identity" value="true" />
+    <!-- TDD:add InCallUI ViLTE key for X670TH814-14 by guangshuai.cheng 2023.04.13 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for X670TH814-14 by guangshuai.cheng 2023.04.13 end -->
+    <boolean name="call_barring_enabled_bool" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 end -->
+    <!-- TDD: add forTOS1610-17217 by lu.li14 20250911 start -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!-- TDD: add forTOS1610-17217 by lu.li14 20250911 end -->
+    <!-- TDD: modify for TOS1501-76506 by ling.ye2 20250506 start -->
+    <string-array name="carrier_metered_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+   <!-- TDD: modify for TOS1501-76506 by ling.ye2 20250506 end -->
+</carrier_config>

@@ -1,0 +1,28 @@
+{
+  "Sensors": [
+    {
+      "defaultMaxShutter": 69997,
+      "defaultMaxISO": 25600,
+      "defaultMaxGain": 65536,
+      "MaxCapShutter": 250000
+    },
+    {
+      "defaultMaxShutter": 66668,
+      "defaultMaxISO": 12800,
+      "defaultMaxGain": 65536,
+      "MaxCapShutter": 250000
+    },
+    {
+      "defaultMaxShutter": 66668,
+      "defaultMaxISO": 19200,
+      "defaultMaxGain": 65536,
+      "MaxCapShutter": 120000
+    },
+    {
+      "defaultMaxShutter": 66668,
+      "defaultMaxISO": 12800,
+      "defaultMaxGain": 65536,
+      "MaxCapShutter": 250000
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!--TDD:add KL4F201-1649 by wanbao.xue 20240627 start-->
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!--TDD:add KL4F201-1649 by wanbao.xue 20240627 end-->
+    <!-- TDD:add InCallUI ViLTE key for XLQBBHBJS-3632 by zhimin.yang 20230504 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for XLQBBHBJS-3632 by zhimin.yang 20230504 end -->
+    <!-- TDD: add for XLQHVW-3200 by yunhua.hu 20230731 start -->
+    <boolean name="omacp_apn_overwrite_orginal_same_apn" value="true"/>
+    <!-- TDD: add for XLQHVW-3200 by yunhua.hu 20230731 end -->
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 start -->
+    <string-array name="read_only_apn_types_string_array" num="0" />
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 end -->
+    <!--TDD:add reason BGMPUB-352 by xiangjian.li 20240403 start-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!--TDD:add reason BGMPUB-352 by xiangjian.li 20240403 end-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 end-->
+</carrier_config>

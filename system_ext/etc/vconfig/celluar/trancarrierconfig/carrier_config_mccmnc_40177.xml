@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="tran_tdd_lookup_operator_name2_skip" value="true" />
+        <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+            <item value="40177#simspn"/>
+        </string-array>
+        <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+            <item value="40177#simspn"/>
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

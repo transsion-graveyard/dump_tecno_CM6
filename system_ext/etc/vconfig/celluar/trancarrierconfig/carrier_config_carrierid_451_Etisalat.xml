@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!-- TDD: Add Apn for XLQEHBY-2609 by xianzhongzhang 20220218 start -->
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <!-- TDD: Add Apn for XLQEHBY-2609 by xianzhongzhang 20220218 end -->
+    <!--TDD:Add Etisalat_get_location_for_WFC by kechun.li 20230728 start-->
+    <boolean name="mtk_carrier_wfc_get_location_always" value="true"/>
+    <!--TDD:Add Etisalat_get_location_for_WFC by kechun.li 20230728 end-->
+    <!--TDD: add for X6851PUB-7006 by yunhua.hu 2024.02.28 start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <!--TDD: add for X6851PUB-7006 by yunhua.hu 2024.02.28 end -->
+    <!--TDD:add for XH-6196 by yunhua.hu 2024.03.01 start -->
+    <int name="wfc_spn_format_idx_int" value="4"/>
+    <!--TDD:add for XH-6196 by yunhua.hu 2024.03.01 end -->
+    <!--TDD:add for CMSFTASK-696 by guoyi.qu 2024.03.05 start -->
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!--TDD:add for CMSFTASK-696 by guoyi.qu 2024.03.05 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <boolean name="supports_video_callforward_bool" value="false" />
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <boolean name="tran_tdd_showd_display_plmn_for_nitz" value="true"/>
+    <boolean name="tran_not_override_self_operator_name" value="true"/>
+    <!-- TDD:modify for KM4F151-1276 by renyan.pu 20250408 start -->
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <!-- TDD:modify for KM4F151-1276 by renyan.pu 20250408 end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

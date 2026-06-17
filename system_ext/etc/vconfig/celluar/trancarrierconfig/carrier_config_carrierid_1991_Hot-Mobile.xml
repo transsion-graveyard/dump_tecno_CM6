@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_name_override_bool" value="false"/>
+    <string name="carrier_name_string">HOT mobile</string>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+</carrier_config>

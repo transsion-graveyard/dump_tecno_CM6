@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+    <!-- TDD:add XLJQGXLJB-3964 for disable 4g calling menu by qingming.song 2020.08.13 start -->
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <!-- TDD:add XLJQGXLJB-3964 for disable 4g calling menu by qingming.song 2020.08.13 end -->
+    <!-- TSD:add LEQHLJQ-1684 for Indonesia ViLTE data off requirement by yilong.zhao 2022.07.06 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TSD:add LEQHLJQ-1684 for Indonesia ViLTE data off requirement by yilong.zhao 2022.07.06 end -->
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 start-->
+    <boolean name="carrier_config_ussd_dialog_input_limit" value="true" />
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 end-->
+    <!--TDD: add XLQHVW-1880 for video conference call by haoxin.liao 20230612 start-->
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!--TDD: add XLQHVW-1880 for video conference call by haoxin.liao 20230612 start-->
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 start -->
+    <boolean name="enable_network_3G_only" value="false"/>
+    <boolean name="enable_network_2G_only" value="false"/>
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 end -->
+    <!-- TDD:add KJ5TPUBLIC-1837 for name consistent by yunhua.hu 2023.09.12 start -->
+    <boolean name="tran_tdd_lookup_operator_name2_skip" value="true" />
+    <!-- TDD:add KJ5TPUBLIC-1837 for name consistent by yunhua.hu 2023.09.12 end -->
+    <!--SR:modify for cannot set Vowifi setting when turn on flight mode KL5KL5NX-5114 by liumingshan 20240801 start-->
+    <boolean name="disable_wfc_switch_for_apm" value="false" />
+    <!--SR:modify for cannot set Vowifi setting when turn on flight mode KL5KL5NX-5114 by liumingshan 20240801 end-->
+    <!-- TDD:add AE11H911-11436 by meijuan.ma 2024.08.20 start -->
+    <boolean name="tran_tdd_operator_plmn_number_priority" value="true" />
+    <!-- TDD:add AE11H911-11436 by meijuan.ma 2024.08.20 end -->
+    <!-- TDD:add X6880H891-240 by zhezhi.liu 2024.09.03 start -->
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <!-- TDD:add X6880H891-240 by zhezhi.liu 2024.09.03 end -->
+    <!-- TDD:add X6731UH9-808 by meijuan.ma 2024.10.12 start -->
+    <boolean name="tran_tdd_force_display_plmn_only" value="true" />
+    <!-- TDD:add X6731UH9-808 by meijuan.ma 2024.10.12 end -->
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="false"/>
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 end-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <string name="default_vm_number_string">*88</string>
+    <boolean name="enable_network_prefered_4G_only" value="true" />
+    <boolean name="numeric_to_operator_bool" value="false"/>
+    <boolean name="tran_tdd_showd_display_plmn_for_nitz" value="true"/>
+    <string-array name="tran_network_plmn_name_string_array" num="2">
+        <item value="51009#1"/>
+        <item value="51028#1"/>
+    </string-array>
+    <boolean name="supports_video_callbarring_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!-- TDD:add TOS1610-29123 by meijuan.ma 2024.10.17 start -->
+    <boolean name="tran_tdd_force_display_plmn_only_vowifi" value="true" />
+    <!-- TDD:add TOS1610-29123 by meijuan.ma 2024.10.17 end -->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

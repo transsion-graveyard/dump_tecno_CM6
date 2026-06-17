@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: modify X6882PUBL-2713 by renyan.pu 20240924 start-->
+    <boolean name="carrier_name_override_bool" value="false"/>
+    <!--TDD: modify X6882PUBL-2713 by renyan.pu 20240924 end-->
+    <string name="carrier_name_string">beeline</string>
+    <!--TDD: add KJ7H895-3152 for RU WFC requirement by guangshuai.cheng 2023.11.17 start-->
+    <boolean name="carrier_wfc_ims_with_geo" value="true" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+    <boolean name="mtk_carrier_wfc_get_location_always" value="true"/>
+    <!--TDD: add KJ7H895-3152 for RU WFC requirement by guangshuai.cheng 2023.11.17 end-->
+
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 end-->
+    <!--TDD: add X6882PUBL-2713 by renyan.pu 20240924 start-->
+    <boolean name="tran_key_display_usim_bool" value="true"/>
+    <!--TDD: add X6882PUBL-2713 by renyan.pu 20240924 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true"/>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 end-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--SR:modify for P671LP672L-4321 by chunzhu.du 20241024 start-->
+    <boolean name="numeric_to_operator_bool" value="false"/>
+    <!--SR:modify for P671LP672L-4321 by chunzhu.du 20241024 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false"/>
+    <boolean name="tran_key_preventing_fraud_bool" value="true"/>
+</carrier_config>

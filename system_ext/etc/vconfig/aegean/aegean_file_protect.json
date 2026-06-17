@@ -1,0 +1,48 @@
+{
+  "ver": 2,
+  "time": "2025122501",
+  "file_protect_enable": 1,
+  "file_protect": [
+    {
+      "version_min": null,
+      "version_max": 6.0,
+      "configs": {
+        "6G": "180:1288490188",
+        "8G": "180:1717986918",
+        "12G": "180:2684354560"
+      }
+    },
+    {
+      "version_min": 6.0,
+      "version_max": 6.12,
+      "configs": {
+        "6G": "200:1288490188",
+        "8G": "200:1932735283",
+        "12G": "200:2684354560"
+      }
+    },
+    {
+      "version_min": 6.12,
+      "version_max": null,
+      "configs": {
+        "6G": "201:1288490188",
+        "8G": "201:1932735283",
+        "12G": "201:2684354560"
+      }
+    }
+  ],
+  "special_protect": {
+    "com.ss.android.ugc.aweme": 76800,
+    "com.ss.android.ugc.trill": 76800,
+    "com.zhiliaoapp.musically": 76800
+  },
+  "recent_protect_ratio": 80,
+  "recent_protect_size": 1073741824,
+  "recent_protect_ram": ["8_3", "12_3"],
+  "recent_protect_black_list": [
+    "com.android.credentialmanager",
+    "com.google.android.permissioncontroller",
+    "com.google.android.setupwizard"
+  ],
+  "recent_protect_kernel": ["6.6","6.12"]
+}

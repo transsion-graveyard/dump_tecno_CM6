@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+   <string-array name="carrier_certificate_string_array" num="5">
+        <item value="8C960CA3CBF4A9DA851774F2DE072E57B1289A9CF7D6BDA4A6B386A42BC4FFB3:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="7413E2B365230E1BCB294D687C3B87EE5BC7E3F9:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="2333F4065B9F054363CA63D1866CC168F45D641645B31131B14E173B9C922D15:co.sitic.pp"/>
+        <item value="14D54C64599A3E9A3B766239B160DE3935093E0A:co.sitic.pp"/>
+        <item value="F54CAC11D5AF77A5F10C21D536AD5D1C40B00D63A92CAB917AA84DC714D622D8:co.sitic.pp"/>
+    </string-array>
+    <string name="call_screening_app">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallScreeningService</string>
+    <string name="call_redirection_service_component_name_string">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallRedirectionService</string>
+    <string-array name="carrier_data_call_permanent_failure_strings" num="16">
+        <item value="OPERATOR_BARRED"/>
+        <item value="MISSING_UNKNOWN_APN"/>
+        <item value="UNKNOWN_PDP_ADDRESS_TYPE"/>
+        <item value="ACTIVATION_REJECT_GGSN"/>
+        <item value="SERVICE_OPTION_NOT_SUPPORTED"/>
+        <item value="SERVICE_OPTION_NOT_SUBSCRIBED"/>
+        <item value="NSAPI_IN_USE"/>
+        <item value="ONLY_IPV4_ALLOWED"/>
+        <item value="ONLY_IPV6_ALLOWED"/>
+        <item value="PROTOCOL_ERRORS"/>
+        <item value="RADIO_POWER_OFF"/>
+        <item value="TETHERED_CALL_ACTIVE"/>
+        <item value="RADIO_NOT_AVAILABLE"/>
+        <item value="UNACCEPTABLE_NETWORK_PARAMETER"/>
+        <item value="SIGNAL_LOST"/>
+        <item value="MULTI_CONN_TO_SAME_PDN_NOT_ALLOWED"/>
+    </string-array>
+    <boolean name="display_no_data_notification_on_permanent_failure_bool" value="true"/>
+    <boolean name="unthrottle_data_retry_when_tac_changes_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <!--TDD:add for CHISHLJEY-186 VoWiFi Default on by guangshuai.cheng 2002.07.25 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!--TDD:add for CHISHLJEY-186 VoWiFi Default on by guangshuai.cheng 2002.07.25 end -->
+    <!--TDD:add for CHISHLJEY-185 by guangshuai.cheng 2002.07.27 start -->
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!--TDD:add for CHISHLJEY-185 by guangshuai.cheng 2002.07.27 end -->
+    <!-- TDD:add for CHISHLJEY-301 by pei.zhou 2022.08.24 start -->
+    <boolean name="voicemail_notification_persistent_bool" value="true"/>
+    <!-- TDD:add for CHISHLJEY-301 by pei.zhou 2022.08.24 end -->
+    <!--TDD:add for KHQPUB-3154 by liulei 20220824 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for KHQPUB-3154 by liulei 20220824 end -->
+
+    <!-- TDD:add KHQPUB-3201 for MXTC by wanbao.xue 2022.09.02 start-->
+    <boolean name="cc33_29_dialog_show_bool" value="true"/>
+    <!-- TDD:add KHQPUB-3201 for MXTC by wanbao.xue 2022.09.02 end-->
+
+    <!--TDD:add for KIQVQW-4137 by pei.zhou 20230224 start -->
+    <boolean name="editable_voicemail_number_setting_bool" value="false"/>
+    <!--TDD:add for KIQVQW-4137 by pei.zhou 20230224 end -->
+
+    <!--TDD:modify for BFQHGELR-202 by liulei 20230309 start-->
+    <boolean name="mx_clear_code_support" value="true" />
+    <!--TDD:modify for BFQHGELR-202 by liulei 20230309 end-->
+
+    <!--TDD:add VoWifi/VoLte icon for KIQSHL-280 by yi.shi 2023.07.27 start -->
+    <boolean name="display_call_type_icon_bool" value="true" />
+    <!--TDD:add VoWifi/VoLte icon for KIQSHL-280 by yi.shi 2023.07.27 end -->
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 start -->
+    <boolean name="show_custom_lte_ca_icon" value="true"/>
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 end -->
+    <boolean name="support_voice_clear_code" value="true"/>
+    <boolean name="support_voice_clear_code_volte_csfb" value="true"/>
+    <boolean name="carrier_feature_play_call_hold_tone_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <string name="default_vm_number_string">*86</string>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="editable_vt_resolution_bool" value="false"/>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="334020#simspn"/>
+    </string-array>
+    <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+        <item value="334020#simspn"/>
+    </string-array>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 start-->
+    <boolean name="carrier_config_ussd_dialog_input_limit" value="true" />
+    <!--TDD: add carrier_config_ussd_dialog_input_limit by lei.zhang7 20221220 end-->
+    <!-- TDD:add InCallUI ViLTE key for KJ7H895-2852 by guangshuai.cheng 2023.11.10 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for KJ7H895-2852 by guangshuai.cheng 2023.11.10 end -->
+    <!--TDD: add for X6853H895-6777 by gaoming.luo 20240118 start-->
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <!--TDD: add for X6853H895-6777 by gaoming.luo 20240118 end-->
+    <!--TDD: add for XLQHVW-3767 by xiangjian.li 20240305 start-->
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!--TDD: add for XLQHVW-3767 by xiangjian.li 2024030 end-->
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="false"/>
+    <!--SR:add for X1102T725-2432 by zhoujiru 20250416 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

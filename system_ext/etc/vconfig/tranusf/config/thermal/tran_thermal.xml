@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thermal_control>
+    <enable>true</enable>
+    <version>1</version>
+    <updateDate>20240314</updateDate>
+    <thermal_ux>
+        <thermal_ux_enable>true</thermal_ux_enable>
+        <thermal_ux_temp_min>35000</thermal_ux_temp_min>
+        <thermal_ux_temp_max>50000</thermal_ux_temp_max>
+        <launch duration="5000">
+            <max_thermal_cluster_0>3000000</max_thermal_cluster_0>
+            <max_thermal_cluster_1>3000000</max_thermal_cluster_1>
+            <max_thermal_cluster_2>3000000</max_thermal_cluster_2>
+        </launch>
+    </thermal_ux>
+    <scene_list>
+        <scene_id scene_name="scene_basic">
+            <package name="com.android.settings"/>
+            <package name="com.android.contacts"/>
+            <package name="com.android.mms"/>
+        </scene_id>
+        <scene_id scene_name="scene_short_video">
+            <package name="com.ss.android.ugc.aweme"/>
+            <package name="com.zhiliaoapp.musically"/>
+            <package name="com.zhiliaoapp.musically.go"/>
+            <package name="com.ss.android.ugc.aweme.lite"/>
+            <package name="com.ss.android.ugc.trill"/>
+            <package name="in.mohalla.video"/>
+            <package name="com.eterno.shortvideos"/>
+            <package name="com.next.innovation.takatak"/>
+            <package name="video.like"/>
+            <package name="video.like.lite"/>
+            <package name="com.kwai.video"/>
+            <package name="com.kwai.kuaishou.video.live"/>
+            <package name="com.kwai.bulldog"/>
+        </scene_id>
+        <scene_id scene_name="scene_video">
+            <package name="com.transsion.magicshow"/>
+            <package name="com.google.android.youtube"/>
+            <package name="sg.bigo.live"/>
+            <package name="www.youku.phone"/>
+            <package name="video.like"/>
+        </scene_id>
+        <scene_id scene_name="scene_social">
+            <package name="com.tencent.mm"/>
+            <package name="com.tencent.mobileqq"/>
+            <package name="com.facebook.katana"/>
+            <package name="com.facebook.orca"/>
+            <package name="com.facebook.mlite"/>
+            <package name="com.facebook.appmanager"/>
+            <package name="com.instagram.android"/>
+            <package name="com.instagram.lite"/>
+            <package name="com.whatsapp"/>
+            <package name="com.whatsapp.w4b"/>
+            <package name="com.WhatsApp2Plus"/>
+            <package name="com.gbwhatsapp"/>
+            <package name="com.snapchat.android"/>
+            <package name="com.google.android.apps.tachyon"/>
+            <package name="com.mediatek.ims"/>
+            <package name="com.imo.android.imoim"/>
+            <package name="com.imo.android.imoimhd"/>
+            <package name="com.imo.android.imoimbeta"/>
+            <package name="com.microsoft.teams"/>
+            <package name="com.alibaba.android.rimet"/>
+            <package name="com.tencent.wework"/>
+            <package name="us.zoom.videomeetings"/>
+            <package name="org.telegram.messenger"/>
+            <package name="org.telegram.plus"/>
+            <package name="com.vkontakte.android"/>
+            <package name="jp.naver.line.android"/>
+            <package name="com.ss.android.lark.transsion"/>
+        </scene_id>
+        <scene_id scene_name="scene_camera">
+            <package name="com.transsion.camera"/>
+        </scene_id>
+        <scene_id scene_name="scene_navigation">
+            <package name="com.autonavi.minimap"/>
+            <package name="com.baidu.BaiduMap"/>
+            <package name="com.google.android.apps.maps"/>
+        </scene_id>
+        <scene_id scene_name="scene_video_call">
+            <package name="com.whatsapp"/>
+            <package name="org.telegram.messenger"/>
+            <package name="com.tencent.mobileqq"/>
+            <package name="us.zoom.videomeetings">
+                <activity name="com.zipow.videobox.conference.ui.ZmConfActivity"/>
+                <activity name="com.zipow.videobox.conference.ui.ZmFoldableConfActivity"/>
+            </package>
+        </scene_id>
+        <scene_id scene_name="scene_download">
+            <package name="com.android.vending">
+                <activity name="com.android.vending.AssetBrowserActivity"/>
+            </package>
+            <package name="cn.xender"/>
+            <package name="com.dewmobile.kuaiya.play"/>
+            <package name="com.lenovo.anyshare.gps"/>
+            <package name="com.transsion.letswitch"/>
+        </scene_id>
+        <scene_id scene_name="scene_game">
+            <package name="com.roblox.client"/>  <!-- 罗布乐思 -->
+            <package name="com.tencent.lolm"/>   <!-- 英雄联盟 -->
+            <package name="com.mobile.legends"/> <!-- Mobile Legends -->
+            <package name="com.tencent.tmgp.sgame"/> <!-- 王者荣耀国服 -->
+            <package name="com.tencent.tmgp.sgamece"/> <!-- 王者荣耀CE版 -->
+            <package name="com.levelinfinite.sgameGlobal"/> <!-- 王者荣耀国际服 -->
+            <package name="com.levelinfinite.sgameGlobal.midaspay"/> <!-- 王者荣耀国际服支付版 -->
+            <package name="com.levelinfinite.sgameGlobalESports"/> <!-- 王者荣耀电竞版 -->
+            <package name="com.pubg.imobile"/> <!-- BGMI -->
+            <package name="com.tencent.tmgp.pubgmhd"/> <!-- 和平精英国服 -->
+            <package name="com.mobiin.gp"/> <!-- PUBG Mobile伊朗版 -->
+            <package name="com.tencent.ig"/> <!-- 绝地求生刺激战场 -->
+            <package name="com.pubg.krmobile"/> <!-- PUBG Mobile韩国版 -->
+            <package name="com.vng.pubgmobile"/> <!-- PUBG Mobile越南版 -->
+            <package name="com.rekoo.pubgm"/> <!-- PUBG Mobile其他版本 -->
+            <package name="com.tencent.igce"/> <!-- 绝地求生CE版 -->
+            <package name="com.tencent.iglite"/> <!-- 绝地求生轻量版 -->
+            <package name="com.dts.freefireth"/> <!-- Free Fire泰国版 -->
+            <package name="com.dts.freefiremax"/> <!-- Free Fire Max -->
+            <package name="com.garena.game.kgth"/> <!-- Free Fire泰国版2 -->
+            <package name="com.garena.game.kgtw"/> <!-- Free Fire台湾版 -->
+            <package name="com.miHoYo.hkrpg"/> <!-- 崩坏：星穹铁道 -->
+            <package name="com.garena.game.df"/> <!-- 三角洲行动Garena版 -->
+            <package name="com.tencent.tmgp.dfm"/> <!-- 三角洲行动腾讯版 -->
+            <package name="com.proxima.dfm"/> <!-- 三角洲行动其他版本 -->
+        </scene_id>
+        <scene_id scene_name="scene_game_performance_mode" game_mode="performance_mode">
+            <package name="com.tencent.tmgp.pubgmhd"/>
+            <package name="com.roblox.client"/>
+            <package name="com.tencent.ig"/>
+            <package name="com.tencent.lolm"/>
+        </scene_id>
+        <scene_id scene_name="scene_game_balance_mode" game_mode="balance_mode">
+            <package name="com.tencent.tmgp.pubgmhd"/>
+            <package name="com.roblox.client"/>
+            <package name="com.tencent.ig"/>
+            <package name="com.tencent.lolm"/>
+        </scene_id>
+        <scene_id scene_name="scene_game_save_power_mode" game_mode="save_power_mode">
+            <package name="com.tencent.tmgp.pubgmhd"/>
+            <package name="com.roblox.client"/>
+            <package name="com.tencent.ig"/>
+            <package name="com.tencent.lolm"/>
+        </scene_id>
+        <scene_id scene_name="scene_video_1">
+            <package name="tv.danmaku.bili">
+                <activity name="com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"/>
+            </package>
+        </scene_id>
+        <scene_id scene_name="scene_benchmark">
+            <package name="com.antutu.ABenchMark"/>
+            <package name="com.antutu.benchmark.full"/>
+            <package name="com.antutu.benchmark.full.lite"/>
+            <package name="com.antutu.aibenchmark"/>
+            <package name="com.andromeda.androbench2"/>
+            <package name="com.futuremark.pcmark.android.benchmark"/>
+            <package name="com.ludashi.benchmark2"/>
+            <package name="com.ludashi.benchmark"/>
+            <package name="com.ludashi.aibench"/>
+            <package name="com.glbenchmark.glbenchmark27"/>
+            <package name="org.benchmark.demo"/>
+            <package name="org.aibench.neuralscope"/>
+            <package name="eu.chainfire.cfbench"/>
+            <package name="com.primatelabs.geekbench5"/>
+            <package name="org.zeroxlab.zeroxbenchmark"/>
+            <package name="com.threed.jpct.benchxl"/>
+            <package name="com.threed.jpct.bench"/>
+            <package name="com.tactel.electopiaon"/>
+            <package name="com.edburnette.fps2d"/>
+            <package name="se.nena.nenamark2"/>
+            <package name="com.aurorasoftworks.quadrant.ui.professional"/>
+            <package name="appz.sunspider.benchmark"/>
+            <package name="com.quicinc.vellamo"/>
+            <package name="com.primatelabs.geekbench"/>
+            <package name="com.drolez.nbench"/>
+            <package name="com.texts.throttlebench"/>
+            <package name="com.primatelabs.geekbench6"/>
+            <package name="com.futuremark.dmandroid.application"/>
+        </scene_id>
+        <scene_id scene_name="scene_cpu_performance">
+            <package name="com.google.android.apps.maps"/>
+        </scene_id>
+    </scene_list>
+    <package_list>
+        <package name="com.tencent.tmgp.pubgmhd" enable="true" game_mode="performance" thermal_scene="scene_game_performance_mode"/>
+        <package name="com.tencent.tmgp.pubgmhd" enable="true" game_mode="balance_mode" thermal_scene="scene_game_balance_mode"/>
+        <package name="com.tencent.tmgp.pubgmhd" enable="true" game_mode="save_power_mode" thermal_scene="scene_game_save_power_mode"/>
+    </package_list>
+    <temperature>
+        <temperature_duration>4000</temperature_duration>
+        <ap_ntc>1</ap_ntc>
+        <vtshell_ntc>0</vtshell_ntc>
+        <temperature_gap>400</temperature_gap>
+        <temperature_level>
+            <level level="1" temp_min="-50000" temp_max="35999" />
+            <level level="2" temp_min="36000" temp_max="36999" />
+            <level level="3" temp_min="37000" temp_max="37999" />
+            <level level="4" temp_min="38000" temp_max="38999" />
+            <level level="5" temp_min="39000" temp_max="39999" />
+            <level level="6" temp_min="40000" temp_max="40999" />
+            <level level="7" temp_min="41000" temp_max="41999" />
+            <level level="8" temp_min="42000" temp_max="42999" />
+            <level level="9" temp_min="43000" temp_max="43999" />
+            <level level="10" temp_min="44000" temp_max="44999" />
+            <level level="11" temp_min="45000" temp_max="45999" />
+            <level level="12" temp_min="46000" temp_max="46999" />
+            <level level="13" temp_min="47000" temp_max="47999" />
+            <level level="14" temp_min="48000" temp_max="48999" />
+            <level level="15" temp_min="49000" temp_max="49999" />
+            <level level="16" temp_min="50000" temp_max="50999" />
+            <level level="17" temp_min="51000" temp_max="51999" />
+            <level level="18" temp_min="52000" temp_max="52999" />
+            <level level="19" temp_min="53000" temp_max="53999" />
+            <level level="20" temp_min="54000" temp_max="54999" />
+            <level level="21" temp_min="55000" temp_max="55999" />
+            <level level="22" temp_min="56000" temp_max="57999" />
+            <level level="23" temp_min="58000" temp_max="59999" />
+            <level level="24" temp_min="60000" temp_max="64999" />
+            <level level="25" temp_min="65000" temp_max="74999" />
+            <level level="26" temp_min="75000" temp_max="100000" />
+        </temperature_level>
+    </temperature>
+    <cpu_level>
+        <level level="1" cluster0_percent="100" cluster1_percent="100" cluster2_percent="100"/>
+        <level level="2" cluster0_percent="95" cluster1_percent="95" cluster2_percent="95"/>
+        <level level="3" cluster0_percent="90" cluster1_percent="90" cluster2_percent="90"/>
+        <level level="4" cluster0_percent="85" cluster1_percent="85" cluster2_percent="85"/>
+        <level level="5" cluster0_percent="80" cluster1_percent="80" cluster2_percent="80"/>
+        <level level="6" cluster0_percent="75" cluster1_percent="75" cluster2_percent="75"/>
+        <level level="7" cluster0_percent="70" cluster1_percent="70" cluster2_percent="70"/>
+        <level level="8" cluster0_percent="65" cluster1_percent="65" cluster2_percent="65"/>
+        <level level="9" cluster0_percent="60" cluster1_percent="60" cluster2_percent="60"/>
+        <level level="10" cluster0_percent="55" cluster1_percent="55" cluster2_percent="55"/>
+        <level level="11" cluster0_percent="50" cluster1_percent="50" cluster2_percent="50"/>
+        <level level="12" cluster0_percent="45" cluster1_percent="45" cluster2_percent="45"/>
+        <level level="13" cluster0_percent="40" cluster1_percent="40" cluster2_percent="40"/>
+        <level level="14" cluster0_percent="35" cluster1_percent="35" cluster2_percent="35"/>
+        <level level="15" cluster0_percent="30" cluster1_percent="30" cluster2_percent="30"/>
+        <level level="16" cluster0_percent="100" cluster1_percent="93" cluster2_percent="93"/>
+        <level level="17" cluster0_percent="100" cluster1_percent="85" cluster2_percent="86"/>
+        <level level="18" cluster0_percent="89" cluster1_percent="50" cluster2_percent="82"/>
+        <level level="19" cluster0_percent="57" cluster1_percent="50" cluster2_percent="82"/>
+        <level level="20" cluster0_percent="100" cluster1_percent="93" cluster2_percent="82"/>
+        <level level="21" cluster0_percent="100" cluster1_percent="87" cluster2_percent="71"/>
+        <level level="22" cluster0_percent="100" cluster1_percent="77" cluster2_percent="62"/>
+    </cpu_level>
+    <thermalPolicyConfig cpu_enable="false">
+        <screenOff enable="true">
+                <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="12" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="17" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="19" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='0'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+        </screenOff>
+         <multiWindow enable="true">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+        </multiWindow>
+        <specificScene>
+            <scene scene_id="scene_social">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="12" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="16" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="18" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+               </scene>
+            <scene scene_id="scene_game">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="12" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="16" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="18" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="22" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+           <scene scene_id="scene_game_performance_mode">
+               <temp_config tempLevel="1" 
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="20"
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+           <scene scene_id="scene_game_balance_mode">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="20" tempLevelClear='0'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+           <scene scene_id="scene_game_save_power_mode">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="20"
+                cpu="9" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+            <scene scene_id="scene_short_video">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="11" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="16" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="18" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+            </scene>
+            <scene scene_id="scene_video">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="12" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="15" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="18" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+            </scene>
+            <scene scene_id="scene_navigation">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="8" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="13" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="17" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="19" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+            </scene>
+            <scene scene_id="scene_download">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+               <temp_config tempLevel="14" tempLevelClear='2'
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="18" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+            <scene scene_id="scene_camera">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="15" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="17" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="19" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+            <scene scene_id="scene_benchmark">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+               <temp_config tempLevel="18" tempLevelClear='2'
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="20" tempLevelClear='1'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+            <scene scene_id="scene_video_call">
+               <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+               <temp_config tempLevel="13" tempLevelClear='2'
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="16" tempLevelClear='2'
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="20" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </scene>
+        </specificScene>
+        <default>
+            <common_config>
+                <temp_config tempLevel="1"
+                cpu="0" gpu="0" brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="7" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="12" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="17" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="19" tempLevelClear='2'
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+                <temp_config tempLevel="21"
+                cpu="0" gpu="0"  brightness="0" charge="0" modem="0" disFlashlight="0"
+                stopCameraVideo="0" camerabrightness="0" disCamera="0" disWifiHotSpot="0" disTorch="0" disWifi="0" fps="0" refreshRate="0" volume="0" disBluetooth="0" disHBMHB="0" isolateCpus="0" powerhal="0"/>
+           </common_config>
+        </default>
+    </thermalPolicyConfig>
+</thermal_control>

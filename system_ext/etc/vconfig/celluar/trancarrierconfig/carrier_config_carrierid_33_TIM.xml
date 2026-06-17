@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string name="default_vm_number_string">41919</string>
+    <string name="default_vm_number_roaming_string">41919</string>
+    <boolean name="display_hd_plus_icon_bool" value="true"/>
+    <!--TDD:add for X6856OS16-195 by renyan.pu 20250908 start-->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!--TDD:add for X6856OS16-195 by renyan.pu 20250908 end-->
+    <!--TDD:add  by ruofei.niu in 20250916 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add  by ruofei.niu in 20250916 end-->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    <boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+</carrier_config>

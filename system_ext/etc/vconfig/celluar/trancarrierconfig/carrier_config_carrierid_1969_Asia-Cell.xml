@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:Add Asiacell vilte/vowifi/volte  by xiaohui.song on 20250925-begin -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:Add Asiacell volte/vowifi/vilte  by xiaohui.song on 20250925-end -->
+    <!--TDD:add for TOS1610-52094 by yeling 20251118 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for TOS1610-52094 by yeling 20251118 end-->
+</carrier_config>
+

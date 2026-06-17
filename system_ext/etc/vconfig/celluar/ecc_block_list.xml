@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccBlockTable>
+    <!--
+        South sudan
+        The attribute definition for tag EccBlockNumber:
+        - Mcc: the Mcc of the Country
+        - Mnc: the Mnc of the Carrier
+        - Number: the number that should be blocked
+        - BlockType: there are following values:
+            - 0: should block only without sim card
+            - 1: should always block
+            - 2: should block only with sim card insert
+        - OtherCondition: the other condition that should be support
+    -->
+    <EccBlockNumber Number="999" BlockType="2" Mcc="260" Mnc="FF"/>
+
+    <EccBlockNumber Number="999" BlockType="2" Mcc="286" Mnc="01"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="286" Mnc="03"/>
+
+    <EccBlockNumber Number="909" BlockType="2" Mcc="636" Mnc="FF"/>
+    <EccBlockNumber Number="929" BlockType="2" Mcc="636" Mnc="FF"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="636" Mnc="FF"/>
+    <EccBlockNumber Number="911" BlockType="2" Mcc="636" Mnc="FF"/>
+
+    <EccBlockNumber Number="999" BlockType="0" Mcc="652" Mnc="FF"/>
+    <EccBlockNumber Number="997" BlockType="0" Mcc="652" Mnc="FF"/>
+    <EccBlockNumber Number="998" BlockType="0" Mcc="652" Mnc="FF"/>
+
+    <EccBlockNumber Number="119" BlockType="2" Mcc="736" Mnc="FF"/>
+
+    <EccBlockNumber Number="190" BlockType="0" Mcc="604" Mnc="FF"/>
+    <EccBlockNumber Number="150" BlockType="0" Mcc="604" Mnc="FF"/>
+
+    <EccBlockNumber Number="111" BlockType="0" Mcc="640" Mnc="FF"/>
+    <EccBlockNumber Number="111" BlockType="0" Mcc="640" Mnc="FF" SimState="2"/>
+    <EccBlockNumber Number="113" BlockType="0" Mcc="640" Mnc="FF"/>
+    <EccBlockNumber Number="113" BlockType="0" Mcc="640" Mnc="FF" SimState="2"/>
+    <EccBlockNumber Number="114" BlockType="0" Mcc="640" Mnc="FF"/>
+    <EccBlockNumber Number="114" BlockType="0" Mcc="640" Mnc="FF" SimState="2"/>
+
+    <EccBlockNumber Number="119" BlockType="1" Mcc="732" Mnc="101">
+        <OtherCondition Prop="ro.tran_cocl_market.support" Result="1"/>
+    </EccBlockNumber>
+    <EccBlockNumber Number="119" BlockType="0" Mcc="732" Mnc="FF">
+        <OtherCondition Prop="ro.tran_cocl_market.support" Result="1"/>
+    </EccBlockNumber>
+
+    <EccBlockNumber Number="101" BlockType="0" Mcc="401" Mnc="FF"/>
+    <EccBlockNumber Number="102" BlockType="0" Mcc="401" Mnc="FF"/>
+    <EccBlockNumber Number="103" BlockType="0" Mcc="401" Mnc="FF"/>
+
+    <EccBlockNumber Number="101" BlockType="1" Mcc="250" Mnc="FF"/>
+    <EccBlockNumber Number="102" BlockType="1" Mcc="250" Mnc="FF"/>
+    <EccBlockNumber Number="103" BlockType="1" Mcc="250" Mnc="FF"/>
+    <EccBlockNumber Number="104" BlockType="1" Mcc="250" Mnc="FF"/>
+    <EccBlockNumber Number="123" BlockType="1" Mcc="250" Mnc="FF"/>
+    <EccBlockNumber Number="121" BlockType="1" Mcc="250" Mnc="FF"/>
+
+    <EccBlockNumber Number="111" BlockType="0" Mcc="635" Mnc="FF"/>
+
+    <EccBlockNumber Number="199" BlockType="2" Mcc="650" Mnc="FF"/>
+
+    <EccBlockNumber Number="1669" BlockType="2" Mcc="520" Mnc="FF"/>
+
+    <EccBlockNumber Number="911" BlockType="2" Mcc="616" Mnc="01"/>
+    <EccBlockNumber Number="911" BlockType="2" Mcc="616" Mnc="02"/>
+    <EccBlockNumber Number="911" BlockType="2" Mcc="616" Mnc="03"/>
+    <EccBlockNumber Number="911" BlockType="2" Mcc="616" Mnc="05"/>
+    <EccBlockNumber Number="911" BlockType="0" Mcc="616" Mnc="FF"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="616" Mnc="01"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="616" Mnc="02"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="616" Mnc="03"/>
+    <EccBlockNumber Number="999" BlockType="2" Mcc="616" Mnc="05"/>
+    <EccBlockNumber Number="999" BlockType="0" Mcc="616" Mnc="FF"/>
+
+    <EccBlockNumber Number="100" BlockType="1" Mcc="404" Mnc="FF"/>
+    <EccBlockNumber Number="100" BlockType="1" Mcc="405" Mnc="FF"/>
+
+    <EccBlockNumber Number="110" BlockType="1" Mcc="716" Mnc="10"/>
+    <EccBlockNumber Number="116" BlockType="1" Mcc="716" Mnc="10"/>
+
+    <EccBlockNumber Number="100" BlockType="0" Mcc="429" Mnc="FF"/>
+    <EccBlockNumber Number="101" BlockType="0" Mcc="429" Mnc="FF"/>
+    <EccBlockNumber Number="102" BlockType="0" Mcc="429" Mnc="FF"/>
+
+    <EccBlockNumber Number="115" BlockType="1" Mcc="740" Mnc="FF"/>
+
+    <EccBlockNumber Number="131" BlockType="1" Mcc="730" Mnc="FF"/>
+    <EccBlockNumber Number="132" BlockType="1" Mcc="730" Mnc="FF"/>
+</EccBlockTable>

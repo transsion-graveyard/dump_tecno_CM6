@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for X6878OS16-3627 by yaning.yao 20251105 start-->
+    <boolean name="carrier_vt_available_bool" value="false"/>
+    <!--TDD:add for X6878OS16-3627 by yaning.yao 20251105 end-->
+</carrier_config>

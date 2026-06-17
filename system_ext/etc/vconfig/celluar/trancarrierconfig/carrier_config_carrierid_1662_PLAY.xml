@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_tb_clir" value="true" />
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <boolean name="vilte_data_is_metered_bool" value="false"/>
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true"/>
+    <!-- TDD:add XLQBBHBJS-3860 for spn vowifi name format by yunhua.hu 2023.07.10 start -->
+    <int name="wfc_spn_format_idx_int" value="11"/>
+    <!-- TDD:add XLQBBHBJS-3860 for spn vowifi name format by yunhua.hu 2023.07.10 end -->
+    <!--TDD:add for XLQBBHBJS-3862 by guangshuai.cheng 2023.07.10 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for XLQBBHBJS-3862 by guangshuai.cheng 2023.07.10 end -->
+    <!-- TDD:add XLQBBHBJS-3865 for roaming name by yunhua.hu 2023.07.12 start -->
+    <string-array name="roaming_operator_string_array" num="1">
+        <item value="260"/>
+    </string-array>
+    <boolean name="tran_tdd_operator_plmn_number_priority" value="true" />
+    <!-- TDD:add XLQBBHBJS-3865 for roaming name by yunhua.hu 2023.07.12 end -->
+    <!-- TDD:add XLQBBHBJS-3863 for national roaming requirements by yunhua.hu 2023.07.27 start -->
+    <boolean name="tran_tdd_show_national_data_roaming" value="true" />
+    <boolean name="tran_tdd_carrier_default_national_data_roaming_enabled_bool" value="true" />
+    <!-- TDD:add XLQBBHBJS-3863 for national roaming requirements by yunhua.hu 2023.07.27 end -->
+    <!-- TDD:modify for XLQBBHBJS-3822 by liulei 20230712 start -->
+    <string-array name="carrier_metered_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+    <!-- TDD:modify for XLQBBHBJS-3822 by liulei 20230712 end -->
+    <!-- TDD:modify for XLQBBHBJS-3864 by liulei 20230712 start -->
+    <int name="smsToMmsTextThreshold" value="6"/>
+    <!-- TDD:modify for XLQBBHBJS-3864 by liulei 20230712 end -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <boolean name="allow_cnap_name_in_call_log" value="true"/>
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 end-->
+</carrier_config>

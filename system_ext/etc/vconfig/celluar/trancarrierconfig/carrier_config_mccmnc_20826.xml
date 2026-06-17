@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+        <boolean name="rtt_supported_bool" value="true"/>
+        <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+        <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="hide_volte_icon_support_bool" value="true"/>
+        <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    </carrier_config>
+</carrier_config_list>

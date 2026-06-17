@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <boolean name="mtk_carrier_wfc_mode_domestic_roaming_to_home" value="true" />
+
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+    <!-- TDD:add CHISHLJEY-33 for default enable data roaming by yunhua.hu 2022.06.16 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add CHISHLJEY-33 for default enable data roaming by yunhua.hu 2022.06.16 end -->
+    <!--TDD:add for CHLSCOH-54 by guangshuai.cheng 2002.08.03 start -->
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!--TDD:add for CHLSCOH-54 by guangshuai.cheng 2002.08.03 end -->
+        <!--TDD:add for CMSFTASK-488 by pei.zhou 20220829 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for CMSFTASK-488 by pei.zhou 20220829 end -->
+
+    <!--TDD:add H+ icon for SystemUI by wanbao.xue 2022.10.14 start -->
+    <boolean name="show_h_plus_data_icon_for_hspap_bool" value="true" />
+    <!--TDD:add H+ icon for SystemUI by wanbao.xue 2022.10.14 start end -->
+    <!-- TDD:add CL6SCOCL-142 for google dialer by yi.shi 2024.1.31 start -->
+    <boolean name="display_call_type_icon_bool" value="true" />
+    <boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true"/>
+    <!-- TDD:add CL6SCOCL-142 for google dialer by yi.shi 2024.1.31 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*20</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+    <string-array name="carrier_certificate_string_array" num="5">
+        <item value="8C960CA3CBF4A9DA851774F2DE072E57B1289A9CF7D6BDA4A6B386A42BC4FFB3:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="7413E2B365230E1BCB294D687C3B87EE5BC7E3F9:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="2333F4065B9F054363CA63D1866CC168F45D641645B31131B14E173B9C922D15:co.sitic.pp"/>
+        <item value="14D54C64599A3E9A3B766239B160DE3935093E0A:co.sitic.pp"/>
+        <item value="F54CAC11D5AF77A5F10C21D536AD5D1C40B00D63A92CAB917AA84DC714D622D8:co.sitic.pp"/>
+    </string-array>
+    <string name="call_screening_app">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallScreeningService</string>
+    <string name="call_redirection_service_component_name_string">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallRedirectionService</string>
+</carrier_config>

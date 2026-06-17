@@ -1,0 +1,10 @@
+com.transsion.filemanagerx
+com.funbase.xradio
+com.transsion.gamespace.app
+com.transsion.mobilecloner
+com.transsion.calculator
+com.transsion.calendar
+com.transsion.fmradio
+com.transsion.notebook
+com.transsion.soundrecorder
+com.transsion.theme

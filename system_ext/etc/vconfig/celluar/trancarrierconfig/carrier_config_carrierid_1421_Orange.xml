@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:modify for TOS1501-40005 by chunyan.tang 20241220 start-->
+	<boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD:modify for TOS1501-40005 by chunyan.tang 20241220 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

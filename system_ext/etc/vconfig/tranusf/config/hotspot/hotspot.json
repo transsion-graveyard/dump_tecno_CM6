@@ -1,0 +1,16 @@
+{
+  "version": "1.0.1",
+  "upTime": 20251025,
+  "enableHotSpot": true,
+  "longTimeHotSpotPolicy": {
+    "enable": true,
+    "longTimeHotSpotHours": 1,
+	"screenOffToKeyguardShowMinutes": 30,
+	"screenOffTimeOutSeconds": 15
+  },
+  "hotSpotWithPocketModePolicy": {
+    "enable": true,
+    "pocketModeCheckMinutes": 5,
+	"screenOffTimeOutSeconds": 15
+  }
+}

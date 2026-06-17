@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+  <string-array name="carrier_certificate_string_array" num="1">
+    <item value="e1b6e6cbfe0673164931be46d95fa7e43fb92dac49acc10a6c0909e5eada15fa"/>
+  </string-array>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+    <string name="default_vm_number_string">22123</string>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+    <string name="default_vm_number_roaming_string">+34609123123</string>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="support_video_call_tx_rx_control" value="false"/>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for Latin America Movistar by yeling 20250408 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for Latin America Movistar by yeling 20250408 end -->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+</carrier_config>

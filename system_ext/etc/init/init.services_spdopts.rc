@@ -1,0 +1,5 @@
+#USD: add for tran_health_sched by xianhe.zhou 20240913 start
+on early-boot
+#SPD: add by feng.an 20210813 start
+on property:sys.boot_completed=1
+    mkdir /data/services_spdopts 0775 system system encryption=None

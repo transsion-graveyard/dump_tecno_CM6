@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <!-- TDD: add for XLQHVW-3200 by yunhua.hu 20230731 start -->
+    <boolean name="omacp_apn_overwrite_orginal_same_apn" value="true"/>
+    <!-- TDD: add for XLQHVW-3200 by yunhua.hu 20230731 end -->
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 start -->
+    <string-array name="read_only_apn_types_string_array" num="0" />
+    <!--TDD:add for X6882PUBL-2346 by yunhua.hu 20240725 end -->
+    <string name="carrier_name_string">Vodafone RO</string>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+</carrier_config>

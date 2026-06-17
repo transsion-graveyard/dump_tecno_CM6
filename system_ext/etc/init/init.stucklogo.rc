@@ -1,0 +1,20 @@
+#on post-fs
+#    start stucklogo
+
+on post-fs-data
+    mkdir /tranfs/stuck_logo 0777 root root
+    mkdir /tranfs/stuck_logo/log 0755 root root
+    mkdir /data/tran_dfr 0777 root root encryption=None
+
+service stucklogo /system_ext/bin/stucklogo
+    class core
+    user root
+    group root
+    disabled
+    oneshot
+
+on property:sys.trans_recovery_reset=1
+    tran_recovery_reset
+
+on property:sys.trans_recovery_reboot=1
+    tran_recovery_reboot

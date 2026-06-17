@@ -1,0 +1,9 @@
+service tranebpf /system_ext/bin/tranebpf
+    class late_start
+    user gpu_service
+    group graphics readtracefs
+    disabled
+    task_profiles ServiceCapacityLow ServicePerformance
+
+on property:sys.boot_completed=1 && property:ro.tr_ebpf.support=1
+    start tranebpf

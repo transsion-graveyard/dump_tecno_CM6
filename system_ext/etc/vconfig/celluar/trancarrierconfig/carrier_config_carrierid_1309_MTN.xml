@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <string name="carrier_name_string">MTN-SA</string>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:modify for AR-20250423-0029 by renyan.pu 20250429 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+    <!--TDD:modify for AR-20250423-0029 by renyan.pu 20250429 end-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for TOS1510-15067 by renyan.pu 20250402 start-->
+    <boolean name="enable_network_prefered_5G_only" value="true" />
+    <!--TDD:add for TOS1510-15067 by renyan.pu 20250402 end-->
+    <!--TDD:add for TOS1510-18819 by yaning.yao 20250411 start-->
+    <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+    <!--TDD:add for TOS1510-18819 by yaning.yao 20250411 end-->
+    <!--TDD:add for AR-20250423-0029 by renyan.pu 20250429 start-->
+    <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true" />
+    <boolean name="enable_network_prefered_4G_only" value="true" />
+    <!--TDD:add for AR-20250423-0029 by renyan.pu 20250429 end-->
+</carrier_config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <privapp-permissions package="com.transsion.tranvoicecommand">
+        <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

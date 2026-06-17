@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add LHQNHB-2886 for default enable data roaming by guangshuai.cheng 2023.08.31 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add LHQNHB-2886 for default enable data roaming by guangshuai.cheng 2023.08.31 end -->
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 end -->
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false"/>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 end -->
+    <!--TDD:add for KI7SV7510-310 by guangshuai.cheng 2023.04.26 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!--TDD:add for KI7SV7510-310 by guangshuai.cheng 2023.04.26 end -->
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*86</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+    <!--TDD: add by xuejian.fu 20251120 IMS OEMFT start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD: add by xuejian.fu 20251120 IMS OEMFT end-->
+</carrier_config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:modify RD-CM5-Jordan-250320014 by chunyan.tang 20250324 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:modify RD-CM5-Jordan-250320014 by chunyan.tang 20250324 end-->
+</carrier_config>

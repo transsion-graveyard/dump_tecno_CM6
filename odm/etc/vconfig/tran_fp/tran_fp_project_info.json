@@ -1,0 +1,20 @@
+{
+    "checksum"         :2617354806,
+    "tran_project_name":"CM6",
+    "tran_project_id"  :1,
+    "tran_fp_spi_num"  :1,
+    "tran_fp_type"     :"UNDER_DISPLAY_OPTICAL",
+    "vendors_in_total" :1,
+    "tran_vendor1"     :"JIIOV_JV0307",
+    "tran_vendor2"     :"NN",
+    "tran_vendor3"     :"NN",
+    "tran_vendor4"     :"NN",
+    "tran_fp_display_module_name1":"tm",
+    "tran_fp_display_module_name2":"NN",
+    "tran_fp_display_ic_name1":"nt37703a",
+    "tran_fp_offset_x1"     :"540",
+    "tran_fp_offset_y1"     :"2200",
+    "tran_fp_display_ic_name2":"NN",
+    "tran_fp_offset_x2"     :"NN",
+    "tran_fp_offset_y2"     :"NN"
+}

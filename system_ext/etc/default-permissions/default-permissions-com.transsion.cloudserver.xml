@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.cloudserver">
+		<permission name="android.permission.READ_CONTACTS"/>
+		<permission name="android.permission.WRITE_CONTACTS"/>
+		<permission name="android.permission.READ_PHONE_STATE"/>
+		<permission name="android.permission.READ_CALL_LOG"/>
+		<permission name="android.permission.WRITE_CALL_LOG"/>
+		<permission name="android.permission.READ_SMS"/>
+		<permission name="android.permission.SEND_SMS"/>
+		<permission name="android.permission.READ_CALENDAR"/>
+		<permission name="android.permission.WRITE_CALENDAR"/>
+		<permission name="android.permission.POST_NOTIFICATIONS"/>
+		<permission name="android.permission.WRITE_BLOCKED_NUMBERS"/>
+		<permission name="android.permission.NEARBY_WIFI_DEVICES"/>
+    </exception>
+</exceptions>

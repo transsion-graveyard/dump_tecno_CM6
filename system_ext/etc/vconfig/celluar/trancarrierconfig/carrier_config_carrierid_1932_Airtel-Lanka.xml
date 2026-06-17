@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: modify for KL4F201-2911 by haoxin.liao 20250107 start-->
+    <boolean name="hide_ims_apn_bool" value="true"/>
+    <!--TDD: modify for KL4F201-2911 by haoxin.liao 20250107 end-->
+    <!-- TDD: add for X6870OS160-74 by chunyan.tang 20250509 start -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD: add for X6870OS160-74 by chunyan.tang 20250509 start -->
+</carrier_config>

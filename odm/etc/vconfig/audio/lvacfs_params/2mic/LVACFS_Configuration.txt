@@ -1,0 +1,49 @@
+49                                      // Number_of_arguments
+16                                     // MajorBaselineVersion
+0                                       // MinorBaselineVersion
+0                                       // MinorMinorBaselineVersion
+0                                       // PatchBaselineVersion
+LVM_MODE_ON                             // AZProc
+LVACFS_ABSOLUTE_PATH                    // PathDef
+1                                       // NbCalibration360s
+/odm/etc/vconfig/audio/lvacfs_params/2mic/AC16.dat              // CalibrationFile0
+12                                    // NbProfile
+1                                      // DeviceId1
+/odm/etc/vconfig/audio/lvacfs_params/2mic/ID1-standard.txt           // Profile standard
+2                                       // DeviceId2
+/odm/etc/vconfig/audio/lvacfs_params/2mic/ID2-standard+zoom.txt         // Profile standard+zoom
+3                                       // DeviceId3
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt            // Profile wideband
+4
+/odm/etc/vconfig/audio/lvacfs_params/2mic/ID4-direction+voicefoucs.txt            // Profile direction+voicefoucs
+5                                       // DeviceId5
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID5_MIC_Normal.txt            // Profile normal
+6                                       // DeviceId6
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID6_MIC_App.txt            // Profile
+7                                      // DeviceId7
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID7_MIC_He.txt            // Profile
+8                                       // DeviceId8
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID8_MIC_He_App.txt            // Profile
+9                                       // DeviceId9
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID9_He_Unprocess.txt            // Profile
+10                                       // DeviceId10
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID10_He_USB_Digital_48K.txt            // Profile
+11                                       // DeviceId11
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID11_He_USB_Digital_16K.txt            // Profile
+12                                       // DeviceId12
+/odm/etc/vconfig/audio/lvacfs_params/2mic/LVIMFS_Parameter_xxxx_ID12_He_BT_16K.txt           // Profile 0
+LVM_MODE_OFF                            // EnableDebug
+LVM_MODE_OFF                            // StatusReporting
+/data/vendor/audio/LVAC_Status.bin          // LVAC_StatusFile
+LVACFS_PCM_MODE_CONTINUOUS                    // InPCMSavingMode
+16000                                   // InPCMSavingBufferSize
+/data/vendor/audio/Ac_in.pcm                // InPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // InPCMInjectionMode
+16000                                   // InPCMInjectionBufferSize
+/data/vendor/audio/TestInput.pcm                  // InPCMInjectionFilename
+LVACFS_PCM_MODE_CONTINUOUS                    // OutPCMSavingMode
+16000                                   // OutPCMSavingBufferSize
+/data/vendor/audio/Ac_out.pcm               // OutPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // OutPCMInjectionMode
+16000                                   // OutPCMInjectionBufferSize
+/data/vendor/audio/TestOutput.pcm                  // OutPCMInjectionFilename

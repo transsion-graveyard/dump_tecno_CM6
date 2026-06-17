@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--TDD:Add for CBN-China by yong.chen1 202509115 begin-->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="false"/>
+        <!--TDD:Add for CBN-China by yong.chen1 202509115 end-->
+    </carrier_config>
+</carrier_config_list>

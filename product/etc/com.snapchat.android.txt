@@ -1,0 +1,1 @@
+/tr_region/etc/asset/com.snapchat.android.txt

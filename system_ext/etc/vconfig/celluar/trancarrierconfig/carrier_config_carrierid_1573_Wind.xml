@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string name="default_vm_number_string">4200</string>
+    <string name="default_vm_number_roaming_string">+393232054200</string>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add  by ruofei.niu in 20250916 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add  by ruofei.niu in 20250916 end-->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <boolean name="hide_volte_icon_support_bool" value="true"/>
+    <!--TDD: modify for X6730OS151-795 by chunyan.tang 20251027 start-->
+</carrier_config>

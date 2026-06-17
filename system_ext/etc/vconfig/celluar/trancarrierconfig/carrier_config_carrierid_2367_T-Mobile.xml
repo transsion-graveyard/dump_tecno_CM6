@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="support_vowifi_mms" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- add for polad  show LTE/LTE+  20251103 start-->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <boolean name="show_4glte_for_lte_data_icon_bool" value="false"/>
+    <boolean name="hide_lte_plus_data_icon_bool" value="false"/>
+    <!-- add for polad  show LTE/LTE+  20251103 end-->
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add TOS1510-38905 by chunyan.tang 20250618 end-->
+</carrier_config>

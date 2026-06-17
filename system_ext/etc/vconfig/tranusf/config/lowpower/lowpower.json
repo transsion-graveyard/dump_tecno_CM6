@@ -1,0 +1,44 @@
+{
+    "version": "1.0",
+    "enable": true,
+    "enterThreshold": 20,
+    "exitThreshold": 25,
+    "screenOffDelaySeconds": 60,
+    "whitePackages": [
+    ],
+    "testOemPackages": [
+    ],
+    "networkWhitePackages": [
+      "com.tencent.mobileqq",
+      "com.tencent.mm",
+      "com.tencent.wework",
+      "com.ss.android.lark",
+      "com.ss.android.lark.transsion",
+      "com.whatsapp",
+      "com.facebook.orca",
+      "com.snapchat.android",
+      "org.telegram.messenger",
+      "com.instagram.android"
+    ],
+    "supportedRegions": [
+      "ng",
+      "gh",
+      "sn",
+      "ml",
+      "bf",
+      "ci",
+      "gn",
+      "sl",
+      "lr",
+      "gm",
+      "gw",
+      "cv",
+      "ne",
+      "tg",
+      "bj",
+      "ke",
+      "tz",
+      "ug",
+      "cn"
+    ]
+}

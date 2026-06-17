@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <!--TDD:add for CM7H781-199 by zhezhi.liu 20241220 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:add for CM7H781-199 by zhezhi.liu 20241220 end -->
+    <!-- TDD:add for KL4F201-1456 by wanbao.xue 20240614 start -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!-- TDD:add for KL4F201-1456 by wanbao.xue 20240614 end -->
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

@@ -1,0 +1,20 @@
+on property:persist.sys.google.clientidbase.am=*
+    setprop ro.com.google.clientidbase.am ${persist.sys.google.clientidbase.am}
+on property:persist.sys.google.clientidbase.ms=*
+    setprop ro.com.google.clientidbase.ms ${persist.sys.google.clientidbase.ms}
+on property:persist.sys.google.clientidbase.vs=*
+    setprop ro.com.google.clientidbase.vs ${persist.sys.google.clientidbase.vs}
+on property:persist.sys.google.clientidbase.cr=*
+    setprop ro.com.google.clientidbase.cr ${persist.sys.google.clientidbase.cr}
+on property:persist.sys.facebook.partnerid=*
+    setprop ro.facebook.partnerid ${persist.sys.facebook.partnerid}
+on property:persist.sys.build_number=*
+    setprop ro.build_number ${persist.sys.build_number}
+    setprop ro.tr_build.build_number ${persist.sys.build_number}
+on property:persist.sys.googlefeeds_support=*
+    setprop ro.tr_launcher.googlefeeds.support ${persist.sys.googlefeeds_support}
+on property:persist.sys.stk_operator_market=mxtc
+    setprop ro.tran_mxtc_market.support 1
+on property:persist.sys.stk_operator_market=cocl
+    setprop ro.tran_cocl_market.support 1
+

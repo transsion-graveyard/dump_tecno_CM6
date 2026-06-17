@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add for CN5OS161-1724 by yaning.yao 20251103 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:add for CN5OS161-1254 by yaning.yao 20251103 end-->
+</carrier_config>

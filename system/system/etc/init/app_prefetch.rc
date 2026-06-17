@@ -1,0 +1,92 @@
+# Reads data from disk in advance and populates page cache
+# to speed up subsequent disk access.
+#
+# Record:
+#   start by `start prefetch_record` at appropriate timing.
+#   stop by setting `prefetch_boot.record_stop` to 1.
+#   set --duration to only capture for a certain duration instead.
+#
+# Replay:
+#   start by `start prefetch_replay` at appropriate timing.
+#   it will depend on several files generated from record.
+#
+#   replay is I/O intensive. make sure you pick appropriate
+#   timing to run each, so that you can maximize the page cache
+#   hit for subsequent disk access.
+#
+# Example:
+#   on early-init && property:ro.prefetch_boot.enabled=true
+#     start prefetch_replay
+#
+#   on init && property:ro.prefetch_boot.enabled=true
+#     start prefetch_record
+#
+#   on property:sys.boot_completed=1 && property:ro.prefetch_boot.enabled=true
+#     setprop prefetch_boot.record_stop 1
+
+#on early-init && property:ro.prefetch_boot.enabled=true
+#     start prefetch_replay
+
+#on late-fs && property:ro.prefetch_boot.enabled=true
+#     start prefetch_record
+
+#on property:sys.boot_completed=1 && property:ro.prefetch_boot.enabled=true
+#     setprop prefetch_boot.record_stop 1
+
+#service prefetch_record /system/bin/prefetch record --duration ${ro.prefetch_boot.duration_s:-0}
+#    user root
+#    group root system
+#    disabled
+#    oneshot
+
+#service prefetch_replay /system/bin/prefetch replay --io-depth ${ro.prefetch_boot.io_depth:-2} --max-fds ${ro.prefetch_boot.max_fds:-1024}
+#    user root
+#    group root system
+#    disabled
+#    oneshot
+
+on property:sys.boot_completed=1 && property:persist.sys.prefetch_app.enabled=true
+    mkdir /data/app_prefetch 0775 root system
+    restorecon /data/app_prefetch
+    mkdir /sys/kernel/tracing/instances/prefetch 755
+    write /sys/kernel/tracing/instances/prefetch/buffer_size_kb 1410
+    write /sys/kernel/tracing/instances/prefetch/events/filemap/mm_filemap_add_to_page_cache/enable 0
+    write /sys/kernel/tracing/instances/prefetch/tracing_on 0
+    start prefetch_app_service
+
+on property:sys.boot_completed=1 && property:persist.sys.prefetch_app.enabled=false
+    stop prefetch_app_service
+
+service prefetch_app_service /system/bin/app_prefetch service --socket /dev/socket/app_prefetch
+    socket app_prefetch stream+listen 0666 system system
+    capabilities SYS_ADMIN SYS_PTRACE FOWNER CHOWN DAC_OVERRIDE DAC_READ_SEARCH
+    class main
+    user root
+    group root system
+    seclabel u:r:app_prefetch:s0
+    writepid /dev/cpuset/system-background/tasks
+    disabled
+
+
+service prefetch_app_merge /system/bin/app_prefetch merge --packages ${prefetch_app.merge.packages}
+    user root
+    group root system readproc
+    disabled
+    oneshot
+
+
+service prefetch_app_record /system/bin/app_prefetch record --duration ${ro.prefetch_app.duration_s:-0} --packages ${prefetch_app.record.packages}
+    user root
+    group root system
+    disabled
+    oneshot
+    writepid /dev/cpuset/foreground/tasks
+
+
+service prefetch_app_replay /system/bin/app_prefetch replay --io-depth ${ro.prefetch_app.io_depth:-6} --max-fds ${ro.prefetch_app.max_fds:-1024} --packages ${prefetch_app.replay.packages}
+    capabilities DAC_OVERRIDE DAC_READ_SEARCH FOWNER 
+    user root
+    group root system
+    disabled
+    oneshot
+    writepid /dev/cpuset/foreground/tasks

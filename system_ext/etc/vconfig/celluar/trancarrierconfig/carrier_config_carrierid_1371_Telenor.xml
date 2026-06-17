@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="vilte_data_is_metered_bool" value="false"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

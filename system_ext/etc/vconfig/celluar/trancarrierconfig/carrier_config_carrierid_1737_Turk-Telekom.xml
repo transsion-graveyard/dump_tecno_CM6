@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for CKBNHJSY-3382 UPS Turkey by wanbao.xue 20230223 start -->
+    <boolean name="always_show_data_rat_icon_bool" value="false"/>
+    <!--TDD:add for CKBNHJSY-3382 UPS Turkey by wanbao.xue 20230223 end -->
+    <!--TDD:add for X6731BH896-2490 Turkey by wanbao.xue 20231107 start -->
+    <boolean name="gsm_cdma_calls_can_be_hd_audio" value="false"/>
+    <!--TDD:add for X6731BH896-2490 Turkey by wanbao.xue 20231107 end -->
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <!-- TDD: modify vilte data by zhangping.zhong 20211027 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD: modify vilte data by zhangping.zhong 20211027 end -->
+    <!--TDD:add for LELGHLEEE-576 VoWiFi Default on by guangshuai.cheng 2002.07.22 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!--TDD:add for LELGHLEEE-576 VoWiFi Default on by guangshuai.cheng 2002.07.22 end -->
+    <!--TDD:add KHLHLWYS-2199 for show 4.5G 2022.08.03 by guangshuai.cheng start -->
+    <boolean name="mtk_key_show_45g_options" value="true" />
+    <!--TDD:add KHLHLWYS-2199 for show 4.5G 2022.08.03 by guangshuai.cheng end -->
+    <!--TDD:add for LFQHLJYB-4459 by yunhua.hu 2023.06.20 start -->
+    <string-array name="roaming_operator_string_array" num="1">
+        <item value="286"/>
+    </string-array>
+    <boolean name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting" value="true" />
+    <boolean name="tran_tdd_operator_plmn_number_priority" value="true" />
+    <!--TDD:add for LFQHLJYB-4459 by yunhua.hu 2023.06.20 end -->
+    <!--TDD: add show pau key for ADJHBSY-6186 by gaoming.luo 2022.09.01 start-->
+    <boolean name="tran_support_show_pau_name_bool" value="false" />
+    <!--TDD: add show pau key for ADJHBSY-6186 by gaoming.luo 2022.09.01 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="supports_video_callforward_bool" value="false"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="force_cellular_network_available_for_ecall" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="show_4_point_5g_icon_bool" value="true"/>
+    <!--TDD:add for turkey LTE show 4.5G LTE_CA still show 4.5G by mengmeng.tao 20251104 start-->
+    <boolean name="show_custom_lte_ca_icon" value="true"/>
+    <!--TDD:add for turkey LTE show 4.5G LTE_CA still show 4.5G by mengmeng.tao 20251104 end-->
+</carrier_config>

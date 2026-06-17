@@ -1,0 +1,74 @@
+{
+    /** sample json:
+    "0x80A4_0": {               // 0x80A4_0: operationMode_CameraId
+        "eisMode": -1,          // -1: unset, 0: cpu, 1: gpu, 2: ICA/WPE
+        "eisOption": -1,        // -1: unset, refer to @morpho_VideoStabilizer_Option
+        "frameDelay": 30,       // frame delay only for eisv3
+        "widthMargin": 0.2,     // width margin1
+        "heightMargin": 0.2     // height margin2
+    },*/
+    "staticinfo_1_Default": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 16,
+        "mMargin":25,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":3
+    },
+
+    "staticinfo_2_WIDE": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 30,
+        "mMargin":43,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":2
+    },
+
+    "staticinfo_2_ULTRAWIDE": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 30,
+        "mMargin":67,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":2
+    },
+
+    "staticinfo_2_FRONT": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 30,
+        "mMargin":25,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":2
+    },
+
+    "staticinfo_2_TELE": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 30,
+        "mMargin":25,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":2
+    },
+
+    "staticinfo_3_Default": {
+        "mPreTpipMode": 1,
+        "mIsNeedWarp":1,
+        "mQueueCount": 30,
+        "mMargin":25,
+        "mGridWidth":32,
+        "mGridHeight":24,
+        "mCurrEisMode":3
+    },
+
+
+    "0x0_0": {
+        "mSatBaseZoom":0.6
+    }
+}

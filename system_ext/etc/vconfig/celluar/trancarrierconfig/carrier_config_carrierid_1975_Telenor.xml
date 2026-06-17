@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:modify for TOS1610-26216 by renyan.pu on 20250930 start-->
+    <int name="carrier_default_wfc_ims_mode_int" value="2" />
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:modify for TOS1610-26216 by renyan.pu on 20250930 end-->
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <!--TDD:add for telenor vowifi enable by lei.yang on 20240815 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    <!--TDD:add for telenor vowifi enable by lei.yang on 20240815 end-->
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

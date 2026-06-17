@@ -1,0 +1,7 @@
+#USD: add for tran_health_sched by xianhe.zhou 20240913 start
+on early-boot
+#SPD: add by feng.an 20210813 start
+on property:sys.boot_completed=1
+#SPD: add by wenting.sheng for SUNMAO-2139 20240826 start
+    mkdir /data/pq 0775 system system encryption=None
+#SPD: add by wenting.sheng for SUNMAO-2139 20240826 end

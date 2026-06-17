@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="tran_tdd_operator_plmn_number_priority" value="true" />
+    <string-array name="non_roaming_operator_string_array" num="4">
+        <item value="25001"/>
+        <item value="25002"/>
+        <item value="25020"/>
+        <item value="25099"/>
+    </string-array>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true"/>
+    <!--TDD:add for TOS1501-62446 by gaoming.luo 20250214 end-->
+</carrier_config>

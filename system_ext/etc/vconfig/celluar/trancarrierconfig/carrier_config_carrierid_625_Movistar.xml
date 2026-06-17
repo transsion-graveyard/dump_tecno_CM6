@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <boolean name="support_video_conference_call_bool" value="false" />
+    <!--TDD:add for X6525PUB-2557 by liulei 20240228 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for X6525PUB-2557 by liulei 20240228 end -->
+    <!-- TDD: add for X6837H897-2764 by guoyi.qu 2024.3.5 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <!-- TDD: add for X6837H897-2764 by guoyi.qu 2024.3.5 end -->
+    <!--TDD:add X6837H897-551 by xiangjian.li 20240305 start-->
+    <boolean name="show_voz4g_for_volte_icon_bool" value="true"/>
+    <!--TDD:add X6837H897-551 by xiangjian.li 20240305 end-->
+    <!-- TDD:add for CK9NH933U-8247 by gaoming.luo 2024.05.06 start -->
+    <boolean name="enable_network_2G_only" value="false"/>
+    <!-- TDD:add for CK9NH933U-8247 by gaoming.luo 2024.05.06 end -->
+    <!-- TDD:add for X6860H899-2264 by pei.zhou 20240528 start -->
+    <boolean name="show_voz4g_for_volte_icon_bool" value="true"/>
+    <!-- TDD:add for X6860H899-2264 by pei.zhou 20240528 end -->
+    <!--TDD:add for S667LNPUB-1455 by jie.wang 2024.09.27 start-->
+    <boolean name="tran_remove_network_2G_only" value="true"/>
+    <!--TDD:add for S667LNPUB-1455 by jie.wang 2024.09.27 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="carrier_vt_available_bool" value="false"/>
+    <boolean name="supports_video_callforward_bool" value="false"/>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 start-->
+    <int name="show_vowifi_icon_int" value="1"/>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 end-->
+    <!--TDD:add for CM7H781-3117 by chunyan.tang 20250428 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD:add for CM7H781-3117 by chunyan.tang 20250428 end-->
+</carrier_config>
+

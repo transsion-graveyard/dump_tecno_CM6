@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--TDD: add conference call merge button by chao.zhan 20230920 start-->
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <!--TDD: add conference call merge button by chao.zhan 20230920 end-->
+        <!--TDD:Add for LHQNHB-2901 by lei.zhang7 20230911 start-->
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <!--TDD:Add for LHQNHB-2901 by lei.zhang7 20230911 end-->
+        <!--TDD:add for UZ_Beeline VT enable by lei.yang on 20241023 start-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <!--TDD:add for UZ_Beeline VT enable by lei.yang on 20241023 end-->
+    </carrier_config>
+</carrier_config_list>

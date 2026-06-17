@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:modify for CLA6H8910-398 by chunyan.tang 20250402 start-->
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <!--TDD:modify for CLA6H8910-398 by chunyan.tang 20250402 start-->
+    <!-- TDD:add X6871H962-6376 for default enable data roaming by yunhua.hu 2025.04.02 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add X6871H962-6376 for default enable data roaming by yunhua.hu 2025.04.02 end -->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for smsc by yeling 20250909 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for smsc by yeling 20250909 end -->
+    <!--TDD: modify for TOS1501-78958 by chunyan.tang 20250908 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD: modify for TOS1501-78958 by chunyan.tang 20250908 end-->
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+    <string name="default_vm_number_string">242</string>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+</carrier_config>

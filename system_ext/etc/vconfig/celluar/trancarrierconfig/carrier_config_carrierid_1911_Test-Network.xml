@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Modify for TOS1610-33960 by liuyan.mo 20251031 start-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="vonr_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!-- Modify for TOS1610-33960 by liuyan.mo 20251031 end-->
+</carrier_config>

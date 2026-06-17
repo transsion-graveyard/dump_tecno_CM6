@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD: add for X6878OS16-8596 by renyan.pu 20260112 start -->
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <!-- TDD: add for X6878OS16-8596 by renyan.pu 20260112 end -->
+</carrier_config>

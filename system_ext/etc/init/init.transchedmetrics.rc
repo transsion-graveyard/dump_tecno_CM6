@@ -1,0 +1,70 @@
+#USD: add for tran_health_sched by jie.chen12 20250331 start
+on early-boot
+# task_loading
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/enable
+    chmod 0664 /sys/kernel/tran_health_sched/sys_task_loading/enable
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/metrics
+    chmod 0444 /sys/kernel/tran_health_sched/sys_task_loading/metrics
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/metrics_b_pulse
+    chmod 0444 /sys/kernel/tran_health_sched/sys_task_loading/metrics_b_pulse
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/metrics_f_pulse
+    chmod 0444 /sys/kernel/tran_health_sched/sys_task_loading/metrics_f_pulse
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/metrics_pulse_clear
+    chmod 0222 /sys/kernel/tran_health_sched/sys_task_loading/metrics_pulse_clear
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/period
+    chmod 0664 /sys/kernel/tran_health_sched/sys_task_loading/period
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/print_top_enable
+    chmod 0664 /sys/kernel/tran_health_sched/sys_task_loading/print_top_enable
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/report_period
+    chmod 0664 /sys/kernel/tran_health_sched/sys_task_loading/report_period
+    chown system system /sys/kernel/tran_health_sched/sys_task_loading/threshold
+    chmod 0664 /sys/kernel/tran_health_sched/sys_task_loading/threshold
+
+# cpu_loading
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/enable
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_loading/enable
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/metrics
+    chmod 0444 /sys/kernel/tran_health_sched/sys_cpu_loading/metrics
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/loading
+    chmod 0444 /sys/kernel/tran_health_sched/sys_cpu_loading/loading
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/period
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_loading/period
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/threshold
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_loading/threshold
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_loading/metrics_clear
+    chmod 0222 /sys/kernel/tran_health_sched/sys_cpu_loading/metrics_clear
+
+# sched_latency
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/enable
+    chmod 0664 /sys/kernel/tran_health_sched/sys_sched_latency/enable
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_total_time
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_total_time
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_runnable_time
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_runnable_time
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_noiowait_time
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_noiowait_time
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_iowait_time
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_iowait_time
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_runnable_dis
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_runnable_dis
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_noiowait_dis
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_noiowait_dis
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_iowait_dis
+    chmod 0444 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_iowait_dis
+    chown system system /sys/kernel/tran_health_sched/sys_sched_latency/metrics_clear
+    chmod 0222 /sys/kernel/tran_health_sched/sys_sched_latency/metrics_clear
+
+# cpu_psi
+    chown system system /proc/pressure/cpu
+    chmod 0664 /proc/pressure/cpu
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_psi/enable
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_psi/enable
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_psi/metrics
+    chmod 0444 /sys/kernel/tran_health_sched/sys_cpu_psi/metrics
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_psi/threshold
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_psi/threshold
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_psi/window
+    chmod 0664 /sys/kernel/tran_health_sched/sys_cpu_psi/window
+    chown system system /sys/kernel/tran_health_sched/sys_cpu_psi/metrics_clear
+    chmod 0222 /sys/kernel/tran_health_sched/sys_cpu_psi/metrics_clear
+#USD: add for tran_health_sched by jie.chen12 20250331 end

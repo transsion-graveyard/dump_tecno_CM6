@@ -1,0 +1,31 @@
+# Transsion Top Secret
+
+# OS: add by zhiwei.li for SR-20250604-0066 2025.09.02 begin
+on post-fs-data
+    # Create typeface directories
+    mkdir /data/typeface 0777 system system
+    mkdir /data/typeface/default 0777 system system
+    mkdir /data/typeface/redirection 0777 system system
+
+    # Restore SELinux contexts
+    restorecon /data/typeface
+    restorecon /data/typeface/default
+    restorecon /data/typeface/redirection
+
+    # link to data_typeface_redirection_file
+    symlink /system_ext/etc/vconfig/typeface/fonts.xml /data/typeface/redirection/fonts.xml
+    symlink /product/fonts/TOS_VF.ttf /data/typeface/redirection/TranSansShell.ttf
+    symlink /product/fonts/TransSans_Italic.ttf /data/typeface/redirection/TranSansItalicShell.ttf
+    symlink /product/fonts/TransSans_SC.ttf /data/typeface/redirection/TranSansSCShell.ttf
+
+    # Change ownership
+    chown system system /data/typeface/redirection/fonts.xml
+    chown system system /data/typeface/redirection/TranSansShell.ttf
+    chown system system /data/typeface/redirection/TranSansItalicShell.ttf
+    chown system system /data/typeface/redirection/TranSansSCShell.ttf
+
+    # Log completion
+    exec - root root -- /system/bin/log -t os.typeface.init \
+        "Typeface setup completed successfully"
+# OS: add by zhiwei.li for SR-20250604-0066 2025.09.02 end
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add Feature LEBHQQY-1991 for JIO by wanbao.xue 2022.07.26 start -->
+    <boolean name="show_vo5g_for_vonr_icon_bool" value="true" />
+    <!-- TDD:add Feature LEBHQQY-1991 for JIO by wanbao.xue 2022.07.26 end -->
+
+    <!-- TDD:add Feature XLBELHQQS-8507 for JIO by wanbao.xue 2022.08.01 start -->
+    <boolean name="vonr_setting_visibility_bool" value="true" />
+    <!-- TDD:add Feature XLBELHQQS-8507 for JIO by wanbao.xue 2022.08.01 end -->
+    <!-- TDD: Add Apn Adaptation by xianzhongzhang 20210525 start -->
+    <boolean name="carrier_name_override_bool" value="false"/>
+    <!-- TDD: Add Apn Adaptation by xianzhongzhang 20210525 end -->
+    <boolean name="mtk_use_ims_first_for_call_bool" value="true"/>
+    <!-- Supplementary Service WWOP Config -->
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="mtk_carrier_swap_conference_to_foreground_before_merge" value="true" />
+    <boolean name="no_sip_message_on_pause_video_bool" value="true" />
+    <!-- TDD: modify vilte data by wenlin.xiao for KBBGHLESGQ-4583 20210517 end -->
+    <boolean name="mtk_carrier_ss_gsm_ut_support" value="true" />
+    <!-- TSD: modify KGWHGHLYEL-199 by zhendong.zhang 20211213 start -->
+    <boolean name="mtk_wfc_remove_preference_mode_bool" value="false" />
+    <!-- TSD: modify KGWHGHLYEL-199 by zhendong.zhang 20211213 end -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <boolean name="support_video_conference_call_bool" value="true" />
+    <boolean name="no_merge_req_after_max_connection" value="true" />
+    <boolean name="show_merge_button_on_conference_participant" value="true"/>
+    <boolean name="mtk_carrier_swap_conference_to_foreground_before_merge" value="true" />
+    <!-- TDD: Add Apn Adaptation by xianzhongzhang 20210525 start -->
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <!-- TDD: Add Apn Adaptation by xianzhongzhang 20210525 end -->
+    <boolean name="mtk_send_network_coverage_lost" value="true"/>
+    <!-- TDD:add XLBYWCHQQE-2432 for JIO by wanbao.xue 2022.10.09 start -->
+    <boolean name="show_5g_plus_data_icon" value="true" />
+    <!-- TDD:add XLBYWCHQQE-2432 for JIO by wanbao.xue 2022.10.09 end -->
+
+    <!-- TDD: add nitzName first ADBHBSY-5397 by yunhua.hu 20221222 start -->
+    <boolean name="tran_tdd_operator_nitzname_first_support" value="true"/>
+    <!-- TDD: add nitzName first ADBHBSY-5397 by yunhua.hu 20221222 end -->
+
+    <!-- TDD:add XLQLHBW-3250 for disable 4g calling menu by guangshuai.cheng 2022.02.09 start -->
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <!-- TDD:add XLQLHBW-3250 for disable 4g calling menu by guangshuai.cheng 2022.02.09 end -->
+    <!-- TDD:add XLQYXLQS-5520 for JIO requirement by qingming.song 2022.04.14 start -->
+    <boolean name="enable_network_prefered_5G_only" value="true" />
+    <boolean name="enable_network_prefered_jio_5g" value="true" />
+    <!-- TDD:add XLQYXLQS-5520 for JIO requirement by qingming.song 2022.04.14 end -->
+    <!-- TDD:add ADSHBSE-19171 for JIO by haoxin.liao 20230621 start -->
+    <int name="ims_conference_size_limit_int" value="9"/>
+    <!-- TDD:add ADSHBSE-19171 for JIO by haoxin.liao 20230621 start -->
+    <!-- TDD:add P661N-992 for JIO by jinxian.lei 2023.8.25 start -->
+    <boolean name="show_5g_plus_plus_data_icon" value="true" />
+    <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G</string>
+    <!-- TDD:add P661N-992 for JIO by jinxian.lei 2023.8.25 end -->
+    <!--TDD:add for KJ8H338-1541 by yunhua.hu 2024.03.05 start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <!--TDD:add for KJ8H338-1541 by yunhua.hu 2024.03.05 end -->
+    <!--TDD:add for X6871H962-5550 by guoyi.qu 2024.04.19 start -->
+    <boolean name="mtk_show_merge_button_on_conference_participant" value="true"/>
+    <!--TDD:add for X6871H962-5550 by guoyi.qu 2024.04.19 end -->
+    <!--TDD:add for 5G+ by jie.huang6 2024.12.11 start -->
+    <boolean name="show_5g_plus_when_nsa" value="false"/>
+    <!--TDD:add for 5G+ by jie.huang6 2024.12.11 end -->
+    <!--TDD:add for A671NH353-407 by liulei 20241219 start -->
+    <boolean name="allowEditingSmscAddress" value="true" />
+    <!--TDD:add for A671NH353-407 by liulei 20241219 end -->
+    <boolean name="enable_network_prefered_4G_only" value="true" />
+    <boolean name="hide_enable_2g_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD:add for X6878OS16-2873 by gaoming.luo 20251028 start -->
+    <boolean name="vonr_enabled_bool" value="true" />
+    <!--TDD:add for X6878OS16-2873 by gaoming.luo 20251028 end -->
+    <string-array name="non_roaming_operator_string_array" num="22">
+      <item value="405840"/>
+      <item value="405854"/>
+      <item value="405855"/>
+      <item value="405856"/>
+      <item value="405857"/>
+      <item value="405858"/>
+      <item value="405859"/>
+      <item value="405860"/>
+      <item value="405861"/>
+      <item value="405862"/>
+      <item value="405863"/>
+      <item value="405864"/>
+      <item value="405865"/>
+      <item value="405866"/>
+      <item value="405867"/>
+      <item value="405868"/>
+      <item value="405869"/>
+      <item value="405870"/>
+      <item value="405871"/>
+      <item value="405872"/>
+      <item value="405873"/>
+      <item value="405874"/>
+    </string-array>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 start -->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!-- TDD: add for AR-202512-000250 by chunyan.tang 20251231 end -->
+</carrier_config>

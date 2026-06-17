@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<enable>true</enable>
+	<version>1</version>
+	<updateDate>20240314</updateDate>
+	<cameraFpsConfig packageName="com.whatsapp">
+		<activityFps activity="com.whatsapp.voipcalling.VoipActivityV2" lower="5" upper="20" />
+                <activityFps activity="com.whatsapp.voipcalling.VoipActivityV3" lower="5" upper="20" />
+                <activityFps activity="com.whatsapp.calling.ui.VoipActivityV3" lower="5" upper="20" />
+		<activityFps activity="com.whatsapp.calling.ui.VoipActivityV2" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.fmwhatsapp">
+		<activityFps activity="com.whatsapp.voipcalling.VoipActivityV2" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.google.android.apps.meetings">
+		<activityFps activity="com.google.android.libraries.communications.conference.ui.greenroom.GreenroomActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.libraries.communications.conference.ui.callui.SingleCallActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.google.android.apps.tachyon">
+		<activityFps activity="com.google.android.apps.tachyon.call.oneonone.ui.OneOnOneCallActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.apps.tachyon.call.precall.OneOnOnePrecallActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.apps.tachyon.groupcalling.incall.InGroupCallActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.apps.tachyon.groupcalling.precall.PrecallScreenGroupActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.libraries.communications.conference.ui.callui.SingleCallActivity" lower="5" upper="20" />
+		<activityFps activity="com.google.android.libraries.communications.conference.ui.greenroom.GreenroomActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.instagram.android">
+		<activityFps activity="com.instagram.rtc.activity.RtcCallActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.instagram.lite">
+		<activityFps activity="com.facebook.lite.MainActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="us.zoom.videomeetings">
+		<activityFps activity="com.zipow.videobox.conference.ui.ZmConfActivity" lower="5" upper="20" />
+		<activityFps activity="com.zipow.videobox.conference.ui.ZmFoldableConfActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.cisco.webex.meetings">
+		<activityFps activity="com.cisco.webex.meetings.ui.inmeeting.MeetingClient" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.facebook.orca">
+		<activityFps activity="com.facebook.messaging.rtc.incall.activity.InCallActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.facebook.katana">
+		<activityFps activity="com.facebook.rooms.call.app.RoomActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.mediatek.ims">
+		<activityFps activity="com.android.incallui.InCallActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.tencent.mm">
+		<activityFps activity="com.tencent.mm.plugin.voip.ui.VideoActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+	<cameraFpsConfig packageName="com.tencent.wemeet.app">
+		<activityFps activity="com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+        <cameraFpsConfig packageName="com.sh.smart.caller">
+                <activityFps activity="com.android.incallui.InCallActivity" lower="5" upper="20" />
+	</cameraFpsConfig>
+
+        <cameraFpsConfig packageName="com.ss.android.lark.transsion">
+                <activityFps activity="com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivityAffinity" lower="5" upper="20" />
+        </cameraFpsConfig>
+   
+        <cameraFpsConfig packageName="com.tencent.wework">
+                <activityFps activity="com.tencent.could.huiyansdk.activitys.MainAuthActivity" lower="5" upper="20" />
+                <activityFps activity="com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity" lower="5" upper="20" />
+        </cameraFpsConfig>
+</config>

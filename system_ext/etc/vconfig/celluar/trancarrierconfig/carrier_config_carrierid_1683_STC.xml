@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Disable WFC registration when airplane mode  -->
+    <boolean name="wos_flight_mode_support_bool" value="false" />
+    <!-- TDD:add ADSHBSE-9263 for hide 4g calling menu by guangshuai.cheng 2022.11.23 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <!-- TDD:add ADSHBSE-9263 for hide 4g calling menu by guangshuai.cheng 2022.11.23 end -->
+    <!-- TDD: add spn override by yunhun.hu for CL9H961-6181 20231218 start -->
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <string name="carrier_name_string">STC</string>
+    <!-- TDD: add spn override by yunhua.hu for CL9H961-6181 20231218 end -->
+    <!--TDD: modify for stc Vowifi should be On by default by guangshuai.cheng 2024.02.28 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    <!--TDD: modify for stc Vowifi should be On by default by guangshuai.cheng 2024.02.28 end-->
+    <boolean name="tran_tdd_lookup_operator_name2_skip" value="true" />
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <boolean name="tran_tdd_force_display_plmn_only" value="true" />
+    <!-- TDD: add for TOS1501-49492 by renyan.pu 20250102 start -->
+    <boolean name="tran_tdd_force_display_plmn_only_vowifi" value="true" />
+    <!-- TDD: add for TOS1501-49492 by renyan.pu 20250102 end -->
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD:add for TOS1600-6096 by renyan.pu 20250728 start-->
+    <boolean name="enable_network_3G_only" value="false" />
+    <!--TDD:add for TOS1600-6096 by renyan.pu 20250728 end-->
+    <!--TDD:add for TOS1610-69717 by gaoming.luo 20260106 start-->
+    <boolean name="enable_network_2G_only" value="false" />
+    <!--TDD:add for TOS1610-69717 by gaoming.luo 20260106 end-->
+    <!--TDD:add for TOS1510-45489 by yunhua.hu 2025.07.24 start -->
+    <string-array name="roaming_operator_string_array" num="1">
+        <item value="420"/>
+    </string-array>
+    <boolean name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting" value="true" />
+    <!--TDD:add for TOS1510-45489 by yunhua.hu 2025.07.24 end -->
+</carrier_config>

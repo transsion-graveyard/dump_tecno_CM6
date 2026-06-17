@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add InCallUI ViLTE key for X670TH814-14 by guangshuai.cheng 2023.04.13 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for X670TH814-14 by guangshuai.cheng 2023.04.13 end -->
+    <!--TDD:add for CMSFTASK-1020 by guangshuai.cheng 2024.10.15 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    <!--TDD:add for CMSFTASK-1020 by guangshuai.cheng 2024.10.15 end -->
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <!--TDD: modify for S686LN-F203ABCDEF-U-OP-240808V562 by guoqing.mu 20240816 start-->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!--TDD: modify for S686LN-F203ABCDEF-U-OP-240808V562 by guoqing.mu 20240816 end-->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <!-- TDD:add for TOS1501-68034 by guoqing.mu 2025.02.28 start -->
+    <int name="carrier_default_wfc_ims_mode_int" value="1" />
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <!-- TDD:add for TOS1501-68034 by guoqing.mu 2025.02.28 end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 end -->
+</carrier_config>

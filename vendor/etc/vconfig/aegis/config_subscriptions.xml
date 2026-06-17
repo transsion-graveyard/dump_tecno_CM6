@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules filename="Subscription rules" version="1">
+    <subscribers>
+        <subscriber name="APP_LAG_LISTEN" >
+            <!--event name="event1" dimension="1"/>-->
+            <event name="PANIC_KEY" dimension="2" window="3" unit="seconds" relatedevent="FD_Leak"/>
+            <event name="FD_Leak" dimension="2" window="3" unit="seconds" relatedevent="PANIC_KEY"/>
+            <!--event name="event3" dimension="2" window="3" unit="seconds" relatedevent="relatedevent2"/>-->
+            <!-- 更多event元素 -->
+        </subscriber>
+        <subscriber name="MEM_LEAK_DETECTOR" >
+            <event name="gpuMem" dimension="1"/>
+            <!--event name="event3" dimension="2" window="3" unit="seconds" relatedevent="relatedevent2"/>-->
+        </subscriber>
+        <!-- 更多subscriber元素 -->
+    </subscribers>
+</rules>

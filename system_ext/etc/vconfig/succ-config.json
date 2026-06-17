@@ -1,0 +1,14 @@
+{
+  "black_box_collect_config": {
+    "Update": "20250425",
+    "Ver": "0.91",
+    "EventBufferMaxSize": 100,
+    "EventMsgMaxLength": 120,
+    "EventMsgMaxAgeMS": 3600,
+    "TranAppMINumerator": 25,
+    "TranAppMIDenominator": 100,
+    "3rdAppMINumerator": 10,
+    "3rdAppMIDenominator": 100,
+    "3rdEventTrackNames" : "com.google.android.appcrash3,com.tencent.mm"
+  }
+}

@@ -1,0 +1,2180 @@
+{
+	"ALGORITHM": "WATERMARK",
+	"WATERMARK": {
+		"PARAMS_VERSION": "1.0.0",
+		"ALGO_VERSION_REQUIRED": null,
+		"PLATFORM_PERFORMANCE": 2,
+		"WM_LAYOUTS": [
+			[ "Mode_1a_PORTRAIT", 
+			  "Mode_2a_PORTRAIT",
+			  "Mode_3a_PORTRAIT",
+			  "Mode_4a_PORTRAIT",
+			  "Mode_1b_PORTRAIT", 
+			  "Mode_2b_PORTRAIT",
+			  "Mode_3b_PORTRAIT",
+			  "Mode_4b_PORTRAIT",
+			  "Mode_1c_PORTRAIT", 
+			  "Mode_2c_PORTRAIT",
+			  "Mode_3c_PORTRAIT",
+			  "Mode_4c_PORTRAIT"
+			],
+			[ "Mode_1a_LANDSCAPE", 
+			  "Mode_2a_LANDSCAPE",
+			  "Mode_3a_LANDSCAPE", 
+			  "Mode_4a_LANDSCAPE",
+			  "Mode_1b_LANDSCAPE", 
+			  "Mode_2b_LANDSCAPE",
+			  "Mode_3b_LANDSCAPE", 
+			  "Mode_4b_LANDSCAPE",
+			  "Mode_1c_LANDSCAPE", 
+			  "Mode_2c_LANDSCAPE",
+			  "Mode_3c_LANDSCAPE", 
+			  "Mode_4c_LANDSCAPE" 
+			]
+		],
+
+		"FONT_DIR": "resources/fonts/",
+		"ICON_DIR": "resources/icons/",
+
+
+		"Mode_1a_PORTRAIT": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_1a_LANDSCAPE": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+		
+
+		"Mode_2a_PORTRAIT": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_2a_LANDSCAPE": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+		
+		"Mode_3a_PORTRAIT": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_3a_LANDSCAPE": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4a_PORTRAIT": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4a_LANDSCAPE": {
+			"BAR_COLOR": [ 255, 255, 255 ],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_a.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 0.0, 0.0, 0.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_1b_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_1b_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+		
+
+		"Mode_2b_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_2b_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+		
+		"Mode_3b_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_3b_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4b_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4b_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_b.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_1c_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_1c_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+		
+
+		"Mode_2c_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 68.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+
+		"Mode_2c_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 57.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				}
+			]
+		},
+
+		
+		"Mode_3c_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 29.0, 29.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 29.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 71.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_3c_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 22.0, 22.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 22.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 61.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4c_PORTRAIT": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 113 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 540.0, 113.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 540.0, 113.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 24.0, 24.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 24.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 54.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 23.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1041.0, 53.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 39.0, 86.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 19.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 85.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		},
+
+
+		"Mode_4c_LANDSCAPE": {
+			"BAR_COLOR": [19,19,19],
+			"BAR_SIZE": [ 1080, 95 ],
+			"TEXT_RIGHT_X_LIMIT": 1050,
+			"BACKDROP_IS_VALID": true,
+			"BACKDROP_PROFILE": {
+				"ICON_FILE_NAME": "backdrop_c.svg",
+				"ICON_COORDINATE": [ 638.0, 95.0 ],
+				"TUNING_COORDINATE": [ 0.0, 0.0 ],
+				"ICON_SIZE": [ 442.0, 95.0 ]
+			},
+
+			"BRAND_PROFILE": {
+				"TYPE_TEXT": true,
+				"TEXT_BRAND_NAME": "CAMON 40 Pro",
+				"FANS_VERSION_BRAND_PROFILE": {
+					"FANS_VERSION_TEXT_BRAND_NAME": "XXX",
+					"FANS_VERSION_ICON_FILE_NAME": ""
+				}
+			},
+
+			"ICON_PROFILES": [
+				{
+					"ICON_FILE_NAME": "redP.svg",
+					"ICON_COORDINATE": [ 0.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"ICON_SIZE": [ 18.0, 18.0 ],
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 0,
+						"RELT_ON_LEFT_X": false
+					}
+				}
+			],
+
+			"TEXT_PROFILES": [
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 46.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"这是一条提示信息：@RENDER_DIRECTION": "0=向右绘制; 1=向左绘制",
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "TOS_1113VF.ttf",
+						"FONT_SIZE": 18.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 1.0
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 1050.0, 45.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 1,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 30.0, 70.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": false
+				},
+
+				{
+					"FONT_PROFILE": {
+						"FONT_FILE_NAME": "tos_regular.ttf",
+						"FONT_SIZE": 15.0,
+						"FONT_COLOR": [ 255.0, 255.0, 255.0 ],
+						"FONT_INTENSITY": 0.5
+					},
+					"SPACE_RATIO": 0.42,
+					"CHARACTER_DISTANCE_RATIO": 0.0,
+					"TEXT_COORDINATE": [ 0.0, 75.0 ],
+					"TUNING_COORDINATE": [ 0.0, 0.0 ],
+					"RENDER_DIRECTION": 0,
+					"RELY_ON_ELEM": true,
+					"RELY_PROFILE": {
+						"这是一条提示信息：@RELY_TYPE": "0=TEXT; 1=ICON",
+						"RELY_TYPE": 0,
+						"RELY_INDEX": 1,
+						"RELT_ON_LEFT_X": true
+					}
+				}
+			]
+		}
+
+
+	}
+}

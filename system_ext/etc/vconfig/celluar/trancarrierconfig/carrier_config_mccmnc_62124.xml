@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!-- TDD:modify for X6878OS16-3918 by jie.wang15 2025.11.11 start -->
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+    <!-- TDD:modify for X6878OS16-3918 by ie.wang15 2025.11.11 end -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="key_support_set_ss_flag" value="true" />
+    <boolean name="numeric_to_operator_bool" value="true" />
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

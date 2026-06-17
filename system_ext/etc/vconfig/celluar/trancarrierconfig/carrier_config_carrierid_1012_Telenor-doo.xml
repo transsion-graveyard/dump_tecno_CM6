@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD: add for ADYYHJ-3040 by yunhua.hu 20230523 start -->
+    <boolean name="omacp_apn_overwrite_orginal_same_apn" value="true"/>
+    <!-- TDD: add for ADYYHJ-3040 by yunhua.hu 20230523 end -->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!--TDD: modify for AR-202512-001015 by chunyan.tang 20251230 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for AR-202512-001015 by chunyan.tang 20251230 end-->
+</carrier_config>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: add Mtk patch for vsim fire by sifan.ni on 20240103 start-->
+    <string-array name="telephony_network_capability_priorities_string_array" num="14">
+        <item value="eims:90"/>
+        <item value="supl:80"/>
+        <item value="mms:70"/>
+        <item value="xcap:60"/>
+        <item value="cbs:50"/>
+        <item value="mcx:50"/>
+        <item value="fota:50"/>
+        <item value="ims:40"/>
+        <item value="dun:30"/>
+        <item value="enterprise:20"/>
+        <item value="internet:20"/>
+        <item value="rcs:80"/>
+        <item value="bip:80"/>
+        <item value="vsim:80"/>
+    </string-array>
+    <!--TDD: add Mtk patch for vsim fire by sifan.ni on 20240103 end-->
+    <boolean name="call_forwarding_over_ut_warning_bool" value="true"/>
+    <boolean name="call_barring_over_ut_warning_bool" value="true"/>
+    <boolean name="call_waiting_over_ut_warning_bool" value="true"/>
+    <boolean name="caller_id_over_ut_warning_bool" value="true"/>
+    <!-- M: Single video call mode -->
+    <boolean name="mtk_allow_one_video_call_only_bool" value="true" />
+    <!-- Modify for X6526V658A-843 by bingxing.liu 20230823 start-->
+    <boolean name="allow_hold_video_call_bool" value="true" />
+    <!-- Modify for X6526V658A-843 by bingxing.liu 20230823 end-->
+    <boolean name="allow_add_call_during_video_call" value="false" />
+    <!-- M: InCallUI features begin. @{ -->
+    <boolean name="mtk_allow_auto_start_timer_for_cancel_upgrade_bool" value="true" />
+    <int name="mtk_timer_for_cancel_upgrade_int" value="30" />
+    <boolean name="no_sip_message_on_pause_video_bool" value="true" />
+    <boolean name="mtk_vt_dialpad_support_bool" value="true" />
+    <!-- M: InCallUI features end. @} -->
+    <!-- Supplementary Service WWOP Config -->
+    <boolean name="mtk_carrier_ss_gsm_ut_support" value="true" />
+    <boolean name="mtk_carrier_ss_not_support_call_identity" value="true" />
+    <boolean name="ascii_7_bit_support_for_long_message_bool" value="true" />
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <boolean name="mtk_key_vt_downgrade_in_bad_bitrate" value="true"/>
+    <!-- M: InCallUI early ringtone feature begin. @} -->
+    <boolean name="mtk_vt_mt_ringtone_support_bool" value="true" />
+    <!-- M: InCallUI early ringtone feature end. @} -->
+    <!-- M: Allow send MMS when data off -->
+    <string-array name="carrier_metered_apn_types_strings" num="3">
+        <item value="default" />
+        <item value="dun" />
+        <item value="supl" />
+    </string-array>
+    <string-array name="mtk_skip_data_stall_apn_list_strings" num="1">
+        <item value="ctvpdn" />
+    </string-array>
+    <int name="parameters_used_for_lte_signal_bar_int" value="5"/>
+    <int-array name="lte_rsrp_thresholds_int_array" num="4">
+        <item value="-123"/>
+        <item value="-118"/>
+        <item value="-114"/>
+        <item value="-105"/>
+    </int-array>
+    <!-- M: SS begin. @} -->
+    <boolean name="support_ss_over_cdma_bool" value="true" />
+    <!-- M: SS end. @} -->
+    <int name="mtk_test_sim_mtu_value_int" value="1500" />
+    <!-- M: Add for hidding VoNR setting. -->
+    <boolean name="vonr_setting_visibility_bool" value="false" />
+    <!-- TDD: add disable  vowifi by yushu.yang 2024.04.08 start -->
+    <boolean name="carrier_wfc_ims_available_bool" value="false" />
+    <!-- TDD: add disable  vowifi by yushu.yang 2024.04.08 end -->
+    <!-- TDD: ADD USSD frame overlays incoming call buttons and you can't receive the call while USSD is open X6871O1502-121 by qing.li6 20250212 start-->
+    <boolean name="key_hide_ussd_dialog_when_incoming_call_bool" value="true" />
+    <!-- TDD: ADD USSD frame overlays incoming call buttons and you can't receive the call while USSD is open X6871O1502-121 by qing.li6 20250212 end-->
+    <boolean name="support_video_call_tx_rx_control" value="true"/>
+    <boolean name="show_no_service_volte_icon" value="true"/>
+    <boolean name="support_multi_video_call" value="false"/>
+    <boolean name="carrier_is_close_auto_speaker_for_cvat" value="true"/>
+    <boolean name="support_super_boost_ringing_answered_bool" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_name_override_in_5g_roaming_state" value="true"/>
+    <string-array name="plmn_list_in_5g_roaming_state" num="2">
+        <item value="46021"/>
+        <item value="46060"/>
+    </string-array>
+    <boolean name="support_customized_video_alerting_tone" value="true"/>
+    <boolean name="show_number_and_name" value="true"/>
+    <boolean name="hide_enhanced_4g_lte_bool" value="false"/>
+    <string-array name="hide_apn_types_string_array" num="1">
+        <item value="mms"/>
+    </string-array>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

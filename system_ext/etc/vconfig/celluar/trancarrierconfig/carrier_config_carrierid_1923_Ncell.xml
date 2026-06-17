@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD: add new apn default by yunhun.hu for TOS1510-44892 20250811 start -->
+    <string name="apn.settings_default_protocol_string">IPV4V6</string>
+    <string name="apn.settings_default_roaming_protocol_string">IPV4V6</string>
+    <!-- TDD: add new apn default by yunhun.hu for TOS1510-44892 20250811 end -->
+    <!--TDD: changed by xuejian.fu 20251104 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251104 end-->
+</carrier_config>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add XLWYWHLYEQ-1146 for default enable data roaming by yunhua.hu 2022.11.14 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add XLWYWHLYEQ-1146 for default enable data roaming by yunhua.hu 2022.11.14 end -->
+    <!-- TDD:add XLWYWHLYEQ-1370 for tran_tsd_operator_spn_support by yi.shi 2023.01.16 start -->
+    <boolean name="tran_tsd_operator_spn_support" value="true"/>
+    <!-- TDD:add XLWYWHLYEQ-1370 for tran_tsd_operator_spn_support by yi.shi 2023.01.16 end -->
+
+    <!-- TDD: add new apn default by guangshuai.cheng for XLWYWHLYEQ-1469 2023.03.16 start -->
+    <string name="apn.settings_default_protocol_string">IPV4V6</string>
+    <string name="apn.settings_default_roaming_protocol_string">IPV4V6</string>
+    <!-- TDD: add new apn default by guangshuai.cheng for XLWYWHLYEQ-1469 2023.03.16 end -->
+     <!-- TDD: add  by pei.zhou for X6837H897-2710 220240112 start -->
+    <boolean name="editable_voicemail_number_setting_bool" value="false"/>
+     <!-- TDD: add  by pei.zhou for X6837H897-2710 20240112 end -->
+    <!--TDD:add for X6837H897-2709 by liulei 20240112 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for X6837H897-2709 by liulei 20240112 end -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

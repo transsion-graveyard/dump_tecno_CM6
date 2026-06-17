@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="show_call_elapsed_time" value="true"/>
+    <boolean name="show_calltimer_when_call_onhold" value="true"/>
+    <boolean name="support_ect_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <string name="emergency_notification_delay_int">1000</string>
+    <boolean name="always_show_data_rat_icon_bool" value="false"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <boolean name="show_volte_icon" value="false"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <string-array name="read_only_apn_types_string_array" num="1">
+        <item value="*"/>
+    </string-array>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>

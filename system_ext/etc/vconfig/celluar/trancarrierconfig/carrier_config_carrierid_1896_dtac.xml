@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add for TOS1501-64375 by jie.huang6 2025.02.19 start -->
+    <boolean name="tran_force_show_4g_by_carrier_bool" value="true" />
+    <!-- TDD:add for TOS1501-64375 by jie.huang6 2025.02.19 end -->
+    <!--TDD: changed by xuejian.fu DTAC 52018 IMS Config 20260105 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu DTAC 52018 IMS Config 20260105 end-->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

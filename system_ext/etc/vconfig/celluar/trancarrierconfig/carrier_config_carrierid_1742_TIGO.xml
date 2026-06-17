@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:add for TOS1600-2168 by renyan.pu 20250618 start-->
+    <boolean name="enable_network_2G_only" value="true"/>
+    <!--TDD:add for TOS1600-2168 by renyan.pu 20250618 end-->
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+    <!--TDD:modify OS162-18976 by zhezhi.liu 20260116 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:modify OS162-18976 by zhezhi.liu 20260116 end-->
+</carrier_config>

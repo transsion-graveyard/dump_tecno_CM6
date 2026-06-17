@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+    <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+        <item value="40177#simspn"/>
+    </string-array>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="40177#simspn"/>
+    </string-array>
+    <boolean name="carrier_volte_available_bool" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+</carrier_config>

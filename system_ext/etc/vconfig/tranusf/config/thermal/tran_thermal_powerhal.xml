@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thermal_powerhal>
+    <feature id="1" comment="dex2oat_open_1">
+      <FPS value="Common">
+          <data cmd="PERF_RES_SCHED_THERMAL_DEX2OAT" param1="10" interval="0"/>
+          <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="3" interval="0"/>
+      </FPS>
+    </feature>
+    <feature id="2" comment="dex2oat_open_2">
+      <FPS value="Common">
+          <data cmd="PERF_RES_SCHED_THERMAL_DEX2OAT" param1="12" interval="1"/>
+          <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="3" interval="1"/>
+      </FPS>
+    </feature>
+    <feature id="3" comment="dex2oat_close">
+      <FPS value="Common">
+          <data cmd="PERF_RES_SCHED_THERMAL_DEX2OAT" param1="15" interval="1"/>
+          <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="3" interval="1"/>
+      </FPS>
+    </feature>
+    <feature id="4" comment="limitLitterCore">
+      <FPS value="Common">
+        <data cmd="PERF_RES_SCHED_CPUSET_TA" param1="128" interval="0"/>
+      </FPS>
+      <FPS value="120">
+        <data cmd="PERF_RES_SCHED_CPUSET_TA" param1="256" interval="0"/>
+      </FPS>
+    </feature>
+    <feature id="5" comment="releaseLitterCore">
+       <FPS value="Common">
+         <data cmd="PERF_RES_SCHED_CPUSET_TA" param1="112" interval="0"/>
+       </FPS>
+    </feature>
+</thermal_powerhal>

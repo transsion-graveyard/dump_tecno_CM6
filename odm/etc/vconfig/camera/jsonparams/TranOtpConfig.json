@@ -1,0 +1,122 @@
+{
+    "otpMap": [
+        {
+            "sensor_id": 2198,
+            "sensorIdx": 0,
+            "mclk": 1,
+            "port": 2,
+            "dir": 0,
+            "bitOrder": 0,
+            "orientation": 90,
+            "horizontalFov": 67,
+            "verticalFov": 49,
+            "lsc_start_addr": 78,
+            "lsc_blockSize": 1868,
+            "lsc_firstPixel": 1,
+            "awb_offset": 49,
+            "golden_offset": 55,
+            "awb_checksum_addr": 61,
+            "af_offset": 64,
+            "af_checksum_addr": 76,
+            "af_flag_addr": 62,
+            "lhbit": 1,
+            "pdafmap": [
+                {
+                    "pdaftype": 1,
+                    "proc1_offset": 3451,
+                    "proc1Size": 496,
+                    "proc2_offset": 3947,
+                    "proc2Size": 1004,
+                    "proc1ChkSum": 4951,
+                    "proc2ChkSum": 4952
+                },
+                {
+                    "pdaftype": 0,
+                    "proc1_offset": 1948,
+                    "proc1Size": 496,
+                    "proc2_offset": 2444,
+                    "proc2Size": 1004,
+                    "proc1ChkSum": 3448,
+                    "proc2ChkSum": 3449
+                }
+            ],
+            "muiltcam": [
+                {
+                    "muiltcam_type": 1,
+                    "muiltcam_start_addr": 14673,
+                    "muiltcam_blockSize": 419,
+                    "muiltcam_checksum_addr": 14671,
+                    "muiltcam_checksumSize": 1,
+                    "muiltcam_flag_addr": 14672,
+                    "muiltcam_flag_len": 1,
+                    "muiltcam_flag_value": 1
+                },
+                {
+                    "muiltcam_type": 2,
+                    "muiltcam_start_addr": 15936,
+                    "muiltcam_blockSize": 419,
+                    "muiltcam_checksum_addr": 16355,
+                    "muiltcam_checksumSize": 1,
+                    "muiltcam_flag_addr": 15935,
+                    "muiltcam_flag_len": 1,
+                    "muiltcam_flag_value": 1
+                }
+            ],
+            "ois_start_addr": 8414,
+            "ois_blockSize": 334
+        },
+        {
+            "sensor_id": 805320929,
+            "sensorIdx": 1,
+            "mclk": 0,
+            "port": 0,
+            "dir": 1,
+            "bitOrder": 0,
+            "orientation": 270,
+            "horizontalFov": 63,
+            "verticalFov": 40,
+            "lsc_start_addr": 3374,
+            "lsc_blockSize": 1868,
+            "lsc_firstPixel": 1,
+            "awb_offset": 3344,
+            "golden_offset": 3350,
+            "awb_checksum_addr": 3372,
+            "af_offset": 3314,
+            "af_checksum_addr": 3342,
+            "af_flag_addr": 3313,
+            "lhbit": 1,
+            "pdafmap": [
+                {
+                    "pdaftype": 1,
+                    "proc1_offset": 5244,
+                    "proc1Size": 496,
+                    "proc2_offset": 5740,
+                    "proc2Size": 1004,
+                    "proc1ChkSum": 6744,
+                    "proc2ChkSum": 6745
+                }
+            ]
+        },
+        {
+            "sensor_id": 2217,
+            "sensorIdx": 2,
+            "mclk": 3,
+            "port": 1,
+            "dir": 0,
+            "bitOrder": 0,
+            "orientation": 90,
+            "horizontalFov": 75,
+            "verticalFov": 60,
+            "lsc_start_addr": 6288,
+            "lsc_blockSize": 1868,
+            "lsc_firstPixel": 2,
+            "awb_offset": 5792,
+            "golden_offset": 5840,
+            "awb_checksum_addr": 5904,
+            "af_offset": 6040,
+            "af_checksum_addr": 6152,
+            "af_flag_addr": 6032,
+            "lhbit": 1
+        }
+    ]
+}

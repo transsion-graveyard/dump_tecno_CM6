@@ -1,0 +1,21 @@
+{
+  "enable": true,
+  "version": 1,
+  "updateDate": "20250716",
+  "align_pkg_white_list": [
+    "android",
+    "android.app.cts",
+    "com.android.mms",
+    "com.android.calendar",
+    "com.android.providers.calendar",
+    "com.transsion.deskclock",
+    "com.android.deskclock",
+    "com.transsion.calendar",
+    "com.android.networkstack",
+    "com.android.systemui",
+    "com.trs.prevent_touch_test"
+  ],
+  "align_tag_white_list": [
+    "doze_time_tick"
+  ]
+}

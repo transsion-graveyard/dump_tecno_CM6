@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!--TDD:add for TOS1610-47272 by yeling 2025.11.11 start-->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for TOS1610-47272 by yeling 2025.11.11 end-->
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

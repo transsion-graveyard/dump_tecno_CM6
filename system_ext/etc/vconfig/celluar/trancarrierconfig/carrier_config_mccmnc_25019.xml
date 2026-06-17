@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+  <!-- TDD: add for TOS1610-56141 by meijuan.ma 20251127 start -->
+  <boolean name="tran_tdd_lookup_operator_name2_skip" value="true" />
+  <!-- TDD: add for TOS1610-56141 by meijuan.ma 20251127 end -->
+  <!--TDD:add for X6878OS16-8044 by renyan.pu 20251231 start-->
+  <boolean name="tran_key_display_usim_bool" value="true"/>
+  <!--TDD:add for X6878OS16-8044 by renyan.pu 20251231 end-->
+</carrier_config>
+

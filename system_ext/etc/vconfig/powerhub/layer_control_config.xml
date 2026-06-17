@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <version>3</version>
+    <mode>on</mode>
+
+    <layer_config app_name="com.ss.android.ugc.trill" activity_name="SplashActivity DetailActivity" video_view="KeepSurfaceTextureView" skip_size="0.018"/>
+    <layer_config app_name="com.zhiliaoapp.musically" activity_name="SplashActivity" video_view="KeepSurfaceTextureView" skip_size="0.018"/>
+    <layer_config app_name="com.ss.android.ugc.aweme" activity_name="SplashActivity DetailActivity" video_view="KeepSurfaceTextureView" skip_size="0.018"/>
+    <layer_config app_name="com.uc.vmate" activity_name="VideoDetailActivity" video_view="VideoTextureView" skip_size="0.018"/>
+    <layer_config app_name="video.like.lite" activity_name="VideoDetailActivity" video_view="TextureView" skip_size="0.018"/>
+    <layer_config app_name="video.like" activity_name="VideoDetailActivityV2 MainActivity" video_view="TextureView" skip_size="0.08"/>
+    <layer_config app_name="co.triller.droid" activity_name="MainActivity" video_view="TextureView" skip_size="0.15"/>
+    <layer_config app_name="io.chingari.app" activity_name="ViewPagerActivity" video_view="TextureRenderView" skip_size="0.09"/>
+    <layer_config app_name="in.mohalla.video" activity_name="MojVideoPlayerActivity FragmentLauncherActivity" video_view="TextureView" skip_size="0.03"/>
+    <layer_config app_name="com.mitron.tv" activity_name="HomeActivity VideoPlayerActivity" video_view="TextureView" skip_size="0.01"/>
+    <layer_config app_name="com.asiainno.uplive" activity_name="LiveWatchActivity" video_view="TextureRenderView" skip_size="0.41"/>
+    <layer_config app_name="com.mobilemotion.dubsmash" activity_name="MainNavigationActivity" video_view="TextureView" skip_size="0.88"/>
+    <layer_config app_name="com.mlive.mliveapp" activity_name="RoomActivity" video_view="TextureView" skip_size="0.35"/>
+    <layer_config app_name="com.mico" activity_name="LiveRoomAudienceActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.likee.inc" activity_name="LiveRoomAudienceActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.sina.weibo" activity_name="VisitorMainTabActivity" video_view="TextureView" skip_size="0.45"/>
+    <layer_config app_name="com.kuaishou.nebula" activity_name="HomeActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.smile.gifmaker" activity_name="HomeActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.xingin.xhs" activity_name="DetailFeedActivity" video_view="TextureView" skip_size="0.45"/>
+    <layer_config app_name="com.ss.android.ugc.aweme.lite" activity_name="SplashActivity" video_view="KeepSurfaceTextureView" skip_size="0.018"/>
+    <layer_config app_name="com.ss.android.article.video" activity_name="SplashActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.ss.android.ugc.live" activity_name="SplashActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.ss.android.article.news" activity_name="TikTokActivity" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.tencent.mm" activity_name="FinderShareFeedRelUI" video_view="TextureView" skip_size="0.17"/>
+    <layer_config app_name="com.instagram.android" activity_name="MainTabActivity" video_view="TextureView" skip_size="0.08"/>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD: modify for Kyivstar IMS req by liuyan.mo on 20250924 start-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: modify for Kyivstar IMS req by liuyan.mo on 20250924 end-->
+</carrier_config>

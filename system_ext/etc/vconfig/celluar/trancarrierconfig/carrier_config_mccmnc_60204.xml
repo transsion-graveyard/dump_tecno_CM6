@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:Add for X6850BH89-298 by zhezhi.liu 20240301 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!--TDD:Add for X6850BH89-298 by zhezhi.liu 20240301 end-->
+    <!-- TDD:changed by xuejian.fu 20240923 WFC ON start -->
+    <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
+    <!-- TDD:changed by xuejian.fu 20240923 WFC ON end -->
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <boolean name="call_barring_enabled_bool" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 start -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!-- TDD: add for TOS1501-76473 by xiangjian.li 20250507 end -->
+</carrier_config>

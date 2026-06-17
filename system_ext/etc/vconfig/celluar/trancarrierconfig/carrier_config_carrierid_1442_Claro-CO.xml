@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string-array name="carrier_certificate_string_array" num="5">
+        <item value="8C960CA3CBF4A9DA851774F2DE072E57B1289A9CF7D6BDA4A6B386A42BC4FFB3:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="7413E2B365230E1BCB294D687C3B87EE5BC7E3F9:com.trustonic.telecoms.standard.dlc,com.trustonic.telecoms.standard.dpc"/>
+        <item value="2333F4065B9F054363CA63D1866CC168F45D641645B31131B14E173B9C922D15:co.sitic.pp"/>
+        <item value="14D54C64599A3E9A3B766239B160DE3935093E0A:co.sitic.pp"/>
+        <item value="F54CAC11D5AF77A5F10C21D536AD5D1C40B00D63A92CAB917AA84DC714D622D8:co.sitic.pp"/>
+    </string-array>
+    <string name="call_screening_app">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallScreeningService</string>
+    <string name="call_redirection_service_component_name_string">com.trustonic.telecoms.standard.dlc/com.trustonic.telecoms.entrypoint.carrier.CallRedirectionService</string>
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    <boolean name="mtk_wfc_remove_preference_mode_bool" value="true"/>
+    <!-- TDD:add CHISHLJEY-33 for default enable data roaming by yunhua.hu 2022.06.16 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add CHISHLJEY-33 for default enable data roaming by yunhua.hu 2022.06.16 end -->
+    <!--TDD:add for CHLSCOH-54 by guangshuai.cheng 2002.08.03 start -->
+    <boolean name="editable_wfc_mode_bool" value="false" />
+    <!--TDD:add for CHLSCOH-54 by guangshuai.cheng 2002.08.03 end -->
+    <!--TDD:add for CMSFTASK-488 by pei.zhou 20220829 start -->
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    <!--TDD:add for CMSFTASK-488 by pei.zhou 20220829 end -->
+
+    <!--TDD:add H+ icon for SystemUI by wanbao.xue 2022.10.14 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false" />
+    <!--TDD:add H+ icon for SystemUI by wanbao.xue 2022.10.14 start end -->
+
+    <!-- TDD:add for KI7SV7510-232 by pei.zhou 20230410 start -->
+    <boolean name="voicemail_notification_persistent_bool" value="true"/>
+    <!-- TDD:add for KI7SV7510-232 by pei.zhou 20230410 end -->
+    <!-- TDD:add for CK6NSCOCL-17 by yi.shi 20230710 start -->
+    <boolean name="display_call_type_icon_bool" value="true" />
+    <!-- TDD:add for CK6NSCOCL-17 by yi.shi 20230710 end -->
+    <!-- TDD:add KJ7H895-3595 for google dialer by yi.shi 2023.12.08 start -->
+    <boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true"/>
+    <!-- TDD:add KJ7H895-3595 for google dialer by yi.shi 2023.12.08 end -->
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 start -->
+    <boolean name="show_custom_lte_ca_icon" value="true"/>
+    <!-- TDD: add for OS136UREL-8207 by jie.huang6 2024.02.01 end -->
+    <!--TDD:add participant merge button by zhenlei.zhou 20240520 start-->
+    <boolean name="mtk_show_merge_button_on_conference_participant" value="true"/>
+    <!--TDD:add participant merge button by zhenlei.zhou 20240520 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+    <boolean name="support_voice_clear_code" value="true"/>
+    <boolean name="support_voice_clear_code_special" value="true"/>
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="support_show_wifi_calling_preference" value="false"/>
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <boolean name="key_support_set_ss_flag" value="true"/>
+    <boolean name="editable_vt_resolution_bool" value="false"/>
+    <boolean name="show_alternative_service_error_dialog" value="true"/>
+    <int name="gps.es_extension_sec" value="300" />
+    <string name="emergency_number_for_location">123</string>
+    <boolean name="tran_not_get_ons_bool" value="true"/>
+    <boolean name="tran_tdd_showd_display_plmn_for_nitz" value="true"/>
+    <!--//yj:add for A667LPUG-5163 by linlin.yang 20240511 start-->
+    <boolean name="numeric_to_operator_bool" value="false"/>
+    <!--//yj:add for A667LPUG-5163 by linlin.yang 20240511 end-->
+    <!-- TDD:add reason BG6SPUBLI-256 by xiangjian.li 20240305 start -->
+    <string-array name="carrier_service_number_strings_array" num="15">
+        <item value="101"/>
+        <item value="106"/>
+        <item value="111"/>
+        <item value="119"/>
+        <item value="123"/>
+        <item value="125"/>
+        <item value="126"/>
+        <item value="127"/>
+        <item value="132"/>
+        <item value="141"/>
+        <item value="144"/>
+        <item value="146"/>
+        <item value="147"/>
+        <item value="156"/>
+        <item value="165"/>
+    </string-array>
+    <!-- TDD:add reason BG6SPUBLI-256 by xiangjian.li 20240305 end -->
+    <!--TDD:add for KL4SF201-144 by yi.shi on 20240719 start-->
+    <boolean name="display_hd_plus_icon_bool" value="false" />
+    <!--TDD:add for KL4SF201-144 by yi.shi on 20240719 end-->
+    <!--TDD: add for TOS1610-4965 by renyan.pu 20250820 start-->
+    <boolean name="enable_network_2G_only" value="false" />
+    <!--TDD: add for TOS1610-4965 by renyan.pu 20250820 end-->
+    <!--TDD: add for X6840OS16-1618 by gang.yang1 20251229 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD: add for X6840OS16-1618 by gang.yang1 20251229 end-->
+</carrier_config>

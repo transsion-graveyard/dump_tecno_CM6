@@ -1,0 +1,59 @@
+{
+    "defaultParamID": 0,
+    "mappings": [
+        {
+            "deviceID": 1,
+            "SkinTypeMappings": [
+			    {
+                    "skinType": 1,
+                    "paramID": 1
+                },
+				{
+                    "skinType": 2,
+                    "paramID": 2
+                },
+				{
+                    "skinType": 0,
+                    "paramID": 3
+                }
+			],
+            "paramID": 1
+        },
+		{
+            "deviceID": 2,
+            "SkinTypeMappings": [
+			    {
+                    "skinType": 1,
+                    "paramID": 4
+                },
+				{
+                    "skinType": 2,
+                    "paramID": 5
+                },
+				{
+                    "skinType": 0,
+                    "paramID": 6
+                }
+			],
+            "paramID": 1
+        },
+		{
+            "deviceID": 4,
+            "SkinTypeMappings": [
+			    {
+                    "skinType": 1,
+                    "paramID": 7
+                },
+				{
+                    "skinType": 2,
+                    "paramID": 8
+                },
+				{
+                    "skinType": 0,
+                    "paramID": 9
+                }
+			],
+            "paramID": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+on post-fs-data
+# add for jiiov Fingerprint
+
+chmod 0660 /dev/jiiov_fp
+chown system root /dev/jiiov_fp
+
+mkdir /data/vendor/fingerprint
+chmod 0777 /data/vendor/fingerprint
+chown system system /data/vendor/fingerprint
+
+mkdir /data/vendor/fingerprint/factory_test
+chmod 0777 /data/vendor/fingerprint
+chown system system /data/vendor/fingerprint/factory_test

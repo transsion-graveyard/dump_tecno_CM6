@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <string name="default_vm_number_string">242</string>
+    <boolean name="display_hd_plus_icon_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for X6856OS16-244 by yeling 20250909 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for X6856OS16-244 by yeling 20250909 end -->
+    <!--TDD: modify for TOS1501-78958 by chunyan.tang 20250908 start-->
+    <boolean name="notification_panel_vowifi_switch_support_bool" value="true"/>
+    <!--TDD: modify for TOS1501-78958 by chunyan.tang 20250908 end-->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+</carrier_config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 start-->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+    <!--TDD:Add for ADYYHJ-5455 by yi.shi 20230705 end-->
+    <string-array name="roaming_operator_string_array" num="1">
+        <item value="250"/>
+    </string-array>
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 start-->
+    <boolean name="carrier_wfc_ims_with_geo" value="true" />
+    <!--TDD: add for RU WFC requirement by guangshuai.cheng 2022.11.16 end-->
+    <!--TDD: add for CL7CL7KP-3378 by meijuan.ma 2024.1.11 start-->
+    <boolean name="tran_tdd_operator_plmn_number_priority" value="true" />
+    <!--TDD: add for CL7CL7KP-3378 by meijuan.ma 2024.1.11 end-->
+    <!--TDD:add for show new network type by chunyan.tang 20241128 start-->
+    <boolean name="tran_allow_show_new_network_type" value="false"/>
+    <!--TDD:add for show new network type by chunyan.tang 20241128 end-->
+</carrier_config>

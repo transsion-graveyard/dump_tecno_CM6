@@ -1,0 +1,11 @@
+<permission>
+    <privapp-permissions pacakge="com.transsion.multiwindow">
+        <permission name="android.permission.WRITE_SETTINGS" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.MANAGE_USERS" />
+        <permission name="android.permission.REORDER_TASKS" />
+        <permission name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    </privapp-permissions>
+</permission>

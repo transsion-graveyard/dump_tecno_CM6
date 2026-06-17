@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="mtk_support_vt_ss_bool" value="true"/>
+    <!--TDD:add for KIQSHL-35 by zhimin.yang 20230208 start-->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="false"/>
+    <!--TDD:add for KIQSHL-35 by zhimin.yang 20230208 end-->
+
+    <!-- TDD: add tigo new apn default by yunhun.hu for KIQSHL-238 20230222 start -->
+    <string name="apn.settings_default_protocol_string">IPV4V6</string>
+    <string name="apn.settings_default_roaming_protocol_string">IPV4V6</string>
+    <!-- TDD: add tigo new apn default by yunhun.hu for KIQSHL-238 20230222 end -->
+
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!--TDD:add for KHQPUB-3265 by guangshuai.cheng 2002.09.01 end -->
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 start -->
+    <boolean name="hide_3g_plus_data_icon_bool" value="false"/>
+    <!--TDD:add for CHISTG-61 by wanbao.xue 2022.09.19 end -->
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 start -->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD:add reason X6853H895-7039 by xiangjian.li 20240402 end -->
+    <!--TDD:add for KJ8H338-2201 by liulei 20240516 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for KJ8H338-2201 by liulei 20240516 end -->
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <!--TDD: add for w version by yifan.li 20250609 start-->
+    <string name="default_vm_number_string">*77</string>
+    <!--TDD: add for w version by yifan.li 20250609 end-->
+</carrier_config>

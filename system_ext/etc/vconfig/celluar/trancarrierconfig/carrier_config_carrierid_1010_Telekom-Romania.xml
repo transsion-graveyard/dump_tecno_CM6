@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <string name="default_vm_number_string">177</string>
+    <string name="default_vm_number_roaming_string">177</string>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD:add X6878OS16-7162 by chunyan.tang 2025128 end-->
+</carrier_config>

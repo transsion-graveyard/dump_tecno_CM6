@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.soundrecorder">
+        <permission name="android.permission.READ_PHONE_STATE"/>
+    </exception>
+</exceptions>

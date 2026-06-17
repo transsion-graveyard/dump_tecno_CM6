@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <string name="carrier_name_string">Vodacom-SA</string>
+    <boolean name="carrier_name_override_bool" value="true"/>
+    <string name="emergency_notification_delay_int">1000</string>
+    <string name="default_vm_number_string">22177</string>
+    <string name="default_vm_number_roaming_string">+34607177177</string>
+    <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+</carrier_config>

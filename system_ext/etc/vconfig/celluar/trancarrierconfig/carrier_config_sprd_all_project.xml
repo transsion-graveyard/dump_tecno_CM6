@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config mcc="001" mnc="00">
+    </carrier_config>
+
+    <carrier_config cid="451">
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="529">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="681">
+        <boolean name="support_video_conference_call_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="802">
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <int name="call_waiting_service_class_int" value="0"/>
+    </carrier_config>
+
+    <carrier_config cid="974">
+        <string name="default_vm_number_string">*86</string>
+    </carrier_config>
+
+    <carrier_config cid="1011">
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <string name="default_vm_number_roaming_string">555</string>
+		<string-array name="read_only_apn_types_string_array" num="1">
+             <item value="ims" />
+         </string-array>
+    </carrier_config>
+
+    <carrier_config cid="1014">
+        <int name="call_waiting_service_class_int" value="0"/>
+    </carrier_config>
+
+    <carrier_config cid="1097">
+        <string-array name="roaming_operator_string_array" num="1">
+			<item value="520"/>
+		</string-array>
+    </carrier_config>
+
+    <carrier_config cid="1098">
+        <string-array name="roaming_operator_string_array" num="1">
+			<item value="520"/>
+		</string-array>
+    </carrier_config>
+
+    <carrier_config cid="1300">
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1308">
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    </carrier_config>
+
+    <carrier_config cid="1337">
+        <!--TDD: add for AR-202601-000710 by renyan.pu 20260123 start-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--TDD: add for AR-202601-000710 by renyan.pu 20260123 end-->
+    </carrier_config>
+
+    <carrier_config cid="1429">
+        <int name="call_barring_default_service_class_int" value="0"/>
+    </carrier_config>
+
+    <carrier_config cid="1430">
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1435">
+        <boolean name="allow_hold_video_call_bool" value="false"/>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 start -->
+        <string name="gps.supl_host">unisoc.supl.qxwz.com</string>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 end -->
+    </carrier_config>
+
+    <carrier_config cid="1436">
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="allow_hold_video_call_bool" value="false"/>
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="false"/>
+        <boolean name="call_forwarding_over_ut_warning_bool" value="false"/>
+        <boolean name="call_barring_over_ut_warning_bool" value="false"/>
+        <boolean name="call_waiting_over_ut_warning_bool" value="false"/>
+        <boolean name="caller_id_over_ut_warning_bool" value="true"/>
+        <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="false"/>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 start -->
+        <string name="gps.supl_host">unisoc.supl.qxwz.com</string>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 end -->
+    </carrier_config>
+
+    <carrier_config cid="1442">
+        <boolean name="display_hd_audio_property_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1449">
+        <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1521">
+        <string name="default_vm_number_string">*77</string>
+    </carrier_config>
+
+    <carrier_config cid="1535">
+        <string name="emergency_notification_delay_int">1000</string>
+        <string name="default_vm_number_string">170</string>
+    </carrier_config>
+
+    <carrier_config cid="1537">
+        <int name="call_waiting_service_class_int" value="0"/>
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="51021" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config cid="1628">
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+		<boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config cid="1632">
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1638">
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1654">
+        <int name="call_barring_default_service_class_int" value="0"/>
+    </carrier_config>
+
+<!--TDD:add for X6858OS16-259 by liuyan.mo 20226.03.05 start-->
+    <carrier_config cid="1657">
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+<!--TDD:add for X6858OS16-259 by liuyan.mo 20226.03.05 start-->-
+
+    <carrier_config cid="1658">
+        <string name="default_vm_number_string">+48601222222</string>
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <boolean name="show_custom_lte_ca_icon" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1659">
+        <string-array name="mmi_two_digit_number_pattern_string_array" num="1">
+            <item value="08"/>
+        </string-array>
+        <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+        <string name="default_vm_number_string">*501</string>
+	    <boolean name="show_custom_lte_ca_icon" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1662">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+        <int name="call_waiting_service_class_int" value="0"/>
+        <int name="smsToMmsTextThreshold" value="5"/>
+        <boolean name="show_custom_lte_ca_icon" value="false"/>
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1673">
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1713">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true"/>
+        <int name="call_barring_default_service_class_int" value="0"/>
+    </carrier_config>
+
+    <carrier_config cid="1735">
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <string-array name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting_check_nw_plmn" num="2">
+            <item value="28602" />
+            <item value="28603" />
+        </string-array>
+        <boolean name="always_show_data_rat_icon_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="1736">
+        <string name="default_vm_number_string">+905427542000</string>
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <string-array name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting_check_nw_plmn" num="2">
+            <item value="28601" />
+            <item value="28603" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config cid="1737">
+        <int name="call_barring_default_service_class_int" value="0"/>
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+        <boolean name="mtk_key_show_45g_options" value="true" />
+		<string-array name="mtk_domestic_roaming_enabled_only_by_mobile_data_setting_check_nw_plmn" num="2">
+			<item value="28601" />
+			<item value="28602" />
+		</string-array>
+    </carrier_config>
+
+    <carrier_config cid="1864">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1914">
+        <string name="default_vm_number_string">186</string>
+        <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1921">
+        <!--TDD: changed by ruijun.wu 20251128 start-->
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <!--TDD: changed by ruijun.wu 20251128 end-->
+    </carrier_config>
+
+    <carrier_config cid="1953">
+        <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1954">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1961">
+        <int name="call_waiting_service_class_int" value="0"/>
+	    <boolean name="carrier_name_override_bool" value="false"/>
+        <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="1963">
+        <int name="call_waiting_service_class_int" value="0"/>
+    </carrier_config>
+
+    <carrier_config cid="1978">
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+    </carrier_config>
+
+    <carrier_config cid="1988">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config cid="2010">
+        <string name="default_vm_number_string">*86</string>
+    </carrier_config>
+
+    <carrier_config cid="2017">
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="enable_network_prefered_4G_only" value="true" />
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+		<string-array name="read_only_apn_types_string_array" num="1">
+			<item value="ims"/>
+		</string-array>
+    </carrier_config>
+
+    <carrier_config cid="2018">
+        <boolean name="vilte_data_is_metered_bool" value="false"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="enable_network_prefered_4G_only" value="true"/>
+        <boolean name="hide_enable_2g_bool" value="true"/>
+        <int name="wfc_spn_format_idx_int" value="1"/>
+        <int name="wfc_data_spn_format_idx_int" value="1"/>
+    </carrier_config>
+
+    <carrier_config cid="2038">
+	    <int name="call_waiting_service_class_int" value="0"/>
+        <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config cid="2237">
+        <boolean name="allow_hold_video_call_bool" value="false"/>
+        <boolean name="voice_privacy_disable_ui_bool" value="true"/>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 start -->
+        <string name="gps.supl_host">unisoc.supl.qxwz.com</string>
+        <!-- yj:modify for P685LOS163-267 by linlin.yang 20260115 end -->
+    </carrier_config>
+
+    <carrier_config cid="2378">
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="is_ims_conference_size_enforced_bool" value="true"/>
+        <int name="call_waiting_service_class_int" value="0"/>
+        <int name="fdn_number_length_limit_int" value="40"/>
+    </carrier_config>
+
+    <carrier_config cid="2391">
+        <string name="default_vm_number_string">+40722033334</string>
+        <int name="emergency_notification_delay_int" value="1000"/>
+    </carrier_config>
+
+    <carrier_config cid="2394">
+        <string name="default_vm_number_string">+420603123311</string>
+    </carrier_config>
+
+    <carrier_config cid="2398">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <int name="emergency_notification_delay_int" value="1000"/>
+    </carrier_config>
+
+    <carrier_config cid="2445">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+
+    <carrier_config mcc="515" mnc="66">
+        <boolean name="support_video_conference_call_bool" value="true"/>
+		<boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+    </carrier_config>
+
+    <carrier_config mcc="639" mnc="11">
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+    </carrier_config>
+
+    <carrier_config mcc="621" mnc="24">
+        <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+    </carrier_config>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support remove SPRD support 20250922 start -->
+    <carrier_config mcc="502" mnc="12">
+        <boolean name="vonr_enabled_bool" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="502" mnc="152">
+        <boolean name="vonr_enabled_bool" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="502" mnc="18">
+        <boolean name="vonr_enabled_bool" value="false"/>
+    </carrier_config>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support remove SPRD support 20250922 end -->
+</carrier_config_list>

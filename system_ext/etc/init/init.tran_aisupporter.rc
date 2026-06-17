@@ -1,0 +1,3 @@
+#SPD: add by ruihai.jing 20220602 start
+on property:sys.boot_completed=1
+    mkdir /data/tran_aisupporter 0777 system system encryption=None

@@ -1,0 +1,15 @@
+service tran_net /system_ext/bin/init.tran_net.sh ${vendor.tran_net}
+    class main
+    user root
+    group root shell system
+    oneshot
+    disabled
+
+on property:vendor.tran_net=*
+    start tran_net
+
+on property:init.svc.tran_net=running
+    setprop vendor.svc.tran_net "running"
+
+on property:init.svc.tran_net=stopped
+    setprop vendor.svc.tran_net "stopped"

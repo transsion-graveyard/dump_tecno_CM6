@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+    <boolean name="supports_video_callforward_bool" value="true"/>
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <!--TDD:add for P666LPUBL-168 by jinxian.lei 20240513 start-->
+    <boolean name="tran_tdd_force_display_plmn_and_spn_when_abroad_roaming" value="true" />
+    <!--TDD:add for P666LPUBL-168 by jinxian.lei 20240513 end-->
+    <boolean name="carrier_radio_power_on_for_ecall" value="false"/>
+    <!--TDD:add for S685LNF20-2684 by meijuan.ma 20240906 start-->
+    <string-array name="tran_roaming_network_operator_alpha_long_string_array" num="1">
+        <item value="63903#simspn"/>
+    </string-array>
+    <string-array name="tran_roaming_network_operator_name_string_array" num="1">
+        <item value="63903#simspn"/>
+    </string-array>
+    <!--TDD:add for S685LNF20-2684 by meijuan.ma 20240906 end-->
+    <!--TDD: changed by xuejian.fu 20251023 start-->
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <!--TDD: changed by xuejian.fu 20251023 end-->
+    <boolean name="key_disable_flash_message" value="false"/>
+</carrier_config>

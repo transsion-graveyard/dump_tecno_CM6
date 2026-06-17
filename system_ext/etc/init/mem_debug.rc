@@ -1,0 +1,25 @@
+#USD: add get memory debug info for user version by heyuan.li 20240110 start
+on post-fs-data
+    mkdir /data/tran_mem_debug 0777 root root encryption=None
+
+on property:sys.boot_completed=1
+    copy /proc/sys/vm/lowmem_reserve_ratio /data/tran_mem_debug/lowmem_reserve_ratio
+    chmod 664 /data/tran_mem_debug/lowmem_reserve_ratio
+
+on property:persist.sys.getdebuginfo=1
+    copy /proc/sys/vm/swappiness /data/tran_mem_debug/swappiness
+    copy /proc/ion/heaps/ion_mm_heap /data/tran_mem_debug/ion_mm_heap
+    copy /proc/vmallocinfo /data/tran_mem_debug/vmallocinfo
+    copy /proc/mtk_mali/gpu_memory /data/tran_mem_debug/gpu_memory
+    copy /sys/class/kgsl/kgsl/procs_mem /data/tran_mem_debug/gpu_memory
+    copy /proc/tran_mm_collect/psi_mem_info /data/tran_mem_debug/psi_mem_info
+    copy /proc/buddyinfo /data/tran_mem_debug/buddyinfo
+    copy /proc/slabinfo /data/tran_mem_debug/slabinfo
+    chmod 664 /data/tran_mem_debug/swappiness
+    chmod 664 /data/tran_mem_debug/ion_mm_heap
+    chmod 664 /data/tran_mem_debug/vmallocinfo
+    chmod 664 /data/tran_mem_debug/gpu_memory
+    chmod 664 /data/tran_mem_debug/psi_mem_info
+    chmod 664 /data/tran_mem_debug/buddyinfo
+    chmod 664 /data/tran_mem_debug/slabinfo
+#USD: add get memory debug info for user version by heyuan.li 20240110 end

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="tech.palm.find">
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT"/>
+        <permission name="android.permission.BLUETOOTH_SCAN"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+    </exception>
+</exceptions>

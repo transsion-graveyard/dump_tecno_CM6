@@ -1,0 +1,62 @@
+{
+  "version":8,
+  "up_time":20260309,
+  "abnormal_switch":true,
+  "resident_switch":true,
+  "app_abnormal_switch":true,
+  "continuous_abnormal_count_threshold": 3,
+  "continuous_abnormal_delay_time_out": 40,
+  "abnormal_proc_check_period": 5,
+  "perceptible_proc_abnormal_delay_time_out": 60,
+  "save_recent_number": 5,
+  "kill_delay_time_out": 30,
+  "bg_alive_time": 30,
+  "ram_2": {
+  },
+  "ram_3": {
+  },
+  "ram_4": {
+  },
+  "ram_6": {
+  },
+  "ram_8": {
+    "mem_avail":2200,
+    "mem_file_cached": 2000
+  },
+  "ram_12": {
+    "mem_avail":2200,
+    "mem_file_cached": 2000
+  },
+  "trim_receiver_pkg_list": [
+    "com.transsion.eventtest"
+  ],
+  "clean_white_package_list": [
+    "android",
+    "system_server",
+    "com.transsion.systemserver"
+  ],
+  "clean_white_proceess_list": [
+    "system_server",
+    "com.android.bluetooth",
+    "com.android.networkstack.process",
+    "com.google.android.networkstack",
+    "com.android.nfc",
+    "com.android.phone",
+    "com.android.se",
+    "com.google.android.providers.media.module",
+    "com.mediatek.ims",
+    "com.spreadtrum.ims"
+  ],
+  "clean_block_process_list": [
+    "com.android.systemui",
+    "com.transsion.hilauncher",
+    "com.transsion.XOSLauncher",
+    "com.transsion.launcher3",
+    "com.transsion.smartpanel",
+    "com.transsion.livewallpaper.micro",
+    "com.transsion.livewallpaper.starring",
+    "com.transsion.livewallpaper.sunpointer",
+    "com.transsion.livewallpaper.custompictorial",
+    "com.transsion.livewallpaper.onetakevideo"
+  ]
+}

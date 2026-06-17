@@ -1,0 +1,14 @@
+<config>
+    <enable>false</enable>
+    <version>1</version>
+    <updateDate>20240314</updateDate>
+	<FpsConfig packageName="org.telegram.messenger.web">
+		<activityFps activity="CameraCommon" temp1="0" fps1="30" temp2="50" fps2="25" temp3="60" fps3="20"/>
+	</FpsConfig>
+	<FpsConfig packageName="org.telegram.messenger">
+		<activityFps activity="CameraCommon" temp1="0" fps1="30" temp2="50" fps2="25" temp3="60" fps3="20"/>
+	</FpsConfig>
+	<FpsConfig packageName="sg.bigo.live">
+	    <activityFps activity="VideoCommon" temp1="40" fps1="45" temp2="50" fps2="40" temp3="60" fps3="30"/>
+	</FpsConfig>
+</config>

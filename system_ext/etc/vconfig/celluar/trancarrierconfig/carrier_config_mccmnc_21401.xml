@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+    <string name="default_vm_number_string">22177</string>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+</carrier_config>

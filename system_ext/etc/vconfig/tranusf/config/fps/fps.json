@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "upTime": 20250716,
+  "enable": true,
+  "activityFps": {
+    "enable": true,
+    "com.eg.android.AlipayGphone": [
+      "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$XRiverLite"
+    ],
+    "com.facebook.katana": [
+      "com.facebook.quicksilver.QuicksilverActivity"
+    ],
+    "com.tencent.mm": [
+      "com.tencent.mm.plugin.appbrand.ui.AppBrandUI"
+    ]
+  }
+}

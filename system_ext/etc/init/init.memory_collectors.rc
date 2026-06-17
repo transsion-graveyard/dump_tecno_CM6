@@ -1,0 +1,17 @@
+on post-fs-data
+    mkdir /data/tran_mem_collectors  0770 system system
+    rm /data/tran_mem_collectors/last_vmstat
+
+on property:persist.traced.enable=1
+    chmod 0666 /sys/kernel/tracing/events/trans_mem/enable
+    chmod 0666 /sys/kernel/debug/tracing/events/trans_mem/enable
+    chmod 0666 /sys/kernel/tracing/events/trans_mem/tranmem_ioblock/enable
+    chmod 0666 /sys/kernel/debug/tracing/events/trans_mem/tranmem_ioblock/enable
+    chmod 0666 /sys/kernel/tracing/events/trans_mem/tranmem_lruvec_state/enable
+    chmod 0666 /sys/kernel/debug/tracing/events/trans_mem/tranmem_lruvec_state/enable
+    chmod 0666 /sys/kernel/tracing/events/trans_mem/tranmem_workingset_refault/enable
+    chmod 0666 /sys/kernel/debug/tracing/events/trans_mem/tranmem_workingset_refault/enable
+
+on property:sys.boot_completed=1
+    write /proc/pages_prefiltered/inodes_protect_enabled 1
+

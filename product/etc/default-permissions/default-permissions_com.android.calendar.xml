@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.transsion.calendar">
+        <permission name="android.permission.READ_CALENDAR"/>
+        <permission name="android.permission.WRITE_CALENDAR"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+    </exception>
+</exceptions>

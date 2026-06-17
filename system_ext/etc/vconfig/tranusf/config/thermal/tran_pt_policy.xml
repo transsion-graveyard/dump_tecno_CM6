@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pt_policy>
+    <enable>true</enable>
+    <version>1.0</version>
+    <updateDate>2025-11-22</updateDate>
+     <!-- battery level is lower than 2%, then apply the policy -->
+    <batteryLevel>2</batteryLevel>
+    <!-- Temperature-Voltage-CPU frequency mapping policy -->
+    <policies>
+        <!-- Extreme low temperature policy (< -11°C) -->
+        <policy temp_min="-99999" temp_max="-12000" name="extreme_low_temp">
+            <voltage_range min="0" max="3600000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3600001" max="3900000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3900001" max="9999999">
+                <!-- 0 means restore to the corresponding frequency for the current system scene -->
+               <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+
+        <!-- Low temperature policy (-11°C to -1°C) -->
+        <policy temp_min="-11000" temp_max="-2000" name="low_temp">
+            <voltage_range min="0" max="3100000">
+                <cpu_level cluster0="900000" cluster1="900000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3100001" max="3500000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3500001" max="9999999">
+             <!-- 0 means restore to the corresponding frequency for the current system scene -->
+                <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+
+        <!-- Mild low temperature policy (-1°C to 9°C) -->
+        <policy temp_min="-1000" temp_max="8000" name="mild_low_temp">
+            <voltage_range min="0" max="2900000">
+                <cpu_level cluster0="900000" cluster1="900000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="2900001" max="3500000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3500001" max="9999999">
+             <!-- 0 means restore to the corresponding frequency for the current system scene -->
+                <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+
+        <!-- Normal temperature policy (9°C to 24°C) -->
+        <policy temp_min="9000" temp_max="23000" name="normal_temp">
+            <voltage_range min="0" max="2900000">
+                <cpu_level cluster0="900000" cluster1="900000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="2900001" max="3350000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3350001" max="9999999">
+             <!-- 0 means restore to the corresponding frequency for the current system scene -->
+                <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+
+        <!-- Mild high temperature policy (24°C to 34°C) -->
+        <policy temp_min="24000" temp_max="33000" name="mild_high_temp">
+            <voltage_range min="0" max="2900000">
+                <cpu_level cluster0="900000" cluster1="900000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="2900001" max="3300000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3300001" max="9999999">
+             <!-- 0 means restore to the corresponding frequency for the current system scene -->
+                <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+
+        <!-- High temperature policy (>= 34°C) -->
+        <policy temp_min="34000" temp_max="999999" name="high_temp">
+            <voltage_range min="0" max="2900000">
+                <cpu_level cluster0="900000" cluster1="900000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="2900001" max="3300000">
+                <cpu_level cluster0="900000" cluster1="1200000" cluster2="1300000"/>
+            </voltage_range>
+            <voltage_range min="3300001" max="9999999">
+                <cpu_level cluster0="0" cluster1="0" cluster2="0"/>
+            </voltage_range>
+        </policy>
+    </policies>
+</pt_policy>

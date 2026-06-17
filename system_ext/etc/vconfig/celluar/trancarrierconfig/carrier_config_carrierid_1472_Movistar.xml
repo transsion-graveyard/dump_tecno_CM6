@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- TDD:add Feature key for systemUI OSTREL-24503 by wanbao.xue 2023.08.29 start -->
+    <boolean name="show_voz4g_for_volte_icon_bool" value="true"/>
+    <!-- TDD:aadd Feature key for systemUI OSTREL-24503 by wanbao.xue 2023.08.29 end -->
+    <!--TDD:add for X6837H897-2752 by wanbao.xue 20240307 start -->
+    <boolean name="gsm_cdma_calls_can_be_hd_audio" value="false"/>
+    <!--TDD:add for X6837H897-2752 by wanbao.xue 20240307 end -->
+    <boolean name="support_video_conference_call_bool" value="true"/>
+    <!-- TDD:add CHLSCOH-152 for hide 4g calling menu by guangshuai.cheng 2022.08.19 start -->
+    <!-- TDD:modify CKBNHJSY-3882 for show 4g calling menu by zhimin.yang 20230328 start -->
+    <boolean name="hide_enhanced_4g_lte_bool" value="false"/>
+    <!-- TDD:modify CKBNHJSY-3882 for show 4g calling menu by zhimin.yang 20230328 end -->
+    <!-- TDD:add CHLSCOH-152 for hide 4g calling menu by guangshuai.cheng 2022.08.19 start -->
+     <!-- TDD:add for XLQBBHBJS-3834 by pei.zhou 20230706 start -->
+    <boolean name="voicemail_notification_persistent_bool" value="true"/>
+     <!-- TDD:add for XLQBBHBJS-3834 by pei.zhou 20230706 start -->
+    <!-- TDD:add CKQNHB-4718 for default enable data roaming by guangshuai.cheng 2023.08.11 start -->
+    <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    <!-- TDD:add CKQNHB-4718 for default enable data roaming by guangshuai.cheng 2023.08.11 end -->
+    <!-- TDD:add OSTREL-27726 by liulei 20230816 start -->
+    <boolean name="enabledMMS" value="false"/>
+    <!-- TDD:add OSTREL-27726 by liulei 20230816 end -->
+    <!-- TDD:add CKQNHB-4735 for show LTE RAT icon by guangshuai.cheng 2023.08.16 start -->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false"/>
+    <!-- TDD:add CKQNHB-4735 for show LTE RAT icon by guangshuai.cheng 2023.08.16 end -->
+
+    <!--TDD:add for CKQNHB-4733 by liulei 20230809 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for CKQNHB-4733 by liulei 20230809 end -->
+    <boolean name="disable_play_hold_tone" value="true"/>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 start-->
+    <int name="show_vowifi_icon_int" value="1"/>
+    <!--TDD:add for show vozwifi by chunyan.tang 20250217 end-->
+    <!--TDD:add for vowifi by renyan.pu 20250409 start-->
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <!--TDD:add for vowifi by renyan.pu 20250409 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+</carrier_config>
+

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!-- TDD:add InCallUI ViLTE key for XLBEQHBYE-1466 by wanbao.xue 2022.09.08 start -->
+    <boolean name="vilte_data_is_metered_bool" value="false" />
+    <!-- TDD:add InCallUI ViLTE key for XLBEQHBYE-1466 by wanbao.xue 2022.08.08 end -->
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 start -->
+    <boolean name="enable_network_3G_only" value="false"/>
+    <!-- TDD:add XLQYQFE-4854 for remove 3g only by guangshuai.cheng 2023.05.31 end -->
+    <!-- TDD: add for X6720H353-2413 by zhezhi.liu 20240718 start -->
+    <boolean name="disable_wfc_switch_for_apm" value="false"/>
+    <!-- TDD: add for X6720H353-2413 by zhezhi.liu 20240718 end -->
+    <string name="carrier_name_string">U mobile</string>
+    <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    <boolean name="support_vowifi_mms" value="true"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!-- TDD: add  by chunyan.tang for KL4F201-2195 20240716 start -->
+    <boolean name="synchronous_setting_for_wfc_volte" value="false"/>
+    <!-- TDD: add  by chunyan.tang for KL4F201-2195 20240716 end -->
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 start -->
+    <boolean name="vonr_enabled_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <!-- TDD: add  by qianshuai.li for malaysia vonr support 20250922 end -->
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 start-->
+    <boolean name="key_disable_flash_message" value="false"/>
+    <!--TDD:add for AR-202601-000375 by chunyan.tang 20261013 end-->
+</carrier_config>

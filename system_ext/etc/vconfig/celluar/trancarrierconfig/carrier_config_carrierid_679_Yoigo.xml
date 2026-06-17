@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_config_smsc_bool" value="true"/>
+    <string name="default_smsc_number_string">+34622996111</string>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 start -->
+    <string name="default_vm_number_string">121</string>
+    <!--TDD:add for X6856OS16-32 by yeling 20250908 end -->
+    <int name="call_barring_default_service_class_int" value="0"/>
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <!--TDD:add for smsc by yeling 20250909 start -->
+    <boolean name="allowEditingSmscAddress" value="false" />
+    <!--TDD:add for smsc by yeling 20250909 end -->
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 start-->
+    <boolean name="rtt_supported_bool" value="true"/>
+    <!--TDD: modify for X6855OS151-3045 by chunyan.tang 20250916 end-->
+</carrier_config>

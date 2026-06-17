@@ -1,0 +1,69 @@
+{
+  "holdMode":"bv",
+  "MasterISZConfigMap": [
+    {
+      "camMode": 0,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 7,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 10,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 3004,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 3005,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 3018,
+      "threshold": 20,
+      "range": 15
+    },
+    {
+      "camMode": 3019,
+      "threshold": 20,
+      "range": 15
+    },
+    {
+      "camMode": 3020,
+      "threshold": 20,
+      "range": 15
+    }
+  ],
+  "TeleISZConfigMap": [
+    {
+      "camMode": 0,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 7,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 10,
+      "threshold": 15,
+      "range": 20
+    },
+    {
+      "camMode": 9,
+      "threshold": 15,
+      "range": 20
+    }
+  ],
+  "fastFullCropSensor": 0,
+  "iszForceAsdScene":[7, 5, 101]
+}

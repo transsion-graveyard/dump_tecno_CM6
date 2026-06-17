@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config>
+    <!--TDD:add show icon for CMSFTASK-357 by guoyi.qu 2022.4.7 start-->
+    <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+    <!--TDD:add show icon for CMSFTASK-357 by guoyi.qu 2022.4.7 end-->
+    <boolean name="carrier_volte_available_bool" value="true"/>
+    <boolean name="carrier_vt_available_bool" value="true"/>
+    <boolean name="numeric_to_operator_bool" value="true"/>
+</carrier_config>
