@@ -1,0 +1,114 @@
+using unpack_bootimg: 
+
+python3 /home/ashallowperson/android_development/lineageos_23.2/system/tools/mkbootimg/unpack_bootimg.py --boot_img boot.img --out unpacked_stock_boot
+boot magic: ANDROID!
+kernel_size: 18885902
+ramdisk size: 0
+os version: None
+os patch level: None
+boot image header version: 4
+command line args: 
+boot.img signature size: 0
+
+
+python3 /home/ashallowperson/android_development/lineageos_23.2/system/tools/mkbootimg/unpack_bootimg.py --boot_img vendor_boot.img --out unpacked_stock_vendorboot
+boot magic: VNDRBOOT
+vendor boot image header version: 4
+page size: 0x00001000
+kernel load address: 0x40000000
+ramdisk load address: 0x66f00000
+vendor ramdisk total size: 34220952
+vendor command line args: bootopt=64S3,32N2,64N2 bootconfig
+kernel tags load address: 0x47c80000
+product name: 
+vendor boot image header size: 2128
+dtb size: 183818
+dtb address: 0x0000000047c80000
+vendor ramdisk table size: 216
+vendor ramdisk table: [
+    vendor_ramdisk00: {
+        size: 30223157
+        offset: 0
+        type: 0x1
+        name: 
+        board_id: [
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+        ]
+    }
+    vendor_ramdisk01: {
+        size: 3997795
+        offset: 30223157
+        type: 0x2
+        name: recovery
+        board_id: [
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+            0x00000000, 0x00000000, 0x00000000, 0x00000000,
+        ]
+    }
+]
+vendor bootconfig size: 94
+
+##############################################################################################################################
+##############################################################################################################################
+
+using aik-linux-mirror: 
+ 
+Android Image Kitchen - UnpackImg Script
+by osm0sis @ xda-developers
+ 
+Supplied image: vendor_boot.img
+ 
+Setting up work folders...
+ 
+Image type: AOSP_VNDR
+ 
+Signature with "AVBv2" type detected.
+ 
+Splitting image to "split_img/"...
+VNDRBOOT magic found at: 0
+BOARD_VENDOR_CMDLINE bootopt=64S3,32N2,64N2 bootconfig
+BOARD_VENDOR_BASE 0x3fff8000
+BOARD_NAME 
+BOARD_PAGE_SIZE 4096
+BOARD_KERNEL_OFFSET 0x00008000
+BOARD_RAMDISK_OFFSET 0x26f08000
+BOARD_TAGS_OFFSET 0x07c88000
+BOARD_HEADER_VERSION 4
+BOARD_HEADER_SIZE 2128
+BOARD_DTB_SIZE 183818
+BOARD_DTB_OFFSET 0x07c88000
+ 
+Unpacking ramdisk to "ramdisk/"...
+ 
+Compression used: lz4-l
+149413 blocks
+ 
+Done!
+
+
+Android Image Kitchen - UnpackImg Script
+by osm0sis @ xda-developers
+ 
+Supplied image: boot.img
+ 
+Setting up work folders...
+ 
+Image type: AOSP
+ 
+Signature with "AVBv2" type detected.
+ 
+Splitting image to "split_img/"...
+ANDROID! magic found at: 0
+BOARD_KERNEL_CMDLINE 
+BOARD_PAGE_SIZE 4096
+BOARD_HEADER_VERSION 4
+BOARD_HEADER_SIZE 1584
+ 
+Warning: No ramdisk found to be unpacked!
+ 
+Done!
